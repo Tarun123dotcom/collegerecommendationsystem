@@ -1,0 +1,93 @@
+{
+  "infra": ["good", "vgood", "very good", "excellent", "average", "poor"],
+  "faculty": ["good", "vgood", "very good", "excellent", "average", "poor"],
+  "courses": ["btech", "mtech", "pharmacy", "management", "arts", "culture", "integrated mtech", "b.pharm", "d.pharm", "m.pharm"],
+  "streams": ["btech", "mtech", "pharmacy", "management", "arts", "culture", "integrated mtech"],
+  "states": [
+    "andhra pradesh", "ap", "andra", "andra pradesh", "telangana", "tg", "ts", "tamil nadu", "tn", "karnataka", "ka", "kerala", "kl", "maharashtra", "mh", "west bengal", "wb", "uttar pradesh", "up", "bihar", "br", "rajasthan", "rj", "madhya pradesh", "mp", "punjab", "pb", "haryana", "hr", "chhattisgarh", "cg", "jharkhand", "jh", "odisha", "or", "assam", "as", "gujarat", "gj", "goa", "ga", "manipur", "mn", "mizoram", "mz", "nagaland", "nl", "tripura", "tr", "arunachal pradesh", "ar", "sikkim", "sk", "meghalaya", "ml", "uttarakhand", "uk", "delhi", "dl", "jammu and kashmir", "jk", "ladakh", "la", "pondicherry", "py", "chandigarh", "ch", "daman and diu", "dd", "dadra and nagar haveli", "dn", "lakshadweep", "ld", "andaman and nicobar", "an"
+  ],
+  "districts": [
+    "anantapur", "chittoor", "east godavari", "guntur", "kadapa", "krishna", "kurnool", "nellore", "prakasam", "srikakulam", "visakhapatnam", "vizianagaram", "west godavari", "adilabad", "bhadradri kothagudem", "hyderabad", "jagtial", "jangaon", "jayashankar bhupalpally", "jogulamba gadwal", "kamareddy", "karimnagar", "khammam", "kumuram bheem asifabad", "mahabubabad", "mahabubnagar", "mancherial", "medak", "medchal-malkajgiri", "mulugu", "nagarkurnool", "nalgonda", "narayanpet", "nirmal", "nizamabad", "peddapalli", "rajanna sircilla", "rangareddy", "sangareddy", "siddipet", "suryapet", "vikarabad", "wanaparthy", "warangal rural", "warangal urban", "yadadri bhuvanagiri", "ariyalur", "chengalpattu", "chennai", "coimbatore", "cuddalore", "dharmapuri", "dindigul", "erode", "kallakurichi", "kancheepuram", "karur", "krishnagiri", "madurai", "mayiladuthurai", "nagapattinam", "kanyakumari", "namakkal", "nilgiris", "perambalur", "pudukkottai", "ramanathapuram", "ranipet", "salem", "sivaganga", "tenkasi", "thanjavur", "theni", "thoothukudi", "tiruchirappalli", "tirunelveli", "tirupattur", "tiruppur", "tiruvallur", "tiruvannamalai", "tiruvarur", "vellore", "viluppuram", "virudhunagar", "bagalkot", "ballari", "belagavi", "bengaluru rural", "bengaluru urban", "bidar", "chamarajanagar", "chikballapur", "chikkamagaluru", "chitradurga", "dakshina kannada", "davangere", "dharwad", "gadag", "hassan", "haveri", "kalaburagi", "kodagu", "kolar", "koppal", "mandya", "mysuru", "raichur", "ramanagara", "shivamogga", "tumakuru", "udupi", "uttara kannada", "vijayapura", "yadgir", "alappuzha", "ernakulam", "idukki", "kannur", "kasaragod", "kollam", "kottayam", "kozhikode", "malappuram", "palakkad", "pathanamthitta", "thiruvananthapuram", "thrissur", "wayanad", "ahmednagar", "akola", "amravati", "aurangabad", "beed", "bhandara", "buldhana", "chandrapur", "dhule", "gadchiroli", "gondia", "hingoli", "jalgaon", "jalna", "kolhapur", "latur", "mumbai city", "mumbai suburban", "nagpur", "nanded", "nandurbar", "nashik", "osmanabad", "palghar", "parbhani", "pune", "raigad", "ratnagiri", "sangli", "satara", "sindhudurg", "solapur", "thane", "wardha", "washim", "yavatmal", "alipurduar", "bankura", "birbhum", "cooch behar", "dakshin dinajpur", "darjeeling", "hooghly", "howrah", "jalpaiguri", "jhargram", "kalimpong", "kolkata", "malda", "murshidabad", "nadia", "north 24 parganas", "paschim bardhaman", "paschim medinipur", "purba bardhaman", "purba medinipur", "purulia", "south 24 parganas", "uttar dinajpur", "agra", "aligarh", "ambedkar nagar", "amethi", "amroha", "auraiya", "ayodhya", "azamgarh", "badaun", "baghpat", "bahraich", "ballia", "balrampur", "banda", "barabanki", "bareilly", "basti", "bhadohi", "bijnor", "budaun", "bulandshahr", "chandauli", "chitrakoot", "deoria", "etah", "etawah", "farrukhabad", "fatehpur", "firozabad", "gautam buddha nagar", "ghaziabad", "ghazipur", "gonda", "gorakhpur", "hamirpur", "hapur", "hardoi", "hathras", "jalaun", "jaunpur", "jhansi", "kannauj", "kanpur dehat", "kanpur nagar", "kasganj", "kaushambi", "kushinagar", "lakhimpur kheri", "lalitpur", "lucknow", "maharajganj", "mahoba", "mainpuri", "mathura", "mau", "meerut", "mirzapur", "moradabad", "muzaffarnagar", "pilibhit", "pratapgarh", "prayagraj", "raebareli", "rampur", "saharanpur", "sambhal", "sant kabir nagar", "shahjahanpur", "shamli", "shrawasti", "siddharthnagar", "sitapur", "sonbhadra", "sultanpur", "unnao", "varanasi", "araria", "arwal", "aurangabad", "banka", "begusarai", "bhagalpur", "bhojpur", "buxar", "darbhanga", "east champaran", "gaya", "gopalganj", "jamui", "jehanabad", "kaimur", "katihar", "khagaria", "kishanganj", "lakhisarai", "madhepura", "madhubani", "munger", "muzaffarpur", "nalanda", "nawada", "patna", "purnia", "rohtas", "saharsa", "samastipur", "saran", "sheikhpura", "sheohar", "sitamarhi", "siwan", "supaul", "vaishali", "west champaran", "ajmer", "alwar", "banswara", "baran", "barmer", "bharatpur", "bhilwara", "bikaner", "bundi", "chittorgarh", "churu", "dausa", "dholpur", "dungarpur", "hanumangarh", "jaipur", "jaisalmer", "jalore", "jhalawar", "jhunjhunu", "jodhpur", "karauli", "kota", "nagaur", "pali", "pratapgarh", "rajsamand", "sawai madhopur", "sikar", "sirohi", "sri ganganagar", "tonk", "udaipur", "agar malwa", "alirajpur", "anuppur", "ashoknagar", "balaghat", "barwani", "betul", "bhind", "bhopal", "burhanpur", "chhatarpur", "chhindwara", "damoh", "datia", "dewas", "dhar", "dindori", "guna", "gwalior", "harda", "hoshangabad", "indore", "jabalpur", "jhabua", "katni", "khandwa", "khargone", "mandla", "mandsaur", "morena", "narsinghpur", "neemuch", "niwari", "panna", "raisen", "rajgarh", "ratlam", "rewa", "sagar", "satna", "sehore", "seoni", "shahdol", "shajapur", "sheopur", "shivpuri", "sidhi", "singrauli", "tikamgarh", "ujjain", "umaria", "vidisha", "amritsar", "barnala", "bathinda", "faridkot", "fatehgarh sahib", "fazilka", "ferozepur", "gurdaspur", "hoshiarpur", "jalandhar", "kapurthala", "ludhiana", "mansa", "moga", "mohali", "muktsar", "pathankot", "patiala", "rupnagar", "sangrur", "shaheed bhagat singh nagar", "tarn taran", "ambala", "bhiwani", "charkhi dadri", "faridabad", "fatehabad", "gurugram", "hisar", "jhajjar", "jind", "kaithal", "karnal", "kurukshetra", "mahendragarh", "nuh", "palwal", "panchkula", "panipat", "rewari", "rohtak", "sirsa", "sonipat", "yamunanagar", "balod", "baloda bazar", "balrampur", "bastar", "bemetara", "bijapur", "bilaspur", "dantewada", "dhamtari", "durg", "gariaband", "gaurela pendra marwahi", "janjgir-champa", "jashpur", "kabirdham", "kanker", "kondagaon", "korba", "koriya", "mahasamund", "mungeli", "narayanpur", "raigarh", "raipur", "rajnandgaon", "sukma", "surajpur", "surguja", "bokaro", "chatra", "deoghar", "dhanbad", "dumka", "east singhbhum", "garhwa", "giridih", "godda", "gumla", "hazaribagh", "jamtara", "khunti", "koderma", "latehar", "lohardaga", "pakur", "palamu", "ramgarh", "ranchi", "sahibganj", "seraikela kharsawan", "simdega", "west singhbhum", "angul", "balangir", "balasore", "bargarh", "bhadrak", "boudh", "cuttack", "deogarh", "dhenkanal", "gajapati", "ganjam", "jagatsinghpur", "jajpur", "jharsuguda", "kalahandi", "kandhamal", "kendrapara", "kendujhar", "khordha", "koraput", "malkangiri", "mayurbhanj", "nabarangpur", "nayagarh", "nuapada", "puri", "rayagada", "sambalpur", "subarnapur", "sundergarh", "baksa", "barpeta", "biswanath", "bongaigaon", "cachar", "charaideo", "chirang", "darrang", "dhemaji", "dhubri", "dibrugarh", "dima hasao", "goalpara", "golaghat", "hailakandi", "hojai", "jorhat", "kamrup", "kamrup metropolitan", "karbi anglong", "karimganj", "kokrajhar", "lakhimpur", "majuli", "morigaon", "nagaon", "nalbari", "sivasagar", "sonitpur", "south salmara-mankachar", "tinsukia", "udalguri", "west karbi anglong", "ahmedabad", "amreli", "anand", "aravalli", "banaskantha", "bharuch", "bhavnagar", "botad", "chhota udaipur", "dahod", "dang", "devbhoomi dwarka", "gandhinagar", "gir somnath", "jamnagar", "junagadh", "kheda", "kutch", "mahisagar", "mehsana", "morbi", "narmada", "navsari", "panchmahal", "patan", "porbandar", "rajkot", "sabarkantha", "surat", "surendranagar", "tapi", "vadodara", "valsad", "north goa", "south goa", "imphal east", "imphal west", "bishnupur", "thoubal", "churachandpur", "senapati", "ukhrul", "kangpokpi", "kamjong", "noney", "pherzawl", "tamenglong", "jiribam", "chandel", "tengnoupal", "aizawl", "lunglei", "kolasib", "mamit", "champhai", "serchhip", "lawngtlai", "saitual", "khawzawl", "hnahthial", "dimapur", "kohima", "mokokchung", "mon", "phek", "tuensang", "wokha", "zunheboto", "longleng", "kiphire", "peren", "karimganj", "dhalai", "gomati", "khowai", "north tripura", "sepahijala", "south tripura", "unokoti", "west tripura", "tawang", "west kameng", "east kameng", "papum pare", "kurung kumey", "kra daadi", "lower subansiri", "upper subansiri", "west siang", "east siang", "siang", "upper siang", "lower siang", "lower dibang valley", "dibang valley", "lohit", "namsai", "changlang", "tirap", "longding", "east sikkim", "west sikkim", "north sikkim", "south sikkim", "gangtok", "east garo hills", "west garo hills", "south garo hills", "east khasi hills", "west khasi hills", "south west khasi hills", "ri bhoi", "west jaintia hills", "east jaintia hills", "north garo hills", "south west garo hills", "almora", "bageshwar", "chamoli", "champawat", "dehradun", "haridwar", "nainital", "pauri garhwal", "pithoragarh", "rudraprayag", "tehri garhwal", "udham singh nagar", "uttarkashi", "new delhi", "north delhi", "south delhi", "east delhi", "west delhi", "central delhi", "shahdara", "south east delhi", "north east delhi", "north west delhi", "south west delhi", "jammu", "srinagar", "anantnag", "baramulla", "budgam", "doda", "ganderbal", "kathua", "kishtwar", "kupwara", "poonch", "pulwama", "rajouri", "ramban", "reasi", "shopian", "samba", "udhampur", "leh", "kargil", "pondicherry", "karaikal", "mahe", "yanam", "chandigarh", "daman", "diu", "silvassa", "dadar", "kavaratti", "andaman", "nicobar", "port blair"
+  ],
+  "andhra_keywords": ["ap", "andhra", "andra", "andra pradesh", "andhra pradesh"],
+  "fee_keywords": {
+    "vl": ["very low fee", "vl fee", "cheapest", "lowest fee"],
+    "l": ["low fee", "l fee", "affordable fee"],
+    "m": ["medium fee", "m fee", "average fee"],
+    "h": ["high fee", "h fee", "expensive fee"],
+    "vh": ["very high fee", "vh fee", "most expensive", "highest fee"]
+  },
+  "synonyms": {
+    "infra": {
+      "excellent": "vgood",
+      "very good": "vgood",
+      "good": "good",
+      "average": "good",
+      "poor": "good"
+    },
+    "faculty": {
+      "excellent": "vgood",
+      "very good": "vgood",
+      "good": "good",
+      "average": "good",
+      "poor": "good"
+    },
+    "course": {
+      "b.pharm": "pharmacy",
+      "d.pharm": "pharmacy",
+      "m.pharm": "pharmacy",
+      "mba": "management",
+      "bba": "management"
+    },
+    "stream": {
+      "engineering": "btech",
+      "pharma": "pharmacy",
+      "business": "management"
+    },
+    "state": {
+      "ap": "andhra pradesh",
+      "andra": "andhra pradesh",
+      "tg": "telangana",
+      "ts": "telangana",
+      "tn": "tamil nadu",
+      "ka": "karnataka",
+      "kl": "kerala",
+      "mh": "maharashtra",
+      "wb": "west bengal",
+      "up": "uttar pradesh",
+      "br": "bihar",
+      "rj": "rajasthan",
+      "mp": "madhya pradesh",
+      "pb": "punjab",
+      "hr": "haryana",
+      "cg": "chhattisgarh",
+      "jh": "jharkhand",
+      "or": "odisha",
+      "as": "assam",
+      "gj": "gujarat",
+      "ga": "goa",
+      "mn": "manipur",
+      "mz": "mizoram",
+      "nl": "nagaland",
+      "tr": "tripura",
+      "ar": "arunachal pradesh",
+      "sk": "sikkim",
+      "ml": "meghalaya",
+      "uk": "uttarakhand",
+      "dl": "delhi",
+      "jk": "jammu and kashmir",
+      "la": "ladakh",
+      "py": "pondicherry",
+      "ch": "chandigarh",
+      "dd": "daman and diu",
+      "dn": "dadra and nagar haveli",
+      "ld": "lakshadweep",
+      "an": "andaman and nicobar"
+    }
+  },
+  "comp_phrases": {
+    "gte": ["or above", "at least", "greater than", "more than", "minimum"],
+    "lte": ["or below", "at most", "less than", "maximum"],
+    "eq": ["equal to", "exactly", "equals"]
+  }
+}

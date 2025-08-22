@@ -1,0 +1,877 @@
+S.No,inst_name,Rating,Category,Course,Infra,Faculty,District,State,Links,Placement %,ALP,Fee,Combined Score,Rank,FeeCategory,S links,Our Rating
+70,"CHAITANYA BHARATHI INSTITUTE OF
+ TECHNOLOGY",4.1,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Hyderabad,Telangana,https://www.cbit.ac.in/,90.0,30.0,54500,37.64,1.0,m,https://youtu.be/5FrpKQbSicA?si=rWsbLODeuR1KO5Pu,0.16363057040998213
+223,"NADIMPALLI SATYANARAYANA RAJU
+ INSTITUTE OF TECHNOLOGY",4.2,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Visakhapatnam,Andhra Pradesh,https://nsrit.edu.in/,99.0,3.2,40000,32.34,2.0,l,,n/a
+81,"CHEBROLU HANUMAIAH INST. OF
+ PHARM SCIENCES",4.3,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Guntur,Andhra Pradesh,https://www.chips.ac.in/pages/index.php,95.0,4.5,59600,31.57,3.0,m,,n/a
+53,BAPATLA ENGINEERING COLLEGE,4.2,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Guntur,Andhra Pradesh,http://becbapatla.ac.in/,95.0,4.5,84900,31.53,4.0,h,https://www.youtube.com/watch?v=leUeGFK9kFg,-0.027551020408163266
+404,"VASIREDDY VENKATADRI INST. OF
+ TECHNOLOGY",4.2,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Guntur,Andhra Pradesh,https://www.vvitguntur.com,93.0,4.3,65200,30.87,5.0,m,https://www.youtube.com/watch?v=2HVbhjMcVi4,0.01735232067510548
+429,National Institute of Technology,4.2,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Cachar,Assam,http://www.nits.ac.in/,83.0,12.0,62500,30.18,6.0,m,https://www.youtube.com/watch?v=fLUgY-zvcvA,0.27151488095238097
+700,Government College,4.8,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",VGood,VGood,Kasaragod,Kerala,https://gck.ac.in/,90.0,3.7,4000,30.03,7.0,vl,,n/a
+796,Visvesvaraya National Institute of Technology (VNIT),4.1,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",VGood,VGood,Nagpur,Maharashtra,https://vnit.ac.in/,87.0,7.5,151000,29.99,8.0,vh,https://www.youtube.com/watch?v=OJBIWbKgxYQ,0.056249999999999994
+533,Government Degree College,3.2,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Surajpur,Chhattisgarh,http://www.govtcollegesurajpur.ac.in/,93.0,2.5,17724,29.93,9.0,vl,,n/a
+36,A S N PHARMACY COLLEGE,3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://pharmaadmission.com/college/a-s-n-pharmacy-college,90.0,4.5,23000,29.87,10.0,vl,,n/a
+25,ST.ANNS COLLEGE OF PHARAMACY,3.9,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Visakhapatnam,Andhra Pradesh,http://www.stannspharmacycollege.com/,90.0,4.2,40000,29.82,11.0,l,,n/a
+174,"LENDI INST OF ENGG AND
+ TECHNOLOGY",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Vizianagaram,Andhra Pradesh,https://www.lendi.org,90.0,4.0,62300,29.8,12.0,m,https://www.youtube.com/watch?v=0kJ0LKjUXi0,0.12857142857142856
+623,Hazaribag College of Dental Sciences and Hospital,4.1,D,"{'bds', 'mds'}",Good,VGood,Hazaribagh,Jharkhand,https://hcdsh.edu.in/,90.0,3.8,650000,29.78,13.0,vh,,n/a
+649,Acharya Institute of Technology,4.3,AS,"{'ba', 'mcom', 'msc', 'mca', 'ma', 'bcom', 'eee', 'cse', 'bsc', 'mec', 'ece'}",Good,VGood,Bengaluru Rural,Karnataka,https://www.acharya.ac.in/,90.0,3.5,390000,29.77,14.0,vh,https://www.youtube.com/watch?v=L-LhA9yizDw,0.019999999999999997
+110,GIET SCHOOL OF PHARMACY,4.3,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Visakhapatnam,Andhra Pradesh,https://www.gietpharmacy.in,90.0,3.0,60000,29.62,15.0,m,,n/a
+414,SRM AP,4.1,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Guntur,Andhra Pradesh,https://srmap.edu.in/,85.0,8.2,36750,29.6,16.0,l,https://www.youtube.com/watch?v=OJ3470AGPCY,0.14195767195767198
+434,B. N. College,4.2,M,"{'ba', 'bca', 'bsc', 'bcom'}",VGood,VGood,Dhubri,Assam,https://www.bncollege.co.in/,85.0,8.0,30039,29.58,17.0,vl,https://www.youtube.com/watch?v=u6jVt4pOdgY,0.05767834595959596
+319,"SAI RAJESWARI INSTITUTE OF
+ TECHNOLOGY",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kadapa,Andhra Pradesh,https://srit.edu.in,90.0,3.5,50300,29.57,18.0,m,,n/a
+699,Government Brennen College,4.6,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",VGood,VGood,Thalassery,Kerala,https://brennencollege.ac.in/,88.0,3.9,5770,29.41,19.0,vl,,n/a
+795,Narsee Monjee Institute of Management Studies (NMIMS),4.0,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",VGood,VGood,Mumbai Suburban,Maharashtra,https://www.nmims.edu/,87.0,5.4,1195000,29.32,20.0,vh,https://www.youtube.com/watch?v=FXNRaC79Zgk,0.1692108242872447
+31,"AVANTHIS RESEARCH AND
+ TECHNOLOGICAL ACADEMY",2.85,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Ranga Reddy,Telangana,www.avanthi.edu.in,89.0,4.5,40000,29.19,21.0,l,https://www.youtube.com/watch?v=lkT9wq4yzVI,0.15929989550679208
+413,VELLORE INST OF TECHNOLOGY AP,4.5,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Guntur,Andhra Pradesh,https://www.vitap.ac.in/,83.0,8.3,56000,29.19,22.0,m,https://www.youtube.com/watch?v=e9A3evjwSeQ,0.02264451951951951
+565,National Dairy Research Institute,4.7,AS,"{'ba', 'mcom', 'msc', 'mca', 'ma', 'bcom', 'eee', 'cse', 'bsc', 'mec', 'ece'}",VGood,VGood,Karnal,Haryana,https://ndri.res.in/,87.0,3.9,42700,29.15,23.0,l,https://www.youtube.com/watch?v=RNbpcjTXu3Q,0.018751803751803756
+65,BVSR ENGINEERING COLLEGE,3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Prakasam,Andhra Pradesh,http://www.bvsr.ac.in/,90.0,2.0,40000,29.12,24.0,l,,n/a
+474,R. R. S. College,3.6,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Khagaria,Bihar,https://www.rrscollegemokama.ac.in/,90.0,1.9,44700,29.01,25.0,l,,n/a
+610,S.P. College,4.1,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Chatra,Jharkhand,https://chatracollege.ac.in/,85.0,6.0,90000,28.94,26.0,h,,n/a
+133,"INTERNATIONAL SCHOOL OF TECH
+ AND SCI FOR WOMEN",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,https://www.ists.ac.in,85.0,6.0,51100,28.9,27.0,m,,n/a
+12,"ANNAMACHARYA INST OF
+ TECHNOLOGY AND SCIENCES",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittor,Andhra Pradesh,https://aits-tpt.edu.in/,85.0,6.0,40000,28.86,28.0,l,https://www.youtube.com/watch?v=6I6QHqvVaes,-0.12000000000000002
+7,ADITYA INSTITUTE OF TECHNOLOGY AND MGMT,3.65,M,"{'bma', 'marketing', 'mba'}",Good,Good,Srikakulam,Andhra Pradesh,"https://www.adityatekkali.edu.in/about.php#:~:text=Aditya%20Institute%20of%20Technology%20and%20Management%20is%20located%20at%20K,beauty%20of%20modern%20day%20Gurukul.",87.5,3.81,79600,28.853,29.0,h,https://www.youtube.com/watch?v=rCicqLa7ddM,0.0875
+772,"Shri Shivaji College of Arts, Commerce & Science",4.1,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",VGood,Good,Akola,Maharashtra,https://www.shivajiakola.ac.in/,87.0,3.7,2700,28.85,30.0,vl,https://www.youtube.com/watch?v=-k0LmuQ4EEE,0.58421706864564
+696,MES College,4.6,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",VGood,VGood,Ponnani,Kerala,https://www.mespni.ac.in/,85.0,4.8,3100,28.78,31.0,vl,https://www.youtube.com/watch?v=NOdP-xNtvw0,0.09245941558441559
+406,"WELLFARE INST OF SCIENCE TECH
+ AND MGMT",4.0,M,"{'bma', 'marketing', 'mba'}",Good,Good,Visakhapatnam,Andhra Pradesh,http://wistm.edu.in,88.0,2.5,43000,28.75,32.0,l,,n/a
+306,"SKU COLL OF PHARMCEUTICAL
+ SCIENCE-SELF FINANCE",4.9,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Anantapur,Andhra Pradesh,http://skucops.ac.in/,84.0,5.2,50000,28.72,33.0,l,https://www.youtube.com/watch?v=jK9sIXIBnMQ,0.07538135593220342
+345,SRI VENKATESWARA ENGG COLLEGE,4.2,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Kanchipuram,TamilNadu,https://www.svce.ac.in/,85.0,5.0,360000,28.68,34.0,vh,https://www.youtube.com/watch?v=8zdt8Lbtj4Q,0.03421052631578947
+678,Manipal Institute of Technology,4.5,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Udupi,Karnataka,https://www.manipal.edu/mit.html,85.0,4.5,810000,28.65,35.0,vh,https://www.youtube.com/watch?v=3ZzYBvET-3Y,0.13726130688911586
+79,"CHUNDI RANGANAYAKULU
+ ENGINEERING COLLEGE",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://crenggcollege.com/,75.0,15.0,70000,28.52,36.0,m,,n/a
+220,NARAYANA PHARMACY COLLEGE,4.4,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Nellore,Andhra Pradesh,https://www.narayanapharmacycollege.com,85.0,4.0,110000,28.46,37.0,vh,https://www.youtube.com/watch?v=s748KwEO8AQ,-0.00034722222222223026
+550,Junagadh Agricultural University,4.6,"AS,M","{'mba', 'phd', 'msc', 'b.sc', 'b.tech', 'm.tech'}",VGood,VGood,Junagadh,Gujarat,http://www.jau.in/,85.0,3.7,68000,28.45,38.0,m,https://www.youtube.com/watch?v=R9GhaQRBvec,0.03035714285714286
+313,"SRI PADMAVATHI SCHOOL OF
+ PHARMACY",4.2,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Chittoor,Andhra Pradesh,https://spsp.ac.in/,85.0,4.0,53800,28.38,39.0,m,https://www.youtube.com/watch?v=G09YNzj8M24,-0.055000000000000014
+46,AVANTHI INST. OF PHARM. SCI.,3.3,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Vizianagaram,Andhra Pradesh,"https://avanthipharma.ac.in/about#:~:text=Address%20for%20communication%20%3A,Bridge%2C%20Vizianagaram%20(Dist).",80.0,10.0,70000,28.32,40.0,m,,n/a
+122,"GEETHANJALI INST OF SCIENCE AND
+ TECHNOLOGY",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Nellore,Andhra Pradesh,https://gist.edu.in,85.0,4.0,55200,28.3,41.0,m,https://www.youtube.com/watch?v=wYN_wds3Mlw,0.15937499999999996
+317,SREE RAMA ENGINEERING COLLEGE,3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,https://www.sreerama.ac.in/,85.0,4.0,51400,28.26,42.5,m,,n/a
+340,SRI VENKATESWARA COLLEGE OF ENGINEERING,3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kanchipuram,TamilNadu,https://www.svce.ac.in,85.0,4.0,47100,28.26,42.5,l,https://www.youtube.com/watch?v=8zdt8Lbtj4Q,0.03421052631578947
+440,Rabindranath Tagore University Hojai,4.3,AS,"{'ma', 'ba', 'bcom', 'bsc'}",VGood,VGood,Hojai,Assam,https://www.rtuassam.ac.in/,86.0,2.4,4960,28.24,44.0,vl,https://www.youtube.com/watch?v=NaCXbXDAr1M,0.1984234234234234
+101,ESWAR COLLEGE OF ENGINEERING,3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://eswarcollegeofengg.org,85.0,4.0,40000,28.22,45.0,l,,n/a
+295,"SWARNANDHRA INST. OF ENGG AND
+ TECHNOLOGY",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,West Godavari,Andhra Pradesh,https://www.swarnandhra.ac.in,85.0,4.0,35000,28.18,46.0,vl,https://www.youtube.com/watch?v=a3Hb7A0TH_A,0.19393939393939397
+541,A-One Pharmacy College,4.5,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Ahmedabad,Gujarat,https://aonepc.ac.in/,84.0,3.9,240000,28.17,47.0,vh,,n/a
+767,Vikram University,4.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Ujjain,Madhya Pradesh,https://vikramuniv.ac.in/index.php/en/pharmacy,85.0,3.5,42000,28.15,48.0,l,https://www.youtube.com/watch?v=Fe_TUIX-7oQ,0.012745098039215686
+506,Government E. Raghavendra Rao Science College,4.3,S,"{'ba', 'bca', 'bsc', 'bcom'}",Good,VGood,Bilaspur,Chhattisgarh,http://www.sciencecollegebilaspur.ac.in/,85.0,2.9,8000,28.09,49.0,vl,https://www.youtube.com/watch?v=mcHWlZgo_0g,0.005401234567901236
+807,Walchand College of Engineering,4.2,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Sangli,Maharashtra,https://www.walchandsangli.ac.in/,83.0,5.0,62100,28.08,50.0,m,https://www.youtube.com/watch?v=i9NsqBexsnc,0.018692129629629625
+201,"NBKR INSTITUTE OF SCI. AND
+ TECHNOLOGY",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,https://www.nbkrist.co.in,85.0,3.2,46400,28.06,51.0,l,https://www.youtube.com/watch?v=NQoccdWtVX0,0.14015151515151517
+805,Pillai College of Engineering,4.1,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Raigad,Maharashtra,https://www.pce.ac.in/,83.0,5.0,133000,28.04,52.5,vh,https://www.youtube.com/watch?v=ZJciV32Ru4E,0.05753621116828664
+402,"VKR VNB AND AGK ENGINEERING
+ COLLEGE",4.1,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Krishna,Andhra Pradesh,https://dteap.nic.in,84.0,4.0,40000,28.04,52.5,l,,n/a
+462,S. B. College,3.2,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Banka,Bihar,http://www.sbcollegeofpharmacy.com,85.0,4.0,26000,27.98,54.0,vl,,n/a
+490,R. S. College,4.3,M,"{'ba', 'bsc'}",VGood,VGood,Sheikhpura,Bihar,https://rsctarapur.ac.i/web,85.0,2.5,11400,27.97,55.0,vl,,n/a
+778,Bhandara Polytechnic,3.9,E,"{'diploma', 'eee', 'cse', 'mec', 'ece'}",VGood,Good,Bhandara,Maharashtra,,85.0,2.9,50000,27.93,56.0,l,,n/a
+782,R. C. Patel Institute of Pharmaceutical Education & Research,4.2,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Dhule,Maharashtra,https://www.rcpatelpharmacy.co.in/,84.0,3.3,40000,27.87,57.0,l,https://youtube.com/watch?v=IuBjFneMH3Y,0.07058823529411766
+571,O.P. Jindal Global Universit,4.4,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'diploma', 'bsc', 'llb'}",Good,VGood,Sonipat,Haryana,https://jgu.edu.in/,84.0,3.0,160000,27.86,58.0,vh,https://www.youtube.com/watch?v=MN-nq_diIvo,0.18226878053139522
+215,NRI INSTITUTE OF TECHNOLOGY,4.3,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Krishna,Andhra Pradesh,https://nriit.edu.in,80.0,7.0,42500,27.82,59.0,l,,n/a
+205,NIRMALA COLLEGE OF PHARMACY,3.9,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Ernakulam,Kerala,https://www.nirmalacp.org,85.0,2.4,40000,27.78,60.0,l,https://www.youtube.com/watch?v=2NGUUVB61ks,0.03655913978494624
+52,"BHARATH COLL OF ENGG AND
+ TECHNOLOGY FOR WOMEN",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,YSR Kadapa,Andhra Pradesh,Www.Bcetfw.Com,80.0,7.0,80000,27.7,61.0,h,,n/a
+693,St. Thomas College,4.3,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",VGood,VGood,Thrissur,Kerala,https://stthomas.ac.in/,82.0,4.4,71700,27.64,62.0,h,https://www.youtube.com/watch?v=8qZNWqTUN-g,0.04255930735930735
+803,Savitribai Phule Pune University,4.5,"AS,M","{'mtech', 'btech', 'ba', 'mcom', 'bba', 'be', 'bca', 'msc', 'mca', 'ma', 'bcom', 'bsc', 'me'}",VGood,VGood,Pune,Maharashtra,http://www.unipune.ac.in/,80.0,6.0,75000,27.6,63.0,h,https://www.youtube.com/watch?v=UFzz0LnATVw,0.24468749999999997
+790,Shivaji University,3.9,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",VGood,Good,Kolhapur,Maharashtra,https://www.unishivaji.ac.in/academic_programs/List-of-programs-offered-on-campus,84.0,2.7,23565,27.57,64.0,vl,https://www.youtube.com/watch?v=cE4CtrQh7Ag,0.07184485302462831
+103,"GEETHANJALI COLLEGE OF
+ ENGINEERING AND TECHNOLOGY",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Rangareddy,Telangana,https://www.geethanjaliinstitutions.com,80.0,6.5,114000,27.55,65.0,vh,https://www.youtube.com/watch?v=QJ4_Nfzl5yI,0.22224310776942355
+305,SRI KRISHNADEVARAYA UNIV.COLL.OF ENG.- SELF FINANCE,4.9,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Anantapur,Andhra Pradesh,http://skucet.ac.in,80.0,5.2,38250,27.52,66.0,l,https://www.youtube.com/watch?v=jK9sIXIBnMQ,0.07538135593220342
+643,Government First Grade College,4.4,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",VGood,VGood,Bagalkot,Karnataka,https://dce.karnataka.gov.in/,82.0,3.8,2052,27.5,67.0,vl,,n/a
+217,NRI INSTT OF TECHNOLOGY,4.2,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Krishna,Andhra Pradesh,https://nriit.edu.in,80.0,6.0,40000,27.48,68.0,l,,n/a
+436,Haflong Government College,4.2,M,"{'ba', 'bcom', 'bsc'}",Good,VGood,Dima Hasao,Assam,https://haflonggovtcollege.ac.in/,83.0,3.0,5250,27.48,69.0,vl,,n/a
+165,K S R M COLLEGE OF ENGINEERING,4.1,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Kadapa,Andhra Pradesh,https://www.ksrmce.ac.in/,82.0,4.0,40900,27.44,70.0,l,https://www.youtube.com/watch?v=EzsI0GOoNfc,0.0004629629629629531
+793,University of Mumbai,4.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Mumbai City,Maharashtra,https://mu.ac.in/,80.0,6.0,10835,27.4,71.0,vl,,n/a
+322,S R K R ENGINEERING COLLEGE,4.4,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,West Godavari,Andhra Pradesh,https://srkrec.edu.in/,82.0,3.2,105000,27.32,72.0,vh,https://www.youtube.com/watch?v=7u7i6-unyWc,-0.03928571428571429
+452,Tezpur University,4.0,"E,M","{'mca', 'eee', 'cse', 'mec', 'ece'}",Good,Good,Sonitpur,Assam,https://luit.tezu.ernet.in,80.0,5.6,216000,27.28,73.0,vh,https://www.youtube.com/watch?v=av0xmN1buNI,0.11812500000000001
+40,"A U COLLEGE OF ENGG.
+ VISAKHAPATNAM",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,https://www.andhrauniversity.edu.in,80.0,5.5,93000,27.25,74.0,h,https://www.youtube.com/watch?v=5EfrS8hWzoU,-0.20568922305764412
+17,A.K.R.G. COLLEGE OF PHARMACY,4.8,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,West Godavari,Andhra Pradesh,http://akrgpharmacy.ac.in/?i=1,80.0,4.4,40000,27.24,75.0,l,,n/a
+34,AUDI SANKARA INST OF TECHNOLOGY,4.1,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Nellore,Andhra Pradesh,"https://www.audisankara.ac.in/contactus.html#:~:text=ADDRESS&text=NH%20%2D%205%20Bypass%20Road%2C%20Aravinda,Dist.%2CA.P.%2C%20India.",80.0,5.2,65000,27.2,76.0,m,,n/a
+493,S. N. S. College,4.2,M,"{'ba', 'bca', 'bbm', 'bsc'}",VGood,VGood,Hajipur,Bihar,https://www.snscollege.ac.in/,80.0,5.0,45000,27.18,77.5,l,,n/a
+448,Morigaon College,4.2,M,"{'ba', 'bcom', 'bsc', 'mba'}",VGood,VGood,Morigaon,Assam,https://morigaoncollege.edu.in/,80.0,5.0,30000,27.18,77.5,vl,,n/a
+475,A. M. College,3.8,"M,L","{'ba', 'bcom', 'bsc'}",Good,Good,Gaya,Bihar,https://www.amcollegegaya.ac.in/,83.0,2.5,40000,27.17,79.5,l,https://www.youtube.com/watch?v=Vig9KjVUtxg,0.029166666666666667
+288,"SAI GANAPATHI ENGINEERING
+ COLLEGE",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,https://allegiance-educare.in,83.0,2.5,45000,27.17,79.5,l,,n/a
+41,"A U COLLEGE OF ENGG-SELF FINANCE
+ VISAKHAPATNAM",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,www.andhrauniversity.edu.in,80.0,5.0,120000,27.1,81.0,vh,,n/a
+97,DNR COLLEGE OF ENGG AND TECH,3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,West Godavari,Andhra Pradesh,https://dnrcet.org/web/,80.0,5.0,60000,27.02,82.0,m,,n/a
+117,G M R INSTITUTE OF TECHNOLOGY,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Srikakulam,Andhra Pradesh,www.gmrit.org,80.0,4.6,77800,26.98,83.0,h,,n/a
+199,"M.V.R.COLL OF ENGINEERING AND
+ TECHNOLOGY",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,http://mvrcoe.ac.in,80.0,4.5,40000,26.95,84.5,l,,n/a
+241,"PRASAD V POTLURI SIDDHARTHA
+ INSTT OF TECHNOLOGY",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://www.pvpsiddhartha.ac.in,80.0,4.5,105000,26.95,84.5,vh,,n/a
+192,"SRI MITTAPALLI COLLEGE OF
+ ENGINEERING",3.5,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://www.smce.ac.in,80.0,5.0,40000,26.9,86.0,l,,n/a
+218,NIRMALA COLL. OF PHARM,4.2,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Ernakulam,Kerala,https://www.nirmalacp.org,80.0,4.0,40000,26.88,87.0,l,,n/a
+321,S R K INST. OF TECHNOLOGY,4.4,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Krishna,Andhra Pradesh,https://srkit.in/,80.0,3.5,45600,26.81,88.0,l,,n/a
+108,GODAVARI INSTITUTE OF ENGG. AND TECHNOLOGY,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,https://admissions.ggu.edu.in/,80.0,4.0,76700,26.8,90.0,h,,n/a
+72,"VRS AND YRN COLLEGE OF ENGG.
+ AND TECHNOLOGY",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://vrsyrn.com/,80.0,4.0,50000,26.8,90.0,l,,n/a
+164,"KRISHNA UNIVERSITY COLLEGE OF
+ ENGG AND TECHNOLOGY",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://krucet.ac.in/,80.0,4.0,160000,26.8,90.0,vh,,n/a
+658,Karnatak University,4.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Dharwad,Karnataka,https://www.kud.ac.in/,80.0,3.9,19600,26.77,92.0,vl,,n/a
+159,KKR AND KSR INST OF TECHNOLOGY AND SCI,3.54,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://www.kitsguntur.ac.in,80.0,4.5,40000,26.766,93.0,l,,n/a
+780,"Rajiv Gandhi College of Engineering, Research & Technology",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,Good,Chandrapur,Maharashtra,https://rcert.ac.in/,81.0,2.9,432000,26.73,94.0,vh,,n/a
+579,Kurukshetra University,4.1,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",Good,VGood,Kurukshetra,Haryana,https://kuk.ac.in/,79.0,4.6,7040,26.72,95.5,vl,,n/a
+443,Diphu Government College,3.8,C,"{'ba', 'bcom', 'bsc'}",Good,VGood,Karbi Anglong,Assam,https://diphugovernmentcollege.com/,80.0,4.0,685,26.72,95.5,vl,,n/a
+10,AMALAPURAM INST OF MGMT SCI,3.7,M,"{'bma', 'marketing', 'mba'}",Good,Good,East Godavari,Andhra Pradesh,http://aimscoe.com,80.0,4.0,70000,26.68,97.0,m,,n/a
+176,"SRI LAKSHMI NARASIMHA COLLEGE
+ OF PHARMACY",4.4,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Chittoor,Andhra Pradesh,http://jntuadaa.ac.in,80.0,3.0,35000,26.66,98.0,vl,,n/a
+60,BIT INSTITUTE OF TECHNOLOGY,3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Anantapuramu,Andhra Pradesh,https://www.educrib.com/vijayawada/colleges/bit-institute-of-technology-hindupur,77.0,7.0,120000,26.64,99.0,vh,,n/a
+314,SANTHIRAM COLLEGE OF PHARMACY,3.8,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Kurnool,Andhra Pradesh,https://srcpnandyal.edu.in,80.0,3.5,75000,26.57,100.0,h,,n/a
+671,University of Mysore,4.2,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Mysore,Karnataka,https://www.shiksha.com/university/university-of-mysore-909/courses,80.0,2.9,55660,26.55,101.0,m,,n/a
+311,"INST. OF PHARM. TECH. S P MAHILA
+ VISWA VIDYALAYAM",3.7,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Chittoor,Andhra Pradesh,https://www.spmvv.ac.in,80.0,3.5,220000,26.53,102.0,vh,,n/a
+328,"SRI RAGHAVENDRA INST OF
+ TECHNOLOGY AND SCI.",4.3,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Nellore,Andhra Pradesh,Www.Srist.Org,79.0,3.6,35000,26.5,103.0,vl,,n/a
+325,SANKAR REDDY INST OF PHARM SCI,4.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Prakasam,Andhra Pradesh,http://www.sankarreddypharmacy.in/index.html,80.0,2.9,45000,26.47,104.0,l,,n/a
+654,Government First Grade College,4.3,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Average,VGood,Chikkamagaluru,Karnataka,https://www.shiksha.com/college/d-s-b-g-government-first-grade-college-chikkamagaluru-137581,79.0,3.5,2052,26.47,105.0,vl,,n/a
+676,Siddaganga Institute of Technology,4.2,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,Good,Tumakuru,Karnataka,http://www.sit.ac.in/,80.0,2.6,128000,26.46,106.0,vh,,n/a
+607,Government College Una,3.9,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Una,Himachal Pradesh,http://www.govtpgcollegeuna.in/,80.0,3.0,6000,26.46,107.0,vl,,n/a
+106,GUNTUR ENGINEERING COLLEGE,3.5,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,"https://gecg.ac.in/#:~:text=WHY%20CHOOSE%20US%20%3F,of%20Guntur%20district%2C%20Andhra%20Pradesh.",80.0,3.5,40000,26.45,108.5,l,,n/a
+56,BHASKARA INST. OF PHARMACY,3.5,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Srikakulam,Andhra Pradesh,https://www.bpc.edu.in/,80.0,3.5,173000,26.45,108.5,vh,,n/a
+304,"SKR COLLEGE OF ENGINEERING
+ TECHNOLOGY",3.4,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Thiruvallur,TamilNadu,https://www.skrec.in,80.0,3.5,85000,26.41,110.0,h,,n/a
+648,Indian Institute of Science (IISc),4.4,AS,"{'ba', 'mcom', 'msc', 'mca', 'ma', 'bcom', 'eee', 'cse', 'bsc', 'mec', 'ece'}",VGood,VGood,Bengaluru Urban,Karnataka,https://iisc.ac.in/,80.0,2.1,220200,26.39,111.0,vh,,n/a
+731,Rani Durgavati Vishwavidyalaya,4.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Jabalpur,Madhya Pradesh,http://www.rdunijbpin.org/1131/Pharmacy,80.0,2.5,12600,26.35,112.0,vl,,n/a
+50,"BRAHMAIAH COLLEGE OF
+ ENGINEERING",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Nellore,Andhra Pradesh,http://www.bcen.edu.in/,77.0,5.5,140000,26.31,113.0,vh,,n/a
+764,Government Degree College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Sidhi,Madhya Pradesh,https://govpgcollegesidhi.org/,80.0,3.0,1640,26.3,114.0,vl,,n/a
+412,YELAMARTY B. PHARMACY COLLEGE,4.2,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Visakhapatnam,Andhra Pradesh,https://www.yalamarty.edu.in/,78.0,4.0,34500,26.28,115.0,vl,,n/a
+76,CHEBROLU ENGINEERING COLLEGE,3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://rvit.edu.in/,79.0,3.5,40000,26.27,116.0,l,,n/a
+774,Sant Gadge Baba Amravati University,3.8,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",Good,VGood,Amravati,Maharashtra,https://www.sgbau.ac.in/,80.0,2.4,45000,26.24,117.0,l,,n/a
+691,St. Albert's College,4.1,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Kochi,Kerala,https://www.alberts.edu.in/,78.0,3.9,37500,26.21,118.0,l,,n/a
+686,St. Thomas College,4.1,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Ranni,Kerala,https://www.stthomascollegeranni.com/,78.0,3.8,2330,26.18,119.0,vl,,n/a
+811,Walchand Institute of Technology,4.3,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Solapur,Maharashtra,https://witsolapur.org/,77.0,4.5,113514,26.17,120.0,vh,,n/a
+407,ST XAVIER INST OF PHARMACY,3.9,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Guntur,Andhra Pradesh,https://stxip.org/,79.0,3.0,40000,26.16,121.0,l,,n/a
+817,Yeshwantrao Chavan College of Engineering,4.2,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Yavatmal,Maharashtra,,77.0,4.5,53000,26.13,122.0,m,,n/a
+545,Maharaja Sayajirao University of Baroda,4.1,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",Good,VGood,Vadodara,Gujarat,https://msubaroda.ac.in/administrative_sections#,79.0,2.6,25170,26.12,123.0,vl,,n/a
+752,Dr. Harisingh Gour University,4.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,Good,Sagar,Madhya Pradesh,https://dhsgsu.edu.in/index.php/en/departments01/pharmaceutical-sciences,78.0,3.7,216000,26.11,124.0,vh,,n/a
+539,Goa Medical College,4.1,Me,{'mbbs'},Good,VGood,North Goa,Goa,https://www.goa.gov.in/department,79.0,2.5,562000,26.09,125.0,vh,,n/a
+197,MOTHER THERESA INST OF ENGG AND TECH,3.5,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,https://www.mtitech.edu.in,79.0,3.3,57200,26.09,126.0,m,,n/a
+324,SASHIKANTH REDDY COLL OF PHARM,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Nellore,Andhra Pradesh,https://sasikanthreddycollegeofpharmacy.com,78.0,3.6,17000,26.08,127.0,vl,,n/a
+326,"SRI SAI INSTITUTE OF TECHNOLOGY.
+ AND SCI.",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kadapa,Andhra Pradesh,https://www.srisaiiot.com,79.0,2.5,40000,26.05,128.0,l,,n/a
+153,K G R L COLLEGE OF PHARMACY,3.6,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,West Godavari,Andhra Pradesh,https://kgrlpharmacy.com,75.0,7.0,35000,26.04,129.0,vl,,n/a
+227,PACE INSTITUTE OF TECHNOLOGY AND SCIENCES,4.3,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Prakasam,Andhra Pradesh,https://www.pace.ac.in,75.0,6.0,43600,26.02,130.0,l,,n/a
+193,"SRI MITTAPALLI INST OF
+ TECHNOLOGY FOR WOMEN",3.5,EW,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://www.smce.ac.in,78.0,4.0,42500,26.0,131.0,l,,n/a
+405,"WEST GODAVARI INSTT OF SCIENCE
+ AND ENGINEERING",3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,West Godavari,Andhra Pradesh,https://www.wise.ac.in,78.0,3.6,40000,25.92,132.0,l,,n/a
+323,"S R K R ENGINEERING COLLEGE-2ND
+ SHIFT",4.4,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,West Godavari,Andhra Pradesh,https://srkrec.edu.in,76.0,4.2,77000,25.82,133.0,h,,n/a
+19,"ANANTHA LAKSHMI INST OF
+ TECHNOLOGY AND SCI",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Anantapur,Andhra Pradesh,http://www.alits.ac.in/,75.0,6.0,50200,25.82,134.0,m,,n/a
+581,Government College,4.2,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",VGood,Good,Panchkula,Haryana,http://gcpanchkula.ac.in/,78.0,2.3,4630,25.77,135.0,vl,,n/a
+688,CMS College,4.1,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Kottayam,Kerala,https://cmscollege.ac.in/,78.0,2.3,200000,25.73,136.0,vh,,n/a
+134,JAGANS COLLEGE OF PHARMACY,3.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Bad,Good,Nellore,Andhra Pradesh,https://www.jaganscollegeofpharmacy.in,80.0,1.5,46670,25.65,137.0,l,,n/a
+0,ABR COLLEGE OF ENGG AND TECHNOLOGY,3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Prakasam,Andhra Pradesh,https://abrcet.edu.in/,75.0,5.5,42100,25.63,138.0,l,,n/a
+403,"VALLABHANENI VENKATADRI INST OF
+ PHARM SCIENCES",4.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Krishna,Andhra Pradesh,https://vvipsgudlavalleru.ac.in/,76.0,3.9,181200,25.57,139.0,vh,,n/a
+585,Yamuna Institute of Engineering & Technology,3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Yamunanagar,Haryana,https://yamuna.edu.in/home/engineering-technology/,78.0,2.1,73895,25.55,140.5,h,,n/a
+569,National Institute of Technology,4.1,AS,"{'ba', 'mcom', 'msc', 'mca', 'ma', 'bcom', 'eee', 'cse', 'bsc', 'mec', 'ece'}",Good,VGood,Panipat,Haryana,https://nitkkr.ac.in/,77.0,2.7,1520,25.55,140.5,vl,,n/a
+376,"SHRI VISHNU ENGG. COLLEGE FOR
+ WOMEN",4.6,EW,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,West Godavari,Andhra Pradesh,https://svecw.edu.in,75.0,4.0,105000,25.54,142.0,vh,,n/a
+124,"GAYATHRI VIDYA PARISHAD COLL. OF
+ ENGINEERING",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,gvpce.ac.in,75.0,4.7,105000,25.51,143.0,vh,,n/a
+650,Bidar Institute of Medical Sciences,4.4,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,Good,Bidar,Karnataka,https://bimsbidar.karnataka.gov.in/english,76.0,3.1,50000,25.49,144.0,l,,n/a
+368,"SR VENKATESWARA COLL OF
+ ENGINEERING",4.3,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Kanchipuram,TamilNadu,https://www.svce.ac.in,75.0,4.2,40000,25.48,145.0,l,,n/a
+256,RAGHU ENGINEERING COLLEGE,4.4,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Visakhapatnam,Andhra Pradesh,https://www.raghuenggcollege.com,75.0,4.0,80800,25.46,146.5,h,,n/a
+333,SANSKRITHI SCHOOL OF ENGINEERING,4.4,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Anantapur,Andhra Pradesh,https://www.sseptp.org,75.0,4.0,40000,25.46,146.5,l,,n/a
+392,"V R SIDDHARTHA ENGINEERING
+ COLLEGE",4.3,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Krishna,Andhra Pradesh,https://www.shiksha.com/college/velagapudi-ramakrishna-siddhartha-engineering-college-vijayawada-21486,75.0,4.1,105000,25.45,148.5,vh,,n/a
+377,"VISHNU GRP OF INSTNS - VISHNU
+ INST OF TECHNOLOGY",4.3,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,West Godavari,Andhra Pradesh,https://vishnu.edu.in,75.0,4.1,103000,25.45,148.5,vh,,n/a
+226,"JNTUA-OIL TECHNOLOGICAL
+ RESEARCH INSTITUTE",4.3,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Anantapur,Andhra Pradesh,https://www.jntua.ac.in,75.0,4.0,40000,25.42,150.0,l,,n/a
+683,University College,4.1,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Thiruvananthapuram,Kerala,http://universitycollege.ac.in/,76.0,3.1,1225,25.37,151.0,vl,,n/a
+411,YELAMARTY B. PHARMACY COLLEGE,4.1,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Visakhapatnam,Andhra Pradesh,https://www.yalamarty.edu.in/,76.0,3.0,35000,25.34,152.0,vl,,n/a
+588,Government Post Graduate College,3.8,AS,"{'ba', 'mcom', 'msc', 'mca', 'ma', 'bcom', 'bsc'}",Good,Good,Chamba,Himachal Pradesh,https://gcchamba.edu.in/,77.0,2.4,1586,25.34,153.0,vl,,n/a
+47,BABA INST OF TECH AND SCIENCES,3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,https://bitsvizag.com/,75.0,4.2,40000,25.32,154.0,l,,n/a
+109,GIET COLLEGE OF ENGINEERING,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,https://www.gietec.ac.in,75.0,4.0,51000,25.3,157.0,m,,n/a
+232,"PRIYADARSHINI INST OF
+ TECHNOLOGY",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://pitt.ac.in/contact-us/,75.0,4.0,63000,25.3,157.0,m,,n/a
+57,"BELLAMKONDA INST OF
+ TECHNOLOGY AND SCI",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Prakasam,Andhra Pradesh,"https://bitspodili.com/#:~:text=It%20is%20located%20in%20backdrop,situations%20and%20imports%20education%20accordingly%20.",75.0,4.0,60000,25.3,157.0,m,,n/a
+247,"POTTI SRIRAMULU COLLEGE OF ENGG
+ AND TECHNOLOGY",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://pscmr.ac.in,75.0,4.0,54000,25.3,157.0,m,,n/a
+267,RAGHU INST. OF TECHNOLOGY,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,https://www.raghuenggcollege.com,75.0,4.0,70000,25.3,157.0,m,,n/a
+397,"VISAKHA INST OF ENGG AND
+ TECHNOLOGY",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,https://www.viet.edu.in,75.0,4.2,40000,25.28,160.0,l,,n/a
+711,Barkatullah University,4.0,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",VGood,VGood,Bhopal,Madhya Pradesh,http://www.bubhopal.ac.in/1111/About-the-University,75.0,3.9,20000,25.27,161.0,vl,,n/a
+364,VAGDEVI COLLEGE OF PHARMACY,4.3,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Guntur,Andhra Pradesh,https://vagdevigurazala.in,75.0,3.5,120000,25.27,162.0,vh,,n/a
+367,VEMU INSTITUTE OF TECHNOLOGY,3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,vemu.org,75.0,4.0,40000,25.26,164.0,l,,n/a
+341,SREE VENKATESWARA COLL OF ENGG,3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,https://www.svce.ac.in,75.0,4.0,43000,25.26,164.0,l,,n/a
+339,"SRI VENKATESWARA COLL OF
+ ENGINEERING",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,https://svcetedu.org/,75.0,4.0,74500,25.26,164.0,h,,n/a
+27,"ANU COLL OF PHARMACEUTICAL
+ SCIENCES",4.1,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Guntur,Andhra Pradesh,https://nagarjunauniversity.ac.in/404,75.0,3.7,40000,25.25,166.5,l,,n/a
+196,"MRR COLLEGE OF PHARMACY
+ NANDIGAMA",3.5,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Krishna,Andhra Pradesh,www.mrrpharmacy.edu.in,76.0,3.5,33750,25.25,166.5,vl,,n/a
+344,"SWAMY VIVEKANANDA ENGINEERING
+ COLLEGE",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,North 24 Parganas,West Bengal,https://www.swamivivekanandauniversity.ac.in/,75.0,4.0,57500,25.22,169.0,m,,n/a
+353,S V U COLLEGE OF ENGG. TIRUPATHI,3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,https://svuce.edu.in,75.0,4.0,40000,25.22,169.0,l,,n/a
+337,"SRI SUNFLOWER COLLEGE OF ENGG
+ AND TECHNOLOGY",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://www.sunflowercet.edu.in/,75.0,4.0,57000,25.22,169.0,m,,n/a
+381,"VIGNANS INSTITUTE OF
+ INFORMATION TECHNOLOGY",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,https://vignaniit.edu.in,75.0,4.1,68700,25.21,171.0,m,,n/a
+813,Dr. V. N. Bedekar Institute of Management Studies,4.1,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",VGood,Good,Thane,Maharashtra,https://vnbrims.org/Post-Graduation/,73.0,5.5,20000,25.19,172.0,vl,,n/a
+170,"DR.K.V.SUBBA REDDY INST. OF
+ TECHNOLOGY",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kurnool,Andhra Pradesh,https://www.drkvsrit.ac.in/index.html,75.0,4.0,45700,25.18,173.5,l,,n/a
+131,IDEAL INSTITUTE OF TECHNOLOGY,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,https://www.idealtech.edu.in,75.0,3.6,40000,25.18,173.5,l,,n/a
+242,PRAGATI ENGINEERING COLLEGE,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,https://pragati.ac.in,75.0,3.5,77800,25.15,175.0,h,,n/a
+360,"USHA RAMA COLL OF ENGG AND
+ TECHNOLOGY",3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://usharama.edu.in,75.0,4.0,40000,25.14,176.0,l,,n/a
+294,"SRI SARATHI INSTITUTE OF ENGG.
+ AND TECHNOLOGY",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://www.ssiet.edu.in,75.0,3.5,40000,25.11,177.5,l,,n/a
+679,Government First Grade College,3.6,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Uttara Kannada,Karnataka,https://www.collegedekho.com/colleges/govt-first-grade-college-5,75.0,3.9,5000,25.11,177.5,vl,,n/a
+517,Government Medical College,4.0,Me,{'mbbs'},Good,VGood,Kanker,Chhattisgarh,https://www.sagemmckanker.in/,75.0,3.3,11567,25.09,179.0,vl,,n/a
+5,ADITYA COLLEGE OF PHARMACY,3.3,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,East Godavari,Andhra Pradesh,"https://www.acop.edu.in/contact.php#:~:text=College%20Address%20%3A,%2C%20ADB%20Road%2C%20East%20Godavari.&text=WhatsApp%3A%20%2B91%207036076661.",75.0,4.2,53500,25.08,180.0,m,,n/a
+179,M.A.M COLLEGE OF PHARMACY,4.2,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Krishna,Andhra Pradesh,https://www.mamcollegeofpharmacy.ac.in,75.0,3.0,35000,25.08,181.0,vl,,n/a
+330,SRI SIVANI COLLEGE OF ENGINEERING,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Srikakulam,Andhra Pradesh,https://srisivani.com,75.0,3.2,40200,25.06,182.0,l,,n/a
+287,SAFA COLLEGE OF PHARMACY,4.3,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Kurnool,Andhra Pradesh,http://www.safapharma.com,75.0,2.8,35000,25.06,183.5,vl,,n/a
+315,SANTHIRAM ENGINEERING COLLEGE,3.4,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kurnool,Andhra Pradesh,https://www.srecnandyal.edu.in,75.0,4.0,46300,25.06,183.5,l,,n/a
+298,SIDDHARTHA INST OF PHARM SCI,4.1,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Krishna,Andhra Pradesh,https://kvsrsiddharthapharma.edu.in/,75.0,3.0,52500,25.04,185.5,m,,n/a
+248,P.V.K.K. INSTITUTE OF TECHNOLOGY,4.1,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Anantapur,Andhra Pradesh,https://www.pvkkit.ac.in,75.0,3.0,40000,25.04,185.5,l,,n/a
+292,SEVEN HILLS COLLEGE OF PHARMACY,4.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Chittoor,Andhra Pradesh,https://allegiance-educare.in,75.0,3.0,43800,25.0,187.0,l,,n/a
+628,Palamu Engineering College,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,Good,Latehar,Jharkhand,https://gecpalamu.org/,75.0,2.9,1500,24.97,188.5,vl,,n/a
+646,Rani Channamma University,4.0,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Belagavi,Karnataka,https://rcub.ac.in/English%20website/about-us.html,75.0,2.9,57750,24.97,188.5,m,,n/a
+575,Amity University,4.3,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",Good,VGood,Gurugram,Haryana,https://www.amity.edu/gurugram/,74.0,3.5,57000,24.97,190.0,m,,n/a
+245,"PRIYADARSHINI COLL OF ENGG. AND
+ TECHNOLOGY",3.5,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Vellore,TamilNadu,https://www.priyadarshini.net.in/pec_new/index.php,75.0,3.5,35000,24.95,191.0,vl,,n/a
+697,Farook College,4.3,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Kozhikode,Kerala,https://www.farookcollege.ac.in/,73.0,4.4,25723,24.94,192.0,vl,,n/a
+408,YGVU YSR ENGINEERING COLLEGE,3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kadapa,Andhra Pradesh,http://www.yogivemanauniversity.ac.in/ysr/,75.0,2.8,15500,24.9,193.0,vl,,n/a
+584,Chaudhary Devi Lal University,3.9,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",VGood,Good,Sisra,Haryana,https://www.cdlu.ac.in/,75.0,2.6,40000,24.84,194.0,l,,n/a
+290,"DR SAMUEL GEORGE INSTITUTE OF
+ ENGG. AND TECHNOLOGY",3.2,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Prakasam,Andhra Pradesh,https://drsgiet.ac.in,75.0,3.5,40000,24.83,195.0,l,,n/a
+690,St. Xavier's College,4.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",VGood,Good,Thumba,Kerala,https://stxaviersthumba.ac.in/,75.0,2.4,17200,24.82,196.0,vl,,n/a
+289,"DR. SAMUEL GEORGE INSTITUTE OF
+ PHARM. SCI.S",3.5,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Prakasam,Andhra Pradesh,http://www.drsgips.ac.in/,75.0,3.0,37800,24.8,197.0,l,,n/a
+530,"Government Model Science College, ",4.0,S,"{'be', 'me', 'btech'}",Good,VGood,Rajnandgaon,Chhattisgarh,http://govtshivnathcollege.in/,75.0,2.3,5000,24.79,198.0,vl,,n/a
+560,Chaudhary Devi Lal University,3.8,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'mca', 'ma', 'bcom', 'eee', 'cse', 'bsc', 'mec', 'ece'}",Good,Good,Fatehabad,Haryana,https://www.cdlu.ac.in/,75.0,2.4,40000,24.74,199.0,l,,n/a
+802,Marathwada Agricultural University,4.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Parbhani,Maharashtra,https://www.vnmkv.ac.in/,73.0,4.0,11013,24.7,200.5,vl,,n/a
+438,Debraj Roy College,4.0,M,"{'ba', 'bsc'}",Good,Good,Golaghat,Assam,https://drcollege.ac.in/,74.0,3.0,5900,24.7,200.5,vl,,n/a
+26,"ST. ANNS COLLEGE OF ENGG. AND
+ TECHNOLOGY",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chirala,Andhra Pradesh,"https://sacet.ac.in/about-our-college/#:~:text=ALL%20ABOUT%20THE%20COLLEGE,by%20Educationalists%2C%20Industrialists%20and%20Philanthropists.",70.0,7.0,56800,24.66,202.5,m,,n/a
+415,Arunachal University of Studies,3.6,"P,E","{'d.pharm', 'b.pharm', 'm.pharm', 'mca', 'eee', 'cse', 'mec', 'ece'}",VGood,VGood,Namsai,Arunachal Pradesh,https://www.arunachaluniversity.ac.in/department/Science,75.0,2.4,34000,24.66,202.5,vl,,n/a
+229,"G.PULLAIAH COLL. OF ENGG. AND
+ TECHNOLOGY",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kurnool,Andhra Pradesh,https://www.gpcet.ac.in,72.0,5.0,60900,24.66,204.0,m,,n/a
+531,Government Degree College,3.1,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Sukma,Chhattisgarh,http://govtcollegesukma.ac.in/,75.0,3.0,5000,24.64,205.0,vl,,n/a
+296,SIMHADRI EDNL SOC GRP OF INSTNS,2.7,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Visakhapatnam,Andhra Pradesh,http://simhadhriengcollege.com/index.php,75.0,3.5,40000,24.63,206.0,l,,n/a
+431,Upendra Nath Brahma College,3.8,M,"{'ba', 'bcom'}",Good,Good,Chirang,Assam,https://unbrahmacollege.edu.in/contact/,75.0,2.0,5000,24.62,207.0,vl,,n/a
+30,"A M REDDY MEMORIAL COLL. OF
+ PHARMACY",3.6,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Palnadu,Andhra Pradesh,https://amreddypharmacy.co.in/,70.0,7.2,35000,24.6,208.0,vl,,n/a
+806,Government College of Engineering,4.1,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Ratnagiri,Maharashtra,https://www.gcoer.ac.in/,73.0,3.5,5000,24.59,209.0,vl,,n/a
+501,Government College,3.2,M,"{'ba', 'bcom', 'bsc'}",Average,Good,Rajpur,Chhattisgarh,http://govtcollegebalrampur.ac.in,75.0,2.6,5000,24.56,210.0,vl,,n/a
+87,SIR C R R COLLEGE OF ENGINEERING,4.3,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,West Godavari,Andhra Pradesh,https://www.sircrrengg.ac.in/,70.0,6.0,54200,24.52,211.5,m,,n/a
+669,Government First Grade College,3.7,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",VGood,Good,Koppal,Karnataka,http://gfgc.kar.nic.in/koppal/,74.0,2.8,5000,24.52,211.5,vl,,n/a
+119,G P R ENGINEERING. COLLEGE,3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kurnool,Andhra Pradesh,https://www.gprec.ac.in/,72.0,4.6,84000,24.5,213.0,h,,n/a
+129,"HINDU COLLEGE OF ENGINEERING
+ AND TECHNOLOGY",4.6,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Guntur,Andhra Pradesh,https://www.hinduengg.com/,70.0,5.5,40000,24.49,214.0,l,,n/a
+653,Government First Grade College,4.2,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Chikkaballapur,Karnataka,http://gfgc.kar.nic.in/chikkaballapur/,72.0,4.0,10000,24.48,215.0,vl,,n/a
+88,"SIR C.R.REDDY COLLEGE OF
+ PHARMACY",4.3,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Godavari,Andhra Pradesh,https://sircrrcops.edu.in,70.0,5.5,39750,24.37,216.0,l,,n/a
+422,Government College of Tawang,3.0,M,{'ba'},Bad,Good,Tawang,Arunachal Pradesh,https://dkgct.in,75.0,2.0,5000,24.3,217.5,vl,,n/a
+4,ADITYA COLLEGE OF ENGINEERING AND TECHNOLOGY,4.5,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,East Godavari,Andhra Pradesh,"https://www.acet.ac.in/?p=About-AEC#:~:text=The%20College%20is%20situated%20in,East%20Godavari%20District%2C%20Andhra%20Pradesh.",70.0,5.0,52800,24.3,217.5,m,,n/a
+789,"Jalna Education Society's Arts, Commerce & Science College",3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Jalna,Maharashtra,https://www.jesjalna.org/,74.0,2.3,7000,24.29,219.0,vl,,n/a
+111,GIET ENGINEERING COLLEGE,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,https://www.gietec.ac.in,70.0,5.6,65000,24.28,220.0,m,,n/a
+777,Yogeshwari Mahavidyalaya,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Beed,Maharashtra,,74.0,2.2,2650,24.26,221.0,vl,,n/a
+785,Manoharbhai Patel Institute of Engineering and Technology,3.2,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Gondia,Maharashtra,http://mietbhandara.ac.in/,74.0,2.5,38000,24.23,222.0,l,,n/a
+22,"ANU COLLEGE OF ENGG
+ TECHNOLOGY-SELF FINANCE",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://www.nagarjunauniversity.ac.in/,70.0,5.5,50000,24.21,223.0,l,,n/a
+78,"CHAITANYA INST. OF SCI. AND
+ TECHNOLOGY",4.2,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,East Godavari,Andhra Pradesh,http://www.chaitanya.org.in/,70.0,5.0,40000,24.18,224.0,l,,n/a
+2,ADITYA COLLEGE OF ENGINEERING,4.1,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,East Godavari,Andhra Pradesh,https://www.acoe.edu.in/,70.0,5.0,40000,24.14,225.0,l,,n/a
+393,"K V S R SIDDHARTHA COLLEGE OF
+ PHARMACEUTICAL SCI.S",4.1,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Krishna,Andhra Pradesh,https://kvsrsiddharthapharma.edu.in,72.0,3.0,126000,24.14,226.0,vh,,n/a
+663,Gulbarga University,3.5,"AS,M","{'ba', 'mcom', 'bba', 'mphill', 'phd', 'bca', 'msc', 'ma', 'bcom', 'diploma', 'bsc'}",Good,Good,Kalaburagi,Karnataka,https://gug.ac.in/,73.0,2.6,62000,24.08,227.0,m,,n/a
+272,"R V R AND J C COLLEGE OF
+ ENGINEERING",4.3,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Guntur,Andhra Pradesh,https://rvrjcce.ac.in,70.0,4.5,105500,24.07,228.0,vh,,n/a
+593,Government Degree College,3.5,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Kinnaur,Himachal Pradesh,https://tsnegigcreckongpeo.ac.in/,73.0,2.4,20000,24.02,229.0,vl,,n/a
+128,HINDU COLLEGE OF PHARMACY,4.1,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Guntur,Andhra Pradesh,https://hcopguntur.ac.in,70.0,4.5,20450,23.99,230.0,vl,,n/a
+320,SRINIVASA RAMANUJAN INST OF TECHNOLOGY,4.3,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Anantapur,Andhra Pradesh,https://www.srit.ac.in,71.0,3.2,49100,23.98,231.0,l,,n/a
+67,BAPATLA WOMENS ENGG COLLEGE,3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://bapatla.ap.gov.in/public-utility/bapatla-womens-engineering-college/,70.0,4.8,40000,23.96,232.0,l,,n/a
+482,L. N. College,4.0,M,"{'bba', 'mba', 'bca', 'pgdm', 'mca'}",Good,Good,Muzaffarpur,Bihar,https://lnmcbm.org/,70.0,4.5,20000,23.95,233.0,vl,,n/a
+446,North Lakhimpur College,4.3,AS,"{'ma', 'ba', 'bca'}",Good,VGood,Lakhimpur,Assam,https://nlc.ac.in/,70.0,4.0,3892,23.92,234.0,vl,,n/a
+75,CHAITANYA ENGINEERING COLLEGE,4.2,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Visakhapatnam,Andhra Pradesh,https://cec.ac.in/,70.0,4.0,40000,23.88,235.5,l,,n/a
+591,Government College Dharamshala,3.6,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Kangra,Himachal Pradesh,https://gcdharamshala.in/,72.0,2.8,4750,23.88,235.5,vl,,n/a
+80,"CHALAPATHI INST OF ENGG AND
+ TECHNOLOGY",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://chalapathiengg.ac.in/,70.0,4.5,40000,23.87,237.0,l,,n/a
+29,ADITYA PHARMACY COLLEGE,4.3,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,East Godavari,Andhra Pradesh,https://www.adityapharmacy.edu.in/,70.0,3.8,80000,23.86,238.0,h,,n/a
+104,"GUDLAVALLERU ENGINEERING
+ COLLEGE",4.1,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Krishna,Andhra Pradesh,https://gecgudlavalleru.ac.in,70.0,4.0,74600,23.84,239.0,h,,n/a
+312,"SCHOOL OF ENGG. TECH. SPMVV -
+ SELF FINANCE",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,https://www.spmvv.ac.in,70.0,4.5,71250,23.83,242.0,h,,n/a
+510,Government V. Y. T. Post Graduate Autonomous College,4.0,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Durg,Chhattisgarh,https://www.govtsciencecollegedurg.ac.in/,70.0,4.1,1048,23.83,242.0,vl,,n/a
+526,Government P.G. College,4.0,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Raigarh,Chhattisgarh,https://www.kgcollegeraigarh.ac.in/,70.0,4.1,10000,23.83,242.0,vl,,n/a
+561,Guru Jambheshwar University of Science and Technology,4.0,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",Good,VGood,Hisar,Haryana,https://www.gjust.ac.in/,70.0,4.1,80600,23.83,242.0,h,,n/a
+551,Government Engineering College,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,VGood,Jamnagar,Gujarat,http://www.gpjm.cteguj.in/,70.0,4.1,15000,23.83,242.0,vl,,n/a
+792,Dayanand College Of Pharmacy,4.1,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,VGood,Latur,Maharashtra,https://www.dayanandpharmacy.org/laboratories/,70.0,3.9,12000,23.81,245.0,vl,,n/a
+234,"PRIYADARSHINI INST OF
+ TECHNOLOGY",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://pitt.ac.in/contact-us/,70.0,4.0,63000,23.8,246.0,m,,n/a
+458,Hojai College,4.3,M,"{'ba', 'bcom', 'bsc'}",Good,VGood,Hojai,Assam,https://www.shiksha.com/college/hojai-college-nagaon-103229,70.0,3.5,3000,23.77,247.0,vl,,n/a
+694,Mercy College,4.2,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Palakkad,Kerala,https://www.mercycollege.edu.in,70.0,3.6,28357,23.76,249.0,vl,,n/a
+231,"PRIYADARSHINI COLLEGE OF
+ ENGINEERNG",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Nagpur,Maharashtra,http://pcenagpur.edu.in,70.0,4.0,43000,23.76,249.0,l,,n/a
+93,"DHANEKULA INST OF ENGG
+ TECHNOLOGY",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://diet.ac.in/,68.0,6.0,40000,23.76,249.0,l,,n/a
+126,"GAYATHRI VIDYA PARISHAD COLL OF
+ ENGG FOR WOMEN",3.5,EW,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,https://www.gvpcew.ac.in,69.0,5.5,40000,23.75,251.0,l,,n/a
+249,PYDAH COLL OF ENGINEERING,4.6,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,East Godavari,Andhra Pradesh,https://www.pydah.edu.in,70.0,3.0,40000,23.74,252.0,l,,n/a
+758,Government Polytechnic College,3.9,E,"{'diploma', 'eee', 'cse', 'mec', 'ece'}",Good,Good,Shahdol,Madhya Pradesh,http://gpcsdl.in/,70.0,3.9,7500,23.73,253.0,vl,,n/a
+514,Government B.Ed College,3.8,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Jashpur,Chhattisgarh,https://girlscollegejashpur.ac.in/Courses.aspx,71.0,3.0,30000,23.72,254.0,vl,,n/a
+225,"N.V.R.COLLEGE OF ENGG
+ TECHNOLOGY",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,http://www.nannapaneni.org,70.0,3.8,43000,23.7,255.0,l,,n/a
+42,"AU COLLEGE OF ENGG. SCHOOL OF
+ PHARMACY",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,www.andhrauniversity.edu.in?,70.0,3.6,68000,23.68,257.0,m,,n/a
+543,Veer Narmad South Gujarat University,4.0,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Surat,Gujarat,https://www.vnsgu.ac.in/department_details.html,70.0,3.6,20000,23.68,257.0,vl,,n/a
+454,Tinsukia College,3.7,M,"{'ba', 'bba', 'bca', 'bcom', 'bsc'}",Good,Good,Tinsukia,Assam,https://tinsukiacollege.in/,70.0,4.0,957,23.68,257.0,vl,,n/a
+45,AVANTHI INST. OF ENGINEERING AND TECHNOLOGY,3.3,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Vizianagaram,Andhra Pradesh,"https://www.aietta.ac.in/about.php#:~:text=Address%20for%20communication%20%3A,Bridge%2C%20Vizianagaram%20(Dist).",70.0,4.5,40000,23.67,259.0,l,,n/a
+181,MAHARAJAHS COLLEGE PHARMACY,4.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Vizianagaram,Andhra Pradesh,http://www.mrpharmacy.co.in,70.0,3.5,60000,23.65,260.5,m,,n/a
+125,"G V P COLLEGE FOR DEGREE AND PG
+ COURSES",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,gvpcdpgc.edu.in,70.0,3.5,63000,23.65,260.5,m,,n/a
+208,"NARSARAOPET INSTITUTE OF
+ TECHNOLOGY",3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://www.nrtec.in,70.0,4.0,35000,23.64,263.0,vl,,n/a
+484,Nalanda College,3.6,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Nalanda,Bihar,https://www.nalandapharmacy.ac.in/,70.0,4.0,50000,23.64,263.0,l,,n/a
+343,"SRI VENKATESWARA COLLEGE OF
+ ENGG. AND TECHNOLOGY",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,https://svcetedu.org,70.0,3.6,71200,23.64,263.0,h,,n/a
+399,SRI VASAVI ENGINEERING COLLEGE,3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Machilipatnam,Andhra Pradesh,https://www.sviet.edu.in,70.0,3.5,77200,23.61,265.0,h,,n/a
+168,KUPPAM ENGINEERING COLLEGE,3.52,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,https://kec.ac.in,70.0,4.0,40000,23.608,266.0,l,,n/a
+327,"SRINIVASA INST OF TECHNOLOGY
+ SCIENCE",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kadapa,Andhra Pradesh,https://www.sitskadapa.ac.in,70.0,3.5,50300,23.57,267.5,m,,n/a
+473,M. J. M. Mahila College,3.8,MW,"{'ba', 'bcom', 'bsc'}",Good,Good,Katihar,Bihar,https://www.mjmmahilacollege.ac.in/,70.0,3.5,6500,23.57,267.5,vl,,n/a
+687,NSS Hindu College,3.9,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Changanassery,Kerala,https://nsshinducollege.org/,70.0,3.3,15000,23.55,269.0,vl,,n/a
+236,"PRIYADARSHINI INST. OF
+ TECHNOLOGY AND SCIENCES",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://pitw.ac.in/contact-us/,70.0,3.5,40000,23.53,271.0,l,,n/a
+301,"SIDDHARTHA INST OF SCI AND
+ TECHNOLOGY",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Hyderabad,Telangana,https://www.sistk.org,70.0,3.5,43000,23.53,271.0,l,,n/a
+100,EMMANUAL COLLEGE OF PHARMACY,3.7,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Visakhapatnam,Andhra Pradesh,https://pharmaadmission.com/college/emmanuel-college-pharmacy,70.0,3.5,46000,23.53,271.0,l,,n/a
+84,"CHALAPATHI INSTITUTE OF
+ PHARMACEUTICAL SCI.",3.9,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Guntur,Andhra Pradesh,https://www.chalapathipharmacy.in/,70.0,3.2,60000,23.52,273.0,m,,n/a
+656,St. Aloysius College (Autonomous),4.1,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Dakshina Kannada,Karnataka,https://www.staloysius.edu.in/,70.0,2.9,35000,23.51,274.0,vl,,n/a
+783,Government Polytechnic College,3.7,E,"{'diploma', 'eee', 'cse', 'mec', 'ece'}",Good,Good,Gadchiroli,Maharashtra,https://gpgadchiroli.ac.in/gpgadchiroli_new/,71.0,2.3,8864,23.47,275.5,vl,,n/a
+775,Dr. Babasaheb Ambedkar Marathwada University,3.7,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",Good,Good,Aurangabad,Maharashtra,http://www.bamu.ac.in/,71.0,2.3,20000,23.47,275.5,vl,,n/a
+228,PRABHAT INST OF PHARMACY,3.6,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Chandrapur,Maharashtra,https://gvmes.co.in/about.php,70.0,3.4,35000,23.46,277.0,vl,,n/a
+62,"B V CHALAMAIAH ENGINEERING
+ COLLEGE",3.52,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,https://bvcec.edu.in/,70.0,3.5,48800,23.458,278.0,l,,n/a
+221,"NARSARAOPETA ENGINEERING
+ COLLEGE",3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://www.nrtec.in,70.0,3.2,73800,23.4,279.0,h,,n/a
+726,Jiwaji University,3.8,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",VGood,VGood,Gwalior,Madhya Pradesh,https://jiwaji.edu/school-of-studies-in-pharmaceutical-sciences/,70.0,2.9,15000,23.39,280.0,vl,,n/a
+505,Government Girls College,3.2,"M,C","{'ba', 'bcom', 'bsc'}",Average,Good,Bijapur,Chhattisgarh,https://bijapur.gov.in/en/public-utility/shahid-venkat-rao-govt-college-bijapur/,71.0,2.6,7800,23.36,281.0,vl,,n/a
+148,"KRISHNA CHAITANYA INST OF
+ TECHNOLOGY AND SCIENCES",3.5,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Prakasam,Andhra Pradesh,https://kits-anna.com,70.0,3.2,40000,23.36,282.0,l,,n/a
+563,Ch. Ranbir Singh University,4.0,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",Good,VGood,Jind,Haryana,https://crsu.ac.in/,68.0,4.5,22290,23.35,283.0,vl,,n/a
+209,"NRK AND KSR GUPTA COLLEGE OF
+ PHARMACY",3.9,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Guntur,Andhra Pradesh,www.guptapharmacollege.com,69.0,3.5,34000,23.31,284.0,vl,,n/a
+513,Government B.D. Arts and Commerce College,3.8,AS,"{'ma', 'ba', 'bcom'}",Good,Good,Janjgir-Champa,Chhattisgarh,http://www.gmmrcg.in/FacultyProfile.aspx?fid=43#,70.0,2.6,10000,23.3,285.0,vl,,n/a
+451,Sibsagar College,4.6,M,"{'ba', 'bsc'}",VGood,VGood,Sivasagar,Assam,https://www.sibsagarcollege.in/,65.0,6.5,6680,23.29,286.0,vl,,n/a
+307,"SRI LAKSHMI VENKATESWARA INST
+ OF PHARM SCI",3.4,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Kadapa,Andhra Pradesh,https://slvpspdtr.org,70.0,3.0,120000,23.26,287.0,vh,,n/a
+28,"ADI KAVI NANNAYA UNIVERSITY
+ COLLEGE OF ENGINEERING",4.1,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,East Godavari,Andhra Pradesh,https://www.aknu.edu.in/,65.0,7.0,42000,23.24,288.0,l,,n/a
+766,Government PG College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Tikamgarh,Madhya Pradesh,,70.0,2.8,5000,23.24,289.0,vl,,n/a
+105,"G.D.M.M. COLL OF ENGG AND
+ TECHNOLOGY",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,Www.Gdmm.Ac.In,70.0,2.5,40000,23.23,290.5,l,,n/a
+175,LINGAYAS INST OF MGMT AND TECHNOLOGY,3.7,M,"{'bma', 'marketing', 'mba'}",Good,Good,Krishna,Andhra Pradesh,https://www.limat.edu.in/,70.0,2.5,53300,23.23,290.5,m,,n/a
+675,Government First Grade College,3.6,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Shivamogga,Karnataka,https://gfgc.kar.nic.in,70.0,2.6,5000,23.22,292.0,vl,,n/a
+439,S. S. College,3.8,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Hailakandi,Assam,https://ssip.edu.in/,70.0,2.3,62500,23.21,293.0,m,,n/a
+508,Government Nagarjuna Post Graduate College,4.0,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Dhamtari,Chhattisgarh,https://www.gnscr.ac.in/,68.0,4.0,5215,23.2,294.0,vl,,n/a
+611,Deoghar College,3.8,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Deoghar,Jharkhand,https://www.deogharcollegedeoghar.com/,70.0,2.2,2000,23.18,295.5,vl,,n/a
+672,Proudhadevaraya Institute of Technology,3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Raichur,Karnataka,http://pdit.ac.in/,70.0,2.2,70000,23.18,295.5,m,,n/a
+441,Jorhat Engineering College,3.9,"E,M","{'mca', 'eee', 'cse', 'mec', 'ece'}",Good,VGood,Jorhat,Assam,https://jecassam.ac.in/,70.0,2.0,11000,23.16,297.0,vl,,n/a
+537,Government College,3.4,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Balodabazar-Bhatapara,Chhattisgarh,https://www.gnapgcollege.in/index.aspx,70.0,2.6,5000,23.14,298.0,vl,,n/a
+614,Sidhu Kanhu University,3.8,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Dumka,Jharkhand,https://skmu.ac.in/,70.0,2.0,40000,23.12,299.0,l,,n/a
+698,Government College,3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Mananthavady,Kerala,https://www.gecwyd.ac.in/,70.0,2.2,2760,23.1,300.0,vl,,n/a
+488,Women's College,3.2,WP,"{'ba', 'bsc'}",Good,Good,Samastipur,Bihar,https://womenscollegesamastipur.ac.in/web/,70.0,2.6,5000,23.06,301.0,vl,,n/a
+64,BHIMAVARAM INST. OF ENGG. AND TECHNOLOGY,3.4,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,West Godavari,Andhra Pradesh,https://bietbvrm.ac.in/,70.0,2.2,40000,23.02,302.0,l,,n/a
+608,Bokaro Steel City College,3.5,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Bokaro,Jharkhand,https://www.bscitycollege.ac.in/,70.0,2.0,909,23.0,304.0,vl,,n/a
+640,Kolhan university,3.5,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,West Singhbhum,Jharkhand,https://www.kolhanuniversity.ac.in/,70.0,2.0,50000,23.0,304.0,l,,n/a
+71,CHAITANYA COLLEGE OF PHARMACY,3.5,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Prakasam,Andhra Pradesh,http://chaitanyapharmacycollege.com/,70.0,2.0,40000,23.0,304.0,l,,n/a
+9,ANDHRA ENGINEERING COLLEGE,4.05,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Nellore,Andhra Pradesh,https://www.aecn.in/,67.0,4.0,40000,22.92,306.0,l,,n/a
+206,"NARAYANADRI INST OF SCI
+ TECHNOLOGY",3.2,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kadapa,Andhra Pradesh,http://www.nistrajampet.ac.in,70.0,2.1,40000,22.91,307.0,l,,n/a
+243,"PRAGATI ENGINEERING COLLEGE-2nd
+ SHIFT",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,www.pragati.ac.in,68.0,3.0,72800,22.9,308.0,h,,n/a
+665,Field Marshal K. M. Cariappa College,3.6,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Kodagu,Karnataka,https://fmkmcc.edu.in/,70.0,1.5,10000,22.89,309.0,vl,,n/a
+627,V.B. College,3.1,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Koderma,Jharkhand,https://koderma.nic.in,70.0,2.0,20730,22.84,310.5,vl,,n/a
+621,St. Xavier's College,3.1,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Gumla,Jharkhand,https://www.sxcran.org/,70.0,2.0,23400,22.84,310.5,vl,,n/a
+188,"MALINENI LAKSHMAIAH COLLEGE OF
+ PHARMACY",3.7,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Prakasam,Andhra Pradesh,http://www.malinenicolleges.ac.in,69.0,2.0,35000,22.78,312.0,vl,,n/a
+573,Bhiwani Institute of Technology & Science,3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Bhiwani,Haryana,https://bitsbhiwaniindia.org/,69.0,2.1,47250,22.77,313.0,l,,n/a
+309,ST.MARYS GOUP OF INSTITUTIONS,3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://www.shiksha.com/college/st-mary-s-group-of-institutions-guntur-52595,68.0,2.6,40000,22.74,314.0,l,,n/a
+331,SRI SIVANI COLLEGE OF PHARMACY,3.7,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Krishna,Andhra Pradesh,https://www.srisivanisscp.com/,68.0,2.8,60000,22.72,315.0,m,,n/a
+540,"Government College of Arts, Science and Commerce",3.7,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,South Goa,Goa,https://www.gcq.ac.in/,68.0,2.6,5000,22.66,316.0,vl,,n/a
+409,"YOGANANDA INST OF
+ TECHNOLOGYAND SCIENCE",3.4,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,www.yitsdmr.com,67.0,4.0,27000,22.66,317.0,vl,,n/a
+583,Rao Pahlad Singh Group of Institutions,3.5,"E,P","{'d.pharm', 'b.pharm', 'm.pharm', 'eee', 'cse', 'mec', 'ece'}",Good,Good,Rewari,Haryana,https://rpsinstitutions.org/,68.0,2.7,56100,22.61,318.0,m,,n/a
+190,"MALINENI LAKSHMAIAH WOMENS
+ ENGG. COLLEGE",3.7,EW,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,http://mlewguntur.com,68.0,2.3,52100,22.57,319.0,m,,n/a
+771,Ahmednagar College,3.7,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Ahmednagar,Maharashtra,https://www.aca.edu.in/,67.0,3.3,6960,22.57,320.0,vl,,n/a
+90,"SIR C.V RAMAN INST OF TECHNOLOGY
+ SCIENCES",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Anantapur,Andhra Pradesh,https://cvrt.in/,65.0,5.0,40000,22.56,321.0,l,,n/a
+369,VIKAS GROUP OF INSTITUTIONS,5.0,E,"{'ece', 'eee', 'mec', 'cse'}",,,Krishna,Andhra Pradesh,https://vikasinstitutionsnunna.org,65.0,3.5,57500,22.55,322.0,m,,n/a
+107,GOKUL GROUP OF INSTITUTIONS,3.0,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Vizianagaram,Andhra Pradesh,https://www.gokulcollege.com,68.0,3.0,46000,22.5,323.0,l,,n/a
+61,"DR L BULLAYYA COLL OF ENGG FOR
+ WOMEN",4.1,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Visakhapatnam,Andhra Pradesh,www.bullayyacollege.org,65.0,4.5,40000,22.49,324.0,l,,n/a
+481,R. D. & D. J. College,3.2,M,"{'ba', 'bcom', 'bca', 'bsc'}",Average,Good,Munger,Bihar,https://www.rddjcollege.ac.in/web/,67.0,3.7,6000,22.49,325.0,vl,,n/a
+38,AVANTHIS ST THERESSA INSTITUTE OF ENGG AND TECHNOLOGY,3.3,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Vizianagaram,Andhra Pradesh,https://sttheressaengg.ac.in/,65.0,5.5,40000,22.47,326.5,l,,n/a
+634,Government Engineering College,3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Ramgarh,Jharkhand,https://www.shiksha.com/college/ramgarh-engineering-college-59023/courses,68.0,2.1,35000,22.47,326.5,vl,,n/a
+83,CHALAPATHI INST OF TECHNOLOGY,3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://city.ac.in/,65.0,4.8,40000,22.46,328.0,l,,n/a
+189,"MALINENI LAKSHMAIAH
+ ENGINEERING COLLEGE",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,http://mlewguntur.com,68.0,1.9,43000,22.45,329.0,l,,n/a
+383,V JS COLLEGE OF PHARMACY,4.7,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,East Godavari,Andhra Pradesh,https://www.vjscollegeofpharmacy.in,65.0,3.5,100000,22.43,330.0,h,,n/a
+102,GATES INSTITUTE OF TECHNOLOGY,3.53,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Anantapur,Andhra Pradesh,www.gatesit.org,65.0,5.0,40000,22.412,331.0,l,,n/a
+485,S. N. Sinha College,3.9,M,"{'ba', 'bms', 'bca', 'bcom', 'bsc', 'bbm'}",VGood,VGood,Jehanabad,Bihar,https://snsinhacollege.com/,67.0,2.5,33140,22.41,332.0,vl,,n/a
+396,VASAVI INST OF PHARM SCIENCES,4.2,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,West Godavari,Andhra Pradesh,https://www.svips.ac.in,65.0,4.0,44650,22.38,333.0,l,,n/a
+534,Government Degree College,3.5,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'diploma', 'bsc', 'llb'}",Average,Good,Surguja,Chhattisgarh,https://www.rgpgcapur.ac.in/,67.0,2.9,2284,22.37,334.0,vl,,n/a
+765,Government Polytechnic College,3.0,E,"{'diploma', 'eee', 'cse', 'mec', 'ece'}",Average,Good,Singrauli,Madhya Pradesh,https://polywaidhan.in/,68.0,2.5,10000,22.35,335.0,vl,,n/a
+797,Swami Ramanand Teerth Marathwada University,4.1,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",VGood,Good,Nanded,Maharashtra,https://srtmun.ac.in/en/,65.0,4.0,37738,22.34,336.0,l,,n/a
+554,Anand Agricultural University,3.5,"AS,M","{'mba', 'phd', 'msc', 'b.sc', 'b.tech', 'm.tech'}",Good,Good,Anand,Gujarat,https://www.aau.in/,67.0,2.8,27400,22.34,337.0,vl,,n/a
+77,"CHADALAWADA RAMANAMMA
+ ENGG. COLLEGE",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,https://crectirupati.ac.in/index.html,66.0,3.5,55600,22.33,338.0,m,,n/a
+460,Suryadeo Singh College,4.5,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Arwal,Bihar,https://www.gecarwal.ac.in/,60.0,8.4,11270,22.32,339.0,vl,,n/a
+338,"SUN INST OF PHARM EDN AND
+ RESEARCH",4.4,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Nellore,Andhra Pradesh,http://www.sunpharmacynellore.com,65.0,3.5,40900,22.31,340.0,l,,n/a
+385,"VIGNANS LARA INST. OF
+ TECHNOLOGY AND SCI",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://www.vignanlara.org,65.0,4.0,70000,22.3,341.5,m,,n/a
+349,"SRI VENKATESWARA INST OF
+ TECHNOLOGY",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Anantapur,Andhra Pradesh,https://svcetedu.org,65.0,4.0,40000,22.3,341.5,l,,n/a
+200,NARAYANA ENGINEERING COLLEGE,3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Nellore,Andhra Pradesh,https://www.necn.ac.in/,65.0,4.5,47200,22.29,343.0,l,,n/a
+435,Dibrugarh University,3.9,"M,P","{'mtech', 'ba', 'mcom', 'btech', '', 'bsc'}",Good,Good,Dibrugarh,Assam,https://dibru.ac.in/?home,65.0,4.0,4469,22.26,344.5,vl,,n/a
+388,"VIGNANS NIRULA INST OF TECH. AND
+ SCI FOR WOMEN",3.9,EW,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://www.vignannirula.org,65.0,4.0,40000,22.26,344.5,l,,n/a
+748,Government PG College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Raisen,Madhya Pradesh,,67.0,2.5,5000,22.25,346.0,vl,,n/a
+268,R.K.COLLEGE OF ENGINEERING,4.6,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Krishna,Andhra Pradesh,https://www.rkce.ac.in/,65.0,3.0,40000,22.24,347.0,l,,n/a
+557,M. S. University,3.6,AS,"{'ba', 'mcom', 'btech', 'be', 'msc', 'ma', 'bcom', 'diploma', 'bsc', 'llb', 'me'}",Good,Good,Panchmahal,Gujarat,https://sggu.ac.in/,67.0,2.3,41000,22.23,348.5,l,,n/a
+374,VIGNAN INST.OF PHARM.,4.2,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Guntur,Andhra Pradesh,https://www.vignanpharmacycollege.in/,65.0,3.5,69500,22.23,348.5,m,,n/a
+684,Sree Narayana College,3.8,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",VGood,Good,Kollam,Kerala,https://snckollam.ac.in/,66.0,3.0,3385,22.22,351.0,vl,,n/a
+355,"SWARNANDHRA COLL. OF ENGG AND
+ TECHNOLOGY",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,West Godavari,Andhra Pradesh,https://www.swarnandhra.ac.in,65.0,4.0,58700,22.22,351.0,m,,n/a
+329,SRINIVASA INSTITUTE OF TECHNOLOGY AND MANG STUDIES,3.8,M,"{'bma', 'marketing', 'mba'}",Good,Good,Chittoor,Andhra Pradesh,https://sitams.org,65.0,4.0,30000,22.22,351.0,vl,,n/a
+44,"AVANTHI INSTITUTE OF ENGG. AND
+ TECHNOLOGY",3.3,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Ranga Reddy,Telangana,https://aietg.ac.in/,65.0,4.5,40000,22.17,353.0,l,,n/a
+303,S K C COLLEGE OF PHARMACY,3.9,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Chittoor,Andhra Pradesh,https://www.skcprc.org,65.0,3.7,37050,22.17,354.0,l,,n/a
+445,Kokrajhar Government College,4.0,AS,"{'ma', 'ba', 'msc', 'bsc'}",Good,Good,Kokrajhar,Assam,https://www.kgc.edu.in/,65.0,3.5,4427,22.15,355.5,vl,,n/a
+371,VICTORIA COLLEGE OF PHARMACY,4.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Guntur,Andhra Pradesh,http://www.victoriapharmacy.org,65.0,3.5,40000,22.15,355.5,l,,n/a
+401,"VISWANADHA INSTITUTE OF
+ TECHNOLOGY AND MGMT",3.6,M,"{'bma', 'marketing', 'mba'}",Good,Good,Visakhapatnam,Andhra Pradesh,https://www.shiksha.com/college/viswanadha-institute-of-technology-and-management-visakhapatnam-44887/courses,65.0,4.0,57000,22.14,357.0,m,,n/a
+155,"KAKINADA INSTITUTE OF ENGG. AND
+ TECHNOLOGY",3.4,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,https://www.kietgroup.com,66.7,2.5,40000,22.12,358.0,l,,n/a
+271,"RAYALASEEMA UNIVERSITY COLLEGE
+ OF ENGG",4.3,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Anantapur,Andhra Pradesh,http://www.ruce.ac.in/,65.0,3.0,60000,22.12,359.0,m,,n/a
+346,"SRI VASAVI INSTT OF ENGINEERING
+ AND TECHNOLOGY",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Machilipatnam,Andhra Pradesh,https://www.sviet.edu.in,65.0,3.5,40000,22.11,361.5,l,,n/a
+347,"D M S S V H COLLEGE OF
+ ENGINEERING",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://svhce.in/,65.0,3.5,40000,22.11,361.5,l,,n/a
+365,"VIKAS COLLEGE OF ENGINEERING
+ AND TECHNOLOGY",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,vikasinstitutionsnunna.org,65.0,3.5,59000,22.11,361.5,m,,n/a
+336,"ST.MARYS WOMENS ENGINEERING
+ COLLEGE",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://stmaryswomens.com,65.0,3.5,40000,22.11,361.5,l,,n/a
+284,"SIDDARTHA EDNL ACADEMY GRP OF
+ INSTNS",4.4,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Krishna,Andhra Pradesh,https://www.siddharthaacademy.ac.in/,65.0,2.8,60600,22.1,364.0,m,,n/a
+372,VIGNANS INSTT OF ENGINEERING FOR WOMEN,3.8,EW,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Hyderabad,Telangana,http://www.vmtw.in/index.php,65.0,3.5,53000,22.07,366.0,m,,n/a
+351,"SRI VENKATESA PERUMAL COLLEGE
+ OF ENGG. AND TECH",3.8,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Chittoor,Andhra Pradesh,https://www.svpcet.org/,65.0,3.5,40900,22.07,366.0,l,,n/a
+359,"UNIVERSAL COLLEGE OF ENGG AND
+ TECHNOLOGY",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://www.ucet.edu.in,65.0,3.5,40000,22.07,366.0,l,,n/a
+546,Saurashtra University,4.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,VGood,Rajkot,Gujarat,https://saurashtrauniversity.edu/university/academic-departments/department-of-pharmaceutical-sciences/,65.0,3.2,15300,22.06,368.0,vl,,n/a
+274,"AUDHISANKARA COLLEGE OF ENGG.
+ AND TECHNOLOGY",4.3,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Nellore,Andhra Pradesh,https://www.audisankara.ac.in,65.0,2.8,61100,22.06,369.5,m,,n/a
+260,RAGHU COLLEGE OF PHARMACY,4.3,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Visakhapatnam,Andhra Pradesh,https://raghucollegeofpharmacy.com,65.0,2.8,64500,22.06,369.5,m,,n/a
+480,L. N. Janta College,2.6,M,"{'ba', 'bcom', 'bsc'}",Bad,Good,Madhubani,Bihar,https://lnjc.ac.in/web/pages/internet,68.0,2.0,5000,22.04,371.0,vl,,n/a
+391,VIGNAN PHARMACY COLLEGE,3.7,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Guntur,Andhra Pradesh,https://www.vignanpharmacycollege.in,65.0,3.5,69500,22.03,372.5,m,,n/a
+358,TIRUMALA ENGINEERING COLLEGE,3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://www.tecnrt.org,65.0,3.5,65800,22.03,372.5,m,,n/a
+400,VISAKHA TECHNICAL CAMPUS,3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,https://www.viet.edu.in,65.0,3.5,14900,21.99,374.0,vl,,n/a
+258,"RAVINDRA COLLEGE OF ENGG FOR
+ WOMEN",4.1,EW,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Kurnool,Andhra Pradesh,https://www.recw.ac.in,65.0,2.8,40000,21.98,375.0,l,,n/a
+158,"KAKINADA INSTITUTE OF
+ TECHNOLOGY SCIENCES",3.4,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,http://www.kitsdivili.ac.in,65.6,3.1,40000,21.97,376.0,l,,n/a
+230,"PRASIDDHA COLLEGE OF ENGG
+ TECHNOLOGY",3.5,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,www.prasiddhaamp.com,65.0,3.5,35000,21.95,378.0,vl,,n/a
+342,"SRI VENKATESWARA COLLEGE OF
+ PHARMACY",3.5,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Chittoor,Andhra Pradesh,http://svcop.in,65.0,3.5,38000,21.95,378.0,l,,n/a
+332,"SRI SATYANARAYANA ENGINEERING
+ COLLEGE",3.5,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Prakasam,Andhra Pradesh,Www.Ssncolleges.Com,65.0,3.5,50000,21.95,378.0,l,,n/a
+570,Maharishi Dayanand University,3.7,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Rohtak,Haryana,https://mdu.ac.in/Department/DepartmentHome.aspx?Dept=29,65.0,3.2,1000,21.94,380.0,vl,,n/a
+801,Viva Institute of Pharmacy,3.8,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,Good,Palghar,Maharashtra,https://vivapharmacy.org/,65.0,3.0,65500,21.92,384.0,m,,n/a
+269,"RISE KRISHNA SAI PRAKASAM GROUP
+ OF INSTITUTIONS",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Prakasam,Andhra Pradesh,https://www.risekrishnasaiprakasam.edu.in,65.0,3.0,40300,21.92,384.0,l,,n/a
+237,"PRIYADARSHINI INST. OF TECH AND
+ SCIENCES FOR WOMEN",3.8,EW,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Khammam,Telangana,http://www.priw.ac.in,65.0,3.0,40000,21.92,384.0,l,,n/a
+362,"VISWA BHARATHI COLLEGE OF
+ PHARMACEUTICAL SCI.S",3.5,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Guntur,Andhra Pradesh,https://www.shiksha.com/college/vishwa-bharathi-college-of-pharmaceutical-sciences-guntur-60913,65.0,3.4,68000,21.92,384.0,m,,n/a
+291,"SATYA INST OF TECHNOLOGY AND
+ MGMT",3.8,M,"{'bma', 'marketing', 'mba'}",Good,Good,Vizianagaram,Andhra Pradesh,https://sitam.co.in/,65.0,3.0,40000,21.92,384.0,l,,n/a
+297,SIMS COLLEGE OF PHARMACY,3.8,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Guntur,Andhra Pradesh,http://simscollege.ac.in,65.0,3.0,100000,21.92,384.0,h,,n/a
+277,"SRI ANNAMACHARYA INSTITUTE OF
+ TECHNOLOGY AND SCIENCE",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kadapa,Andhra Pradesh,https://www.satsrjpt.com/,65.0,3.0,35000,21.92,384.0,vl,,n/a
+382,VIZAG INSTT OF TECHNOLOGY,3.4,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,https://www.shiksha.com/college/vizag-institute-of-technology-vit-visakhapatnam-42762,65.0,3.5,24867,21.91,389.0,vl,,n/a
+348,"SRI VENKATESWARA INSTT. OF
+ SCIENCE AND TECHNOLOGY",3.4,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,https://svcetedu.org,65.0,3.5,46800,21.91,389.0,l,,n/a
+334,SAI TIRUMALA N V R ENGINEERING COLLEGE,3.4,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://www.shiksha.com/college/sai-tirumala-n-v-r-engineering-college-narasaraopet-60947,65.0,3.5,40000,21.91,389.0,l,,n/a
+73,CHIRALA ENGINEERING COLLEGE,3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Prakasam,Andhra Pradesh,https://www.cecc.co.in/,65.0,3.2,40000,21.9,391.5,l,,n/a
+751,Awadhesh Pratap Singh University,3.6,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Rewa,Madhya Pradesh,https://www.apsurewa.ac.in/en/,65.0,3.2,5250,21.9,391.5,vl,,n/a
+262,"RISE KRISHNA SAI GANDHI GROUP OF
+ INSTITUTIONS",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Prakasam,Andhra Pradesh,https://www.risekrishnasaigandhi.edu.in,65.0,3.0,40000,21.88,393.0,l,,n/a
+233,"PRIYADARSHINI INST OF TECH AND
+ MGMT",3.3,M,"{'bma', 'marketing', 'mba'}",Good,Good,Guntur,Andhra Pradesh,https://pitmgnt.ac.in,65.0,3.5,40000,21.87,394.0,l,,n/a
+182,D VENKATARAMANA AND DR.HIMASEKHAR MIC COLL OF TECH,3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://www.mictech.edu.in/,64.0,3.7,40000,21.87,395.0,l,,n/a
+74,"CHINTALAPUDI ENGINEERING
+ COLLEGE",3.5,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,"https://allegiance-educare.in/college/chintalapudi-engineering-college-cecg#:~:text=Chintalapudi%20Engineering%20College%20%2D%20%5BCECG%5D%20situated%20in%20Guntur%2C%20Andhra,about%20this%20reputable%20institution%20below.",65.0,3.2,100000,21.86,397.5,h,,n/a
+283,"SIDDHARTH INSTITUTE OF ENGG. AND
+ TECHNOLOGY",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,https://www.sietk.org,65.0,2.8,65400,21.86,397.5,m,,n/a
+246,"P. RAMIREDDY MEMORIAL COLLEGE
+ OF PHARMACY",3.8,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Kadapa,Andhra Pradesh,https://www.prrmcp.edu.in,65.0,2.8,56660,21.86,397.5,m,,n/a
+280,SRI VISHNU COLLEGE OF PHARMACY,3.8,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,West Godavari,Andhra Pradesh,https://www.svcp.edu.in,65.0,2.8,80300,21.86,397.5,h,,n/a
+254,QIS INSTITUTE OF TECHNOLOGY,3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Prakasam,Andhra Pradesh,https://www.qisit.edu.in,65.0,3.0,53000,21.84,401.5,m,,n/a
+251,"QIS COLLEGE OF ENGG. AND
+ TECHNOLOGY",3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Prakasam,Andhra Pradesh,https://qiscet.edu.in,65.0,3.0,87600,21.84,401.5,h,,n/a
+235,"PRIYADARSHINI INST OF PHARMACEUTICAL EDUCATION AND
+ RESEARCH",3.6,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Guntur,Andhra Pradesh,https://piper.ac.in,65.0,3.0,35000,21.84,401.5,vl,,n/a
+172,"LAKIREDDY BALIREDDY COLLEGE OF
+ ENGINEERING",3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://lbrce.ac.in,65.0,3.0,78600,21.84,401.5,h,,n/a
+363,VISVODAYA ENGINEERING COLLEGE,3.2,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Nellore,Andhra Pradesh,http://www.visvodayata.ac.in/,65.0,3.5,35000,21.83,404.0,vl,,n/a
+276,"SASI INSTITUTE OF TECHNOLOGY AND
+ ENGINEERING",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,West Godavari,Andhra Pradesh,https://www.sasi.ac.in/,65.0,2.8,40000,21.82,406.0,l,,n/a
+299,SRINIVASA INST OF PHARM SCI,3.7,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Kadapa,Andhra Pradesh,http://www.sipp.co.in,65.0,2.8,36700,21.82,406.0,l,,n/a
+264,"RAJIV GANDHI MEMORIAL COLLEGE
+ OF ENGG. AND TECH.",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kurnool,Andhra Pradesh,https://www.rgmcet.edu.in,65.0,2.8,59400,21.82,406.0,m,,n/a
+721,Government Degree College,3.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Dhar,Madhya Pradesh,http://www.mphighereducation.nic.in/pgcdhar,67.0,1.7,5000,21.81,408.5,vl,,n/a
+49,BALAJI COLLEGE OF PHARMACY,3.9,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Anantapuramu,Andhra Pradesh,"https://www.balajipharmacy.ac.in/Home/ContactUs#:~:text=Location,Anantapuramuamu%2C%20Andhra%20Pradesh%2C%20India.",65.0,2.5,120000,21.81,408.5,vh,,n/a
+499,Government College,3.2,M,"{'ba', 'bca', 'bba', 'btech'}",Good,Good,Balod,Chhattisgarh,http://www.govtcollbalod.ac.in/,65.0,3.4,2628,21.8,410.0,vl,,n/a
+203,NEWTONS INST OF SCI AND TECH,2.5,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Guntur,Andhra Pradesh,https://www.newtonsnie.co.in,68.0,1.3,43000,21.79,411.5,l,,n/a
+680,Government First Grade College,3.4,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Vijayapura,Karnataka,https://www.shiksha.com/college/government-first-grade-college-for-women-bijapur-karnataka-other-185007,65.0,3.1,26830,21.79,411.5,vl,,n/a
+659,Government First Grade College,3.3,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Gadag,Karnataka,https://www.shiksha.com/college/government-first-grade-college-gadag-71857,65.0,3.2,56900,21.78,413.5,m,,n/a
+214,NOVA COLLEGE OF PHARMACY,2.4,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Bad,Good,West Godavari,Andhra Pradesh,https://www.pharmajrg.nova.edu.in,68.0,1.4,48000,21.78,413.5,l,,n/a
+216,N R I COLLEGE OF PHARMACY,3.5,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Krishna,Andhra Pradesh,http://nricp.edu.in,65.0,2.9,35000,21.77,415.5,vl,,n/a
+815,Shri Shivaji College of Education,3.8,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Washim,Maharashtra,,65.0,2.5,35000,21.77,415.5,vl,,n/a
+156,"KAKINADA INSTITUTE OF ENGG. AND
+ TECHNOLOGY",3.4,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,https://www.kietgroup.com,65.0,3.0,40000,21.76,417.5,l,,n/a
+166,KRISHNA TEJA PHARMACY COLLEGE,3.4,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Chittoor,Andhra Pradesh,https://krishnatejapharmacycollege.ac.in,65.0,3.0,100000,21.76,417.5,h,,n/a
+756,CHANDRA SHEKHAR AZAD GOVT. P. G. LEAD COLLEGE,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Sehore,Madhya Pradesh,https://www.csapgcollegesehore.com/coursesdetails,64.0,3.8,15000,21.74,419.0,vl,,n/a
+82,"COASTAL INST OF TECHNOLOGY AND
+ MANAGEMENT",3.3,M,"{'bma', 'marketing', 'mba'}",Good,Good,Visakhapatnam,Andhra Pradesh,"http://www.citm.ac.in/#:~:text=Established%20in%202008%2C%20CITM%20is,picturesque%20port%20city%20of%20Visakhapatnam.",65.0,3.0,35000,21.72,420.0,vl,,n/a
+449,Nowgong College,4.0,M,"{'ba', 'bcom', 'bsc', 'bmlt'}",Good,Good,Nagaon,Assam,https://www.nowgongcollege.edu.in/,65.0,2.0,1500,21.7,421.0,vl,,n/a
+590,Government College Hamirpur,3.4,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Hamirpur,Himachal Pradesh,https://www.gchamirpur.org/,65.0,2.8,15450,21.7,422.5,vl,,n/a
+257,RAOS COLLEGE OF PHARMACY,3.4,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Nellore,Andhra Pradesh,https://www.raosinstitutions.com,65.0,2.8,40000,21.7,422.5,l,,n/a
+577,Maharishi Dayanand University,3.7,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",Good,Good,Jhajjar,Haryana,https://mdu.ac.in/Department,65.0,2.2,1000,21.64,424.0,vl,,n/a
+278,"SANKETHIKA VIDYA PARISHAD
+ ENGINEERING COLLEGE",3.2,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,https://svpec.edu.in,65.0,2.8,40000,21.62,425.5,l,,n/a
+300,NALANDA INST OF PHARM.SCI.,3.2,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Guntur,Andhra Pradesh,https://www.nalandapharmacy.ac.in,65.0,2.8,120000,21.62,425.5,vh,,n/a
+238,PRAKASAM ENGINEERING COLLEGE,3.4,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Nellore,Andhra Pradesh,https://prakasamec.com,65.0,2.5,40000,21.61,427.0,l,,n/a
+574,YMCA University of Science and Technology,3.6,M,"{'ba', 'bba', 'be.d', 'bca', 'bcom', 'eee', 'cse', 'bsc', 'mec', 'ece'}",Good,Good,Faridabad,Haryana,https://www.jcboseust.ac.in/index.php,65.0,2.2,87900,21.6,428.0,h,,n/a
+265,"RAJAMAHENDRI INST OF ENGG AND
+ TECHNOLOGY",3.0,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,East Godavari,Andhra Pradesh,https://www.rietrjy.co.in,65.0,3.0,41000,21.6,429.0,l,,n/a
+191,"MALINENI PERUMALLU EDNL SOC
+ GROUP OF INSTNS",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://mpesguntur.com,65.0,2.0,35000,21.58,430.0,vl,,n/a
+437,Goalpara College,3.4,M,"{'ba', 'bcom', 'bsc'}",Good,Good,Goalpara,Assam,https://www.goalparacollege.ac.in/,65.0,2.4,9973,21.58,431.0,vl,,n/a
+519,Government EPVG College,3.5,M,"{'ba', 'bcom', 'bsc'}",Good,Good,Korba,Chhattisgarh,https://gevpgkrb.ac.in/,64.0,3.1,1340,21.53,432.5,vl,,n/a
+736,Government PG College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Khandwa,Madhya Pradesh,https://www.mphighereducation.nic.in/,64.0,3.1,5000,21.53,432.5,vl,,n/a
+224,"NOVA COLLEGE OF ENGINEERING
+ AND TECHNOLOGY",2.9,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Krishna,Andhra Pradesh,https://www.enggvja.nova.edu.in,65.0,2.8,35000,21.5,434.0,vl,,n/a
+631,Pakur B.Ed College,3.3,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Pakur,Jharkhand,https://pakurbedcollege.org/,64.0,3.2,50000,21.48,435.0,l,,n/a
+157,"KAKINADA INST OF ENGG AND
+ TECHNOLOGY FOR WOMEN",3.4,EW,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,http://kietgroup.com/,64.0,2.9,40000,21.43,436.0,l,,n/a
+708,Government PG College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Betul,Madhya Pradesh,https://www.jhgovtbetul.com/,64.0,2.7,5000,21.41,437.0,vl,,n/a
+293,"SHREE INST OF TECHNOLOGICAL
+ EDUCATION",2.5,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Chittoor,Andhra Pradesh,https://www.shiksha.com/college/shree-institute-of-technical-education-tirupati-60969,65.0,3.0,175000,21.4,438.0,vh,,n/a
+769,Government Polytechnic College,3.0,E,"{'diploma', 'eee', 'cse', 'mec', 'ece'}",Good,Good,Umaria,Madhya Pradesh,https://gpcumaria.ac.in/,65.0,2.0,15000,21.3,439.5,vl,,n/a
+212,NIMRA COLLEGE OF PHARMACY,3.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Bad,Good,Krishna,Andhra Pradesh,https://www.nimra.in,65.0,2.0,35000,21.3,439.5,vl,,n/a
+213,"NOVA COLLEGE OF ENGG. AND
+ TECHNOLOGY",2.9,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Krishna,Andhra Pradesh,https://www.enggvja.nova.edu.in,65.0,2.0,35000,21.26,441.0,vl,,n/a
+559,Government College,3.5,M,"{'ba', 'bcom'}",Good,Good,Charkhi Dadri,Haryana,http://gpgcchdadri.ac.in/,64.0,2.2,4410,21.26,442.0,vl,,n/a
+149,KORINGA COLLEGE OF PHARMACY,3.5,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,East Godavari,Andhra Pradesh,http://koringacollegeofpharmacy.co.in,60.0,5.5,35000,21.05,443.0,vl,,n/a
+662,Government First Grade College,3.4,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Haveri,Karnataka,https://www.collegedekho.com/colleges/government-first-grade-college-11,62.0,3.5,10000,21.01,444.0,vl,,n/a
+522,Government M.V.P.G. College,3.2,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Mahasamund,Chhattisgarh,https://mvpgcollege.org/,63.0,2.6,1111,20.96,445.5,vl,,n/a
+138,JNTUK COLLEGE OF PHARMACY,4.4,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,East Godavari,Andhra Pradesh,https://www.jntuk.edu.in,60.0,4.0,45000,20.96,445.5,l,,n/a
+43,A U COLLEGE OF ENGG FOR WOMEN,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Visakhapatnam,Andhra Pradesh,www.andhrauniversity.edu.in?,60.0,4.5,75000,20.95,447.0,h,,n/a
+184,MOTHER THERESA INST OF PHARMACEUTICAL EDUCATION AND RESEARCH,3.6,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Kurnool,Andhra Pradesh,https://www.miperknlapindia.ac.in/,62.0,3.0,35000,20.94,448.0,vl,,n/a
+202,"NOVA COLLEGE OF PHARM.EDN. AND
+ RESEARCH",2.4,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Bad,Good,Rangareddy,Telangana,https://www.pharmavja.nova.edu.in,65.0,1.5,35000,20.91,449.0,vl,,n/a
+33,"AMRITA SAI INST. OF SCIENCE AND
+ TECHNOLOGY",3.75,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://amritasai.org.in/,60.0,4.5,52900,20.85,450.0,m,,n/a
+730,Devi Ahilya Vishwavidyalaya,3.9,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",Good,VGood,Indore,Madhya Pradesh,https://www.dauniv.ac.in/ug-academic,61.0,3.3,52500,20.85,451.0,m,,n/a
+15,"ADI KAVI NANNAYA UNIVERSITY
+ COLLEGE OF PHARMACY",4.1,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,East Godavari,Andhra Pradesh,https://aknu.edu.in/,60.0,3.6,50000,20.72,452.0,l,,n/a
+428,Bongaigaon College,3.5,M,"{'ba', 'bba', 'bcom'}",Good,Good,Bongaigaon,Assam,https://www.bongaigaoncollege.ac.in/,62.0,2.4,5000,20.72,453.0,vl,,n/a
+630,St. Xavier's College,3.4,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Lohardaga,Jharkhand,https://bscollegelohardaga.in/,62.0,2.5,23400,20.71,454.0,vl,,n/a
+127,"G V R AND S COLLEGE OF ENGG. AND
+ TECHNOLOGY",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,www.gvrsedinst.org,60.0,4.0,40000,20.68,455.5,l,,n/a
+204,"NEWTON INSTITUTE OF
+ ENGINEERING",2.5,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Guntur,Andhra Pradesh,https://www.newtonsnie.co.in,64.0,1.6,40000,20.68,455.5,l,,n/a
+595,Government Degree College,3.4,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Kullu,Himachal Pradesh,https://www.gckullu.ac.in/,62.0,2.2,42435,20.62,457.0,l,,n/a
+140,JNTUA COLLEGE OF ENGINEERING,3.52,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Anantapur,Andhra Pradesh,https://www.jntua.ac.in,60.0,4.0,22056,20.608,458.0,vl,,n/a
+459,Araria College,3.5,M,"{'ba', 'bcom', 'mcom', 'bsc'}",Good,Good,Araria,Bihar,https://arariacollege.co.in/,62.0,2.0,2100,20.6,459.5,vl,,n/a
+512,Government Girls College,3.5,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Gariaband,Chhattisgarh,http://www.govtpgcollegegariaband.in/,60.0,4.0,45000,20.6,459.5,l,,n/a
+444,Karimganj College,3.4,"E,C","{'ba', 'bca', 'bcom', 'eee', 'cse', 'bsc', 'mec', 'ece'}",Good,Good,Karimganj district,Assam,https://www.karimganjcollege.ac.in/,60.0,4.0,4033,20.56,461.0,vl,,n/a
+494,R. B. College,3.3,AS,"{'ba', 'ia', 'isc', 'ma', 'bsc'}",Good,Good,Vaishali,Bihar,https://www.rbcollege.ac.in/,62.0,2.1,12360,20.55,462.0,vl,,n/a
+59,"BRINDAVAN INST OF TECHNOLOGY
+ AND SCI",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kurnool,Andhra Pradesh,https://www.bitskurnool.edu.in/,60.0,3.5,40000,20.53,463.0,l,,n/a
+520,Shaskiya Ramanuj Pratap Singhdeo Snatakottar Mahavidyalaya,3.2,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Korea,Chhattisgarh,https://rpspgc.edu.in/,62.0,2.1,5000,20.51,464.0,vl,,n/a
+470,Jamui College,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Jamui,Bihar,https://www.gecjamui.org/,59.0,4.0,29130,20.5,465.5,vl,,n/a
+24,ACHARYA COLLEGE OF ENGINEERING,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Madanapalle,Andhra Pradesh,www.acharya.ac.in,60.0,3.0,35000,20.5,465.5,vl,,n/a
+1,ADARSH COLLEGE OF ENGINEERING,3.2,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,www.adarsh.ac.in,60.0,4.0,40000,20.48,467.0,l,,n/a
+655,Government First Grade College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Chitradurga,Karnataka,https://dce.karnataka.gov.in/page/Colleges/Government+First+Grade+Colleges/en,60.0,3.6,10000,20.48,468.0,vl,,n/a
+625,St. Joseph's College,3.3,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Khunti,Jharkhand,https://stjct.com/,60.0,3.8,19700,20.46,469.0,vl,,n/a
+515,Government Arts and Commerce College,3.5,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Kabirdham (Kawardha),Chhattisgarh,https://pgcollegekawardha.edu.in/,60.0,3.5,5460,20.45,470.0,vl,,n/a
+20,"A.M.REDDY MEMORIAL COLL. OF
+ ENGINEERING",3.3,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,"https://www.amreddyengineering.ac.in/#:~:text=The%20institute%20is%20situated%20in,(AICTE)%2C%20New%20Delhi.",60.0,3.7,50200,20.43,471.0,m,,n/a
+421,Rajiv Gandhi University,3.8,AS,"{'mtech', 'ba', 'mcom', 'ma', 'bcom', 'eee', 'cse', 'mec', 'ece'}",Good,VGood,Papum Pare,Arunachal Pradesh,https://rgu.ac.in,58.0,5.0,3400,20.42,472.0,vl,,n/a
+318,"SRINIVASA INST OF ENGG AND
+ TECHNOLOGY",3.4,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,https://www.sriniet.edu.in/,60.0,3.5,45700,20.41,473.0,l,,n/a
+779,Dr. H.N. Sinha Arts & Commerce College,3.6,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Buldhana,Maharashtra,https://www.drhnsp.org/,60.0,3.2,7000,20.4,474.0,vl,,n/a
+487,S. V. P. College,3.5,AS,"{'ma', 'ba', 'bsc', 'msc'}",Good,Good,Rohtas,Bihar,https://svpcollegebhabua.org/,59.0,4.3,6000,20.39,475.0,vl,,n/a
+578,Government College,3.4,AS,"{'ba', 'mcom', 'msc', 'mca', 'ma', 'bcom', 'bsc'}",Good,Good,Kaithal,Haryana,https://ciskmv.com/,61.0,2.4,4780,20.38,476.0,vl,,n/a
+755,Government Autonomous PG College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Satna,Madhya Pradesh,https://pgcsatna.com/website/,60.0,3.2,3571,20.36,477.5,vl,,n/a
+739,Government PG College,3.5,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Mandsaur,Madhya Pradesh,https://mandsaur.nic.in/en/public-utility/rajiv-gandhi-government-p-g-college-mandsaur/,60.0,3.2,35000,20.36,477.5,vl,,n/a
+529,Government B. P. Art. and Commerce College,3.4,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Raipur,Chhattisgarh,http://govpgcollarang.cgstate.gov.in/,61.0,2.3,7000,20.35,479.0,vl,,n/a
+427,Biswanath College,3.6,M,"{'ba', 'bca', 'bsc', 'bcom'}",Good,VGood,Biswanath,Assam,https://www.biswanathcollege.in/,60.0,3.0,12020,20.34,480.0,vl,,n/a
+240,"PALADUGU PARVATHI DEVI COLLEGE
+ OF ENGG AND TECH",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://www.ppdv.in,60.0,2.8,40000,20.32,481.0,l,,n/a
+255,"QUBA COLL OF ENGG AND
+ TECHNOLOGY",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Nellore,Andhra Pradesh,https://www.qubacollege.in/,60.0,2.5,40000,20.31,482.0,l,,n/a
+465,Govt. Polytechnic,3.5,"S,T","{'mtech', 'btech', 'be', 'mca', 'me'}",Good,Good,Buxar,Bihar,https://www.gpbuxar.org/,61.0,2.0,4700,20.3,483.5,vl,,n/a
+645,Vijayanagara Sri Krishnadevaraya University,3.8,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Ballari,Karnataka,https://vskub.ac.in/,60.0,2.6,25778,20.3,483.5,vl,,n/a
+548,Maharaja Krishnakumarsinhji Bhavnagar University,3.9,AS,"{'ba', 'mcom', 'msc', 'mca', 'ma', 'bcom', 'bsc'}",Good,Good,Bhavnagar,Gujarat,https://www.mkbhavuni.edu.in/mkbhavuniweb/#,59.0,3.3,64100,20.25,485.0,m,,n/a
+667,Government First Grade College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Kolar,Karnataka,https://www.shiksha.com/college/government-first-grade-college-vemegal-kolar-186327,60.0,2.8,4767,20.24,486.0,vl,,n/a
+600,Vallabh Government College,3.3,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Mandi,Himachal Pradesh,https://www.vgcmandi.co.in/,59.0,4.0,2613,20.22,487.0,vl,,n/a
+453,Hatsingimari College,3.2,"E,M","{'ba', 'eee', 'cse', 'bsc', 'mec', 'ece'}",Good,Good,South Salmara-Mankachar,Assam,https://hatsingimaricollege.ac.in/facilities.php,61.0,2.0,5000,20.18,488.0,vl,,n/a
+37,"A S N WOMENS ENGINEERING
+ COLLEGE",2.8,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Guntur,Andhra Pradesh,https://www.asnwec.in/,60.0,3.5,40000,20.17,489.0,l,,n/a
+553,Government Engineering College,3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kutch,Gujarat,http://www.gecbj.cteguj.in/,59.0,3.0,15000,20.16,490.0,vl,,n/a
+788,North Maharashtra University,3.8,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Jalgaon,Maharashtra,https://nmu.ac.in/en-us/Programmes,60.0,2.1,30826,20.15,491.5,vl,,n/a
+178,LYDIA COLLEGE OF PHARMACY,3.5,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,East Godavari,Andhra Pradesh,https://www.lydiacollegeofpharmacy.com,60.0,2.5,40000,20.15,491.5,l,,n/a
+741,Government PG College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Narsinghpur,Madhya Pradesh,http://www.mphighereducation.nic.in/,60.0,2.4,5000,20.12,493.0,vl,,n/a
+424,Dera Natung Government College,3.0,M,{'bsc'},Bad,Good,West Siang,Arunachal Pradesh,https://dngc.ac.in,60.0,3.0,7550,20.1,494.0,vl,,n/a
+673,Government First Grade College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Ramanagara,Karnataka,https://www.shiksha.com/college/government-first-grade-college-ramanagara-71973,60.0,2.3,20000,20.09,495.0,vl,,n/a
+432,Mangaldai College,3.7,M,"{'ba', 'bsc', 'bvoc', 'bmlt'}",VGood,VGood,Darrang,Assam,https://mangaldaicollege.org/,60.0,2.0,2000,20.08,496.0,vl,,n/a
+718,Government Degree College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Datia,Madhya Pradesh,https://www.govtpgcdatia.ac.in/,59.0,3.2,5000,20.06,497.0,vl,,n/a
+523,Government College,3.5,M,"{'ba', 'bcom', 'bsc'}",Good,Good,Mungeli,Chhattisgarh,https://gcml.ac.in/,59.0,2.9,5000,19.97,498.0,vl,,n/a
+612,P.K. Roy Memorial College,3.4,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Dhanbad,Jharkhand,https://pkrmc.ac.in/,60.0,2.0,2822,19.96,499.0,vl,,n/a
+426,Barpeta Girls' College,3.2,M,"{'bba', 'bca', 'b.a', 'bcom', 'b.sc'}",Good,VGood,Barpeta,Assam,https://barpetagirlscollege.in/,60.0,2.0,5640,19.88,500.0,vl,,n/a
+114,"GOKULA KRISHNA COLLEGE OF
+ PHARMACY",3.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Bad,Good,Nellore,Andhra Pradesh,https://www.gkcp.edu.in,60.0,2.0,40000,19.8,501.0,l,,n/a
+479,R. K. S. Mahila College,3.6,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Saharsa,Bihar,https://rjmc.ac.in/,58.0,3.0,21000,19.74,502.0,vl,,n/a
+123,"GOLDEN VALLEY INTEGRATED
+ CAMPUS",2.3,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Chittoor,Andhra Pradesh,https://www.gvic.ac.in ,60.0,2.5,46700,19.67,503.0,l,,n/a
+660,Government First Grade College,3.2,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Hassan,Karnataka,https://www.shiksha.com/college/government-first-grade-college-for-women-hassan-71815,60.0,1.0,14130,19.58,504.0,vl,,n/a
+761,Government Degree College,3.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Sheopur,Madhya Pradesh,,60.0,1.0,10000,19.5,505.0,vl,,n/a
+433,Dhemaji College,3.7,M,"{'ba', 'bca', 'bsc'}",Bad,Good,Dhemaji,Assam,https://www.dhemajicollege.in/,58.0,2.0,1000,19.48,506.0,vl,,n/a
+486,Purnia College,4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Purnia,Bihar,https://www.pcepurnia.org/,55.0,4.5,7000,19.45,507.0,vl,,n/a
+737,Government PG College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Khargone,Madhya Pradesh,http://govtpgcollegekhargone.org/,57.0,2.9,4752,19.37,508.0,vl,,n/a
+384,VIKAS INST. OF PHARM.SCI.,4.8,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,East Godavari,Andhra Pradesh,http://www.vikascps.com,55.0,3.0,47900,19.32,509.0,l,https://youtu.be/jqiV_HFwP_o?si=7oloXZaezBnq6Z6X,0.5330630630630633
+722,Government PG College,3.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Dindori,Madhya Pradesh,https://mphighereducation.nic.in/InstitutePortal/Default.aspx?InstId=NTM4,58.0,2.4,5000,19.32,510.0,vl,,n/a
+757,Government PG College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Seoni,Madhya Pradesh,,56.0,3.6,17090,19.28,511.5,vl,,n/a
+21,"ANNAMACHARYA COLLEGE OF
+ PHARMACY",4.4,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Kadapa,Andhra Pradesh,https://www.ancpap.in/,55.0,3.4,55750,19.28,511.5,m,,n/a
+18,"ANDHRA LOYOLA INSTT OF ENGG
+ AND TECHNOLOGY",3.85,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://www.aliet.ac.in,55.0,4.0,50700,19.24,513.0,m,,n/a
+809,Yashwantrao Chavan Institute of Science,4.2,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",VGood,VGood,Satara,Maharashtra,https://ycis.ac.in/,55.0,3.5,1415,19.23,514.0,vl,,n/a
+586,Government College Bilaspur,3.3,AS,"{'ba', 'mcom', 'msc', 'mca', 'ma', 'bcom', 'bsc'}",Average,Good,Bilaspur,Himachal Pradesh,https://gcbilaspur.in/,56.0,3.6,6000,19.2,515.0,vl,,n/a
+380,"VIJAYA INST. OF TECHNOLOGY FOR
+ WOMEN",4.4,EW,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Krishna,Andhra Pradesh,https://www.vitw.in,55.0,3.0,40000,19.16,516.5,l,,n/a
+387,VISWANATHA INST OF PHARM SCI,4.4,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Visakhapatnam,Andhra Pradesh,http://vnips.in,55.0,3.0,45400,19.16,516.5,l,,n/a
+814,Mahatma Gandhi Antarrashtriya Hindi Vishwavidyalaya,4.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Wardha,Maharashtra,https://hindivishwa.org/,55.0,3.5,8000,19.15,518.5,vl,,n/a
+335,SANKETHIKA INST OF TECHNOLOGY MANAGEMENT,4.0,M,"{'bma', 'marketing', 'mba'}",Good,Good,Visakhapatnam,Andhra Pradesh,https://www.shiksha.com/college/sanketika-institute-of-technology-and-management-visakhapatnam-46614,55.0,3.5,40000,19.15,518.5,l,,n/a
+715,Maharaja Chhatrasal Bundelkhand University,3.6,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Chhatarpur,Madhya Pradesh,https://mcbu.ac.in/faculties,56.0,2.9,3550,19.11,520.0,vl,,n/a
+657,Bapuji Institute of Engineering and Technology,3.8,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,Good,Davanagere,Karnataka,https://www.bietdvg.edu/,56.0,2.6,54000,19.1,521.0,m,,n/a
+743,Government Degree College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Niwari,Madhya Pradesh,https://gpgcniwari.com/contact/,56.0,2.9,10000,19.07,522.0,vl,,n/a
+450,Nalbari College,3.4,M,"{'ba', 'bped', 'bsc'}",Good,Good,Nalbari,Assam,https://www.nalbaricollege.ac.in/,55.0,4.0,24000,19.06,523.0,vl,,n/a
+370,"SREE VAHINI INSTT OF SCIENCE AND
+ TECHNOLOGY",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://www.sreevahini.edu.in,55.0,3.0,51400,19.0,525.5,m,,n/a
+386,"SRIVIDYA NIKETHAN COLLEGE OF
+ PHARMACY",4.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Chittoor,Andhra Pradesh,https://www.vidyanikethan.edu,55.0,3.0,30250,19.0,525.5,vl,,n/a
+350,"SRI VIDYA NIKETAN ENGINEERING
+ COLLEGE",4.0,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,https://www.svec.education,55.0,3.0,70000,19.0,525.5,m,,n/a
+375,"VIJAYA INST OF PHARM SCI FOR
+ WOMEN",4.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Krishna,Andhra Pradesh,https://vipw.in,55.0,3.0,44100,19.0,525.5,l,,n/a
+259,"RAMACHANDRA COLLEGE OF
+ ENGINEERING",4.1,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,West Godavari,Andhra Pradesh,https://www.rcee.ac.in,55.0,2.8,60200,18.98,528.0,m,,n/a
+352,"SIR VISHVESHWARAIAH INST OF
+ SCIENCE AND TECHNOLOGY",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Annamayya,Andhra Pradesh,https://viswamengg.in/,55.0,3.0,43000,18.96,529.0,l,https://youtu.be/FpnR3EOyZVM?si=AudN4uOtzk8_-KDC,0.10186666666666666
+361,SRI VANI EDN SOC GRP SCHOOL OF INSTITUTIONS,3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://srivanigroup.in,55.0,3.0,24866,18.92,531.5,vl,,n/a
+356,"SWARNANDHRA COLL. OF ENGG AND
+ TECH-2nd SHIFT",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,West Godavari,Andhra Pradesh,https://www.swarnandhra.ac.in,55.0,3.0,30000,18.92,531.5,vl,https://youtu.be/a3Hb7A0TH_A?si=OnVy9GGewoflMk9d,0.19393939393939397
+395,V.S.M COLLEGE OF ENGINEERING,3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,https://www.vsm.edu.in,55.0,3.0,65800,18.92,531.5,m,https://youtu.be/1FcINRiviJA?si=m_GabfHlyNDWEFCy,0.05454545454545456
+373,VIKAS COLL. OF PHARMACY,3.8,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Krishna,Andhra Pradesh,Www.Dpharmaci.Com,55.0,3.0,47900,18.92,531.5,l,https://youtu.be/jqiV_HFwP_o?si=O3RMGXPm8Jglk3P9,0.5330630630630633
+86,"CREATIVE EDNL. SOCIETYS COLL. OF
+ PHARMACY",3.6,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Kurnool,Andhra Pradesh,http://cescop.ac.in ,55.0,3.2,47500,18.9,534.0,l,,n/a
+379,"VAAGDEVI INSTITUTE OF
+ TECHNOLOGY. AND SCI.",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kadapa,Andhra Pradesh,http://www.vitspdtr.ac.in/,55.0,3.0,40000,18.88,538.5,l,,n/a
+394,"V.S.LAKSHMI ENGG COLLEGE FOR
+ WOMEN",3.7,EW,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,https://collegedunia.com/college/19110-vs-lakshmi-engineering-college-for-women-kakinada-east-godavari,55.0,3.0,27000,18.88,538.5,vl,,n/a
+378,"P B R VISVODAYA INSTITUTE OF
+ TECHNOLOGY AND SCI.",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Nellore,Andhra Pradesh,https://pbrvits.ac.in,55.0,3.0,40000,18.88,538.5,l,https://youtu.be/v8sIwPxHUDA?si=f3WjPztdjtduaAoX,0.1
+357,TADIPATRI ENGG COLLEGE,3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Anantapur,Andhra Pradesh,https://www.tec.ac.in/,55.0,3.0,52400,18.88,538.5,m,https://youtu.be/QAd7Cxx2rwk?si=KNZi3yryu94F6BX6,0.1
+389,"SRI VENKATESWARA COLLEGE OF
+ PHARMACY",3.7,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Chittoor,Andhra Pradesh,http://svcop.in,55.0,3.0,38000,18.88,538.5,l,https://youtu.be/WTpgwtAtXrs?si=UftVLBC-iICVwA4Q,0.09188311688311689
+518,Government Degree College,3.1,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Kondagaon,Chhattisgarh,https://ggckondagaon.in/,56.0,2.8,10000,18.88,538.5,vl,,n/a
+502,Government Engineering College,3.1,E,"{'ece', 'eee', 'mec', 'cse'}",Average,Good,Jagdalpur,Chhattisgarh,https://www.gecjdp.ac.in/,56.0,2.8,42900,18.88,538.5,l,,n/a
+800,Terna Public Charitable Trust's Engineering College,3.7,"P,E","{'d.pharm', 'b.pharm', 'm.pharm', 'eee', 'cse', 'mec', 'ece'}",Good,VGood,Osmanabad,Maharashtra,https://coeosmanabad.ac.in/,55.0,3.0,69000,18.88,538.5,m,https://youtu.be/Knn2r7tjlP8?si=idLenVQZ4DsWsjHZ,0.5260714285714286
+263,"RAJIV GANDHI COLLEGE OF
+ PHARMACY",4.1,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Godavari,Andhra Pradesh,https://rguktn.ac.in,55.0,2.3,35000,18.83,544.0,vl,https://youtu.be/Dl175o6ysWs?si=JG4lFJ-1cI-gG7WG,0.0492222222222222
+279,"SAASTRA COLLEGE OF PHARM.EDN
+ AND RES.",4.1,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Nellore,Andhra Pradesh,https://saastrapharmacycollege.edu.in,55.0,2.3,43000,18.83,544.0,l,,n/a
+273,SRI SAI COLLEGE OF PHARMACY,4.1,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Allahabad,Uttar Pradesh,https://sscop.co.in,55.0,2.3,60000,18.83,544.0,m,https://youtu.be/JE9fGJVJ5So?si=Lhs_f3iZREiNvKid,0.16492595746694103
+141,JNTUK COLLEGE OF ENGG. KAKINADA,3.54,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,www.jntuk.edu.in,55.0,3.0,10000,18.816,546.0,vl,https://youtu.be/e2BxHBPG4pE?si=WwTOs2UDEJX1nKg_,-0.02269736842105264
+746,Government Degree College,3.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Panna,Madhya Pradesh,,57.0,1.7,6000,18.81,547.0,vl,,n/a
+580,Government Polytechnic,3.2,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Nuh,Haryana,https://gpindri.ac.in/,56.0,2.4,4700,18.8,548.0,vl,,n/a
+89,DR.C.S.N.INSTITUTE OF PHARMACY,3.5,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,West Godavari,Andhra Pradesh,https://www.drcsninstitutions.org/indexbpharmacy.html,55.0,3.0,35000,18.8,549.0,vl,,n/a
+266,"RAGHAVENDRA INST. OF PHARM.
+ EDUCATION",4.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Anantapur,Andhra Pradesh,https://riper.ac.in,55.0,2.3,60000,18.79,550.0,m,,n/a
+252,"QIS COLLEGE OF ENGG. AND
+ TECHNOLOGY-2nd SHIFT",3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Prakasam,Andhra Pradesh,https://qis.edu.in,55.0,2.8,36500,18.78,551.0,l,https://youtu.be/4-zvvyIUeHY?si=Vney4Owl3vn24Hfi,0.034999999999999996
+150,"KITS COLLEGE OF PHARMACY FOR
+ WOMEN",3.4,PW,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,East Godavari,Andhra Pradesh,http://kitspharmacy.ac.in,55.0,3.0,35000,18.76,552.5,vl,,n/a
+500,Government College,3.1,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Baloda Bazar,Chhattisgarh,https://gdkcbalodabazar.ac.in/,56.0,2.4,7745,18.76,552.5,vl,,n/a
+261,RATHNAM INST OF PHARM,3.9,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Nellore,Andhra Pradesh,http://www.ratnampharma.edu.in,55.0,2.3,66200,18.75,554.5,m,,n/a
+270,"RAMIREDDY SUBBA RAMIREDDY
+ ENGG COLLEGE",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Nellore,Andhra Pradesh,https://www.rsrec.edu.in,55.0,2.3,40000,18.75,554.5,l,,n/a
+250,PYDAH COLLEGE OF PHARMACY,3.8,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,East Godavari,Andhra Pradesh,https://www.pydahpharmacy.edu.in,55.0,2.4,35000,18.74,556.0,vl,,n/a
+390,"VELAGA NAGESWARA RAO COLL OF
+ENGINEERING",3.3,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Guntur,Andhra Pradesh,https://www.shiksha.com/college/velaga-nageswara-rao-college-of-engineering-andhra-pradesh-other-60965,55.0,3.0,40000,18.72,557.0,l,,n/a
+770,Lakshmi Narain College of Technology,3.2,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Vidisha,Madhya Pradesh,https://lnctvidisha.in/,56.0,2.1,60000,18.71,558.0,m,,n/a
+710,Government Degree College,3.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Bad,Good,Bhind,Madhya Pradesh,https://bhind.nic.in/en/public-utility-category/government-colleges/,56.0,2.3,6000,18.69,559.0,vl,,n/a
+366,VEDA COLLEGE OF PHARMACY,3.2,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Prakasam,Andhra Pradesh,http://www.vedacollegeofpharmacy.com,55.0,3.0,35000,18.68,560.5,vl,,n/a
+419,Indira Gandhi Government College,3.2,M,"{'ba', 'bcom', 'bsc'}",Good,Good,Lohit,Arunachal Pradesh,https://iggc.org.in/,55.0,3.0,25850,18.68,560.5,vl,https://youtu.be/Flkw43J_zTw?si=SHBWH3SdUHSLytp0,0.14791666666666667
+281,"SHARADA COLLEGE OF
+ PHARMACEUTICAL SCI.S",3.7,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Guntur,Andhra Pradesh,https://pharmaadmission.com,55.0,2.3,35000,18.67,562.5,vl,,n/a
+275,ST.ANNS COLLEGE OF PHARAMACY,3.7,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Vizianagaram,Andhra Pradesh,https://sacet.ac.in/,55.0,2.3,35000,18.67,562.5,vl,,n/a
+442,Gauhati University,3.9,"M,E,L","{'ba', 'eee', 'cse', 'llb', 'mec', 'ece'}",Good,VGood,Kamrup Metropolitan,Assam,https://gauhati.ac.in/,55.0,2.0,1500,18.66,564.0,vl,https://youtu.be/VT_DzGTpZWU?si=jjQ6ClJ_VQt-aNri,0.06131455399061033
+285,SESHACHALA COLLEGE OF PHARMACY,3.6,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Chittoor,Andhra Pradesh,https://scpedu.in,55.0,2.3,140000,18.63,565.5,vh,,n/a
+282,SWATHI COLLEGE OF PHARMACY,3.6,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Nellore,Andhra Pradesh,https://swathicollegeofpharmacy.org,55.0,2.3,50000,18.63,565.5,l,https://youtube.com/shorts/IONDbtIMPrA?si=kI1iB2_OyNWG_2B-,0.0
+32,"AUDISANKARA COLLEGE OF ENGG
+ FOR WOMEN",4.7,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Chittor,Andhra Pradesh,"https://www.audisankara.ac.in/contactus.html#:~:text=Our%20college%20is%20located%20on,plying%20on%20this%20commercial%20routes.",50.0,5.5,65000,18.53,567.0,m,https://youtu.be/6laDzFfjm1U?si=nxV_sJtBGpdqgRf7,0.20625
+173,LENORA COLLEGE OF ENGINEERING,3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,https://lce.ac.in,55.0,1.8,40000,18.52,568.0,l,https://youtu.be/ad1Ey9OIUww?si=nBEfQE74NTddaRqn,0.2632894736842105
+597,Government Degree College,3.2,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Bad,Good,Lahaul and Spiti,Himachal Pradesh,https://hplahaulspiti.nic.in/,54.0,3.4,5000,18.5,569.0,vl,,n/a
+286,SESHACHALA INST OF TECHNOLOGY,3.2,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Puttur,Andhra Pradesh,www.seshachala.in,55.0,2.3,57000,18.47,570.0,m,,n/a
+244,"DR PAUL RAJS ENGINEERING
+ COLLEGE",3.0,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,East Godavari,Andhra Pradesh,https://www.dprec.ac.in/,55.0,2.5,40000,18.45,571.0,l,,n/a
+308,"ST. MARYS COLL. PHARM
+ SURAMPALEM",3.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Bad,Good,East Godavari,Andhra Pradesh,https://www.orchidfoundation.info/college/st-mary-college-of-bpharmacy-at-surampalem,55.0,2.3,35000,18.39,572.5,vl,,n/a
+253,QIS COLLEGE OF PHARMACY,3.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Bad,Good,Prakasam,Andhra Pradesh,https://www.qiscp.edu.in,55.0,2.3,67000,18.39,572.5,m,https://youtu.be/8Fvs2e4tlpY?si=5THadh2P_Xim4mKz,-0.07272727272727274
+727,Government PG College,3.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Harda,Madhya Pradesh,https://mphighereducation.nic.in/InstitutePortal/Default.aspx?InstId=MzM4,55.0,2.2,5000,18.36,574.0,vl,,n/a
+472,S. N. Sinha College,3.9,M,"{'bca', 'bbm/bms', 'b.a', 'b.com', 'b.sc'}",VGood,VGood,Aurangabad,Bihar,https://www.ssinhacollege.co.in/,53.0,2.9,33140,18.33,575.0,vl,https://youtu.be/3_a2wOf88fQ?si=rWXmQ-WBQf_QSE7R,0.3316666666666666
+750,Government PG College,3.7,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Ratlam,Madhya Pradesh,,54.0,2.1,4789,18.31,576.0,vl,,n/a
+239,"P NAGAIAH CHOUDARY AND VIJAY
+ INST OF ENGG AND TECH",2.4,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Guntur,Andhra Pradesh,Www.Pncviet.Ac.In,55.0,2.8,47000,18.3,577.0,l,,n/a
+207,NOVAS INST OF TECHNOLOGY,2.7,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Krishna,Andhra Pradesh,https://www.nova.edu.in,55.0,2.0,35000,18.18,578.0,vl,,n/a
+641,B.D. College,3.2,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Simdega,Jharkhand,http://simdegacollegesimdega.com/,54.0,2.2,68120,18.14,579.0,m,https://youtu.be/bCxBw4r2uWI?si=-QTxTomQ6gJON-Ji,0.0067708333333333336
+456,Hamren College,3.1,M,"{'ba', 'bsc'}",Bad,Good,West Karbi Anglong,Assam,https://westkarbianglong.assam/,53.0,2.8,20000,17.98,581.0,vl,,n/a
+455,Udalguri College,3.1,M,"{'ba', 'bsc'}",Bad,Good,Udalguri,Assam,https://udalguricollegeedu.in/,53.0,2.8,5000,17.98,581.0,vl,https://youtu.be/h4tmmf4PdJo?si=js2GWLnlSyCmOxgX,0.1470547309833024
+492,D. A. V. College,3.1,M,"{'ba', 'bcom', 'bsc'}",Average,Good,Siwan,Bihar,http://davsiwan.org/,53.0,2.8,52000,17.98,581.0,m,,n/a
+430,Sonari College,3.7,M,"{'ba', 'bsc'}",Good,Good,Charaideo,Assam,https://sonaricollege.in/,52.0,2.3,3177,17.77,583.0,vl,,n/a
+354,"S V UNIVERSITY COLLEGE OF
+ SCIENCES",4.4,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,Chittoor,Andhra Pradesh,https://svuniversity.edu.in,50.0,3.0,15000,17.66,584.0,vl,https://youtu.be/QXVYBtxUPsc?si=9AOE52uy7qbsOgVe,-0.07420833333333335
+58,"COLLEGE OF ENGINEERING BR
+ AMBEDKAR UNIV SELF FINANCE",3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Srikakulam,Andhra Pradesh,https://www.brau.edu.in/,50.0,4.0,48500,17.64,585.0,l,https://youtu.be/GTYN_1nEwLw?si=37o7S02dHUAU6Us4,-0.04556650246305419
+417,Government College of East Kameng,2.6,M,"{'ba', 'bcom', 'bsc'}",Bad,Good,East Kameng,Arunachal Pradesh,https://www.admission.universitydunia.com/13010-government-college-seppa,54.0,1.3,7000,17.63,586.0,vl,,n/a
+23,"ANIL NEERUKONDA INSTITUTE OF
+ TECHNOLOGY AND SCI",3.9,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good, Visakhapatnam,Andhra Pradesh,https://www.anits.edu.in/,50.0,3.5,84100,17.61,587.0,h,https://youtu.be/TAVeXUALRuI?si=MPmYnb22UVi6US7Y,0.028518518518518516
+605,Government College Solan,3.7,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Solan,Himachal Pradesh,https://www.gcsolan.ac.in/,50.0,3.6,600,17.56,588.0,vl,,n/a
+316,SHREE RAMA EDNL SOC GRP OF INSTNS,3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://www.sreerama.ac.in,50.0,3.7,30000,17.55,589.0,vl,,n/a
+457,Hailakandi Government College,3.0,AS,"{'ma', 'ba', 'bsc'}",Bad,Good,Hailakandi,Assam,https://pdugmck.ac.in/,52.0,2.4,20000,17.52,590.0,vl,,n/a
+720,SKP Government PG College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Dewas,Madhya Pradesh,https://skpcollegedewas.org/,51.0,2.7,4760,17.51,591.5,vl,,n/a
+651,Government First Grade College,3.2,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Chamarajanagar,Karnataka,https://www.university.youth4work.com/gfgcc_government-first-grade-college-chamarajanagar,52.0,2.1,13540,17.51,591.5,vl,,n/a
+63,BVC ENGINEERING COLLEGE,3.52,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,East Godavari,Andhra Pradesh,https://bvcec.edu.in/,50.0,3.5,40000,17.458,593.0,l,,n/a
+222,NARSARAOPET INSTT. OF PHARM.SCI.,3.7,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Guntur,Andhra Pradesh,https://nips.edu.in,50.0,3.2,48000,17.44,594.0,l,,n/a
+95,SRI CHAITANYA -DJR COLL OF ENGG AND TECH,3.4,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Rangareddy,Telangana,https://cec.ac.in/,50.0,3.5,40000,17.41,595.0,l,,n/a
+618,St. Columba's College,3.0,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Giridih,Jharkhand,https://stcchzb.ac.in/,52.0,2.0,4720,17.4,596.0,vl,https://youtu.be/koOKJkqiuMg?si=tYSLMhdkaRgSrnsS,0.02108974358974359
+51,BAPATLA COLLEGE OF PHARMACY,4.2,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",VGood,VGood,Guntur,Andhra Pradesh,www.bcop.net,50.0,2.4,60000,17.4,597.0,m,,n/a
+728,Government Narmada College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Narmadapuram,Madhya Pradesh,https://mphighereducation.nic.in/InstitutePortal/Public/CoursesIn_Institute.aspx?InstId=MzQw,51.0,2.3,5000,17.39,598.0,vl,,n/a
+115,"GLOBAL COLL OF ENGG AND
+ TECHNOLOGY",3.8,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,https://www.aliet.ac.in,50.0,2.8,40000,17.36,599.5,l,https://youtu.be/Gsxbn0819Zo?feature=shared,0.33999999999999997
+491,R. N. A. R. College,3.2,M,"{'ba', 'bsc'}",Average,Good,Sheohar,Bihar,https://rnarlnmu.ac.in/web/index.php,50.0,3.6,5000,17.36,599.5,vl,https://youtu.be/boOBJYwx9o0?feature=shared,0.175
+525,Government College,3.0,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Bad,Good,Narayanpur,Chhattisgarh,https://www.gdcnarayanpur.com/,51.0,2.8,15000,17.34,601.0,vl,https://youtu.be/d5qqxTD7eMY?feature=shared,0.049999999999999996
+310,SRI SIDDHAARTHA PHARM. COLLEGE,3.4,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Good,Good,Krishna,Andhra Pradesh,http://www.spcn.in,50.0,3.0,39800,17.26,602.0,l,https://youtu.be/2y4n0pswtxE?feature=shared,0.0
+302,"SARADA INSTITUTE OF SCI.
+ TECHNOLOGY AND MGMT",3.0,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Nalgonda,Andhra Pradesh,http://ssist.ueuo.com,50.0,3.5,25000,17.25,603.5,vl,,n/a
+135,"JAGANS COLLEGE OF ENGG AND
+ TECHNOLOGY",3.0,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Nellore,Andhra Pradesh,Www.Jagans.Ac.In,50.0,3.5,40000,17.25,603.5,l,https://youtu.be/4y4AVYXUkKk?feature=shared,0.0
+130,HELAPURI INST OF TECH AND SCIENCE,3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Godavari,Andhra Pradesh,https://helapuri.org,50.0,2.5,40000,17.23,605.0,l,,n/a
+681,Government First Grade College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Yadgir,Karnataka,https://www.shiksha.com/college/government-degree-college-yadgir-71083,50.0,2.6,1000,17.18,606.0,vl,https://youtu.be/1GZ5_U7u-Ws?feature=shared,0.16666666666666666
+211,NIMRA COLLEGE OF ENGG AND TECHNOLOGY,3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Krishna,Andhra Pradesh,http://nimracet.in,50.0,2.3,40000,17.17,607.0,l,https://youtu.be/1fPWJgW2JOc?feature=shared,-0.08125
+496,M. S. College,3.6,M,"{'ba', 'bca', 'bba', 'btech'}",Good,Good,West Champaran,Bihar,https://mscollege.net/,50.0,2.4,33480,17.16,608.5,vl,https://youtu.be/BxUlnyxAmuU?feature=shared,0.21484374999999997
+461,Veer Kunwar Singh University,3.6,"M,L","{'ba', 'bcom', 'btech'}",Good,Good,Bhojpur,Bihar,https://vksu.ac.in/,50.0,2.4,5000,17.16,608.5,vl,https://youtu.be/2mlndpsCnLo?feature=shared,-0.07272727272727274
+503,Government Girls College,3.0,PW,"{'m.pharm', 'b.pharm', 'd.pharm'}",Bad,Good,Bemetara,Chhattisgarh,http://lpbggcbemetara.in/,51.0,2.0,10000,17.1,610.0,vl,https://www.instagram.com/explore/locations/216053322096186/govt-college-bemetara/,n/a
+734,Government PG College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Katni,Madhya Pradesh,https://katni.nic.in/en/public-utility-category/colleges/,50.0,2.3,5000,17.09,611.0,vl,,n/a
+670,Government First Grade College,3.2,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Average,Bad,Mandya,Karnataka,https://collegedunia.com/college/56337-government-first-grade-college-mandya,50.0,2.6,6000,17.06,612.0,vl,https://youtu.be/XaPHYFMBaU4?feature=shared,0.0
+418,Jawaharlal Nehru College,2.5,AS,"{'ma', 'ba', 'bcom', 'bsc'}",Bad,Good,East Siang,Arunachal Pradesh,https://www.jncpasighat.edu.in/,52.0,1.5,6740,17.05,613.0,vl,https://youtu.be/RYANELpKFOo?feature=shared,0.0
+167,"KAKINADA INSTITUTE OF
+ TECHNOLOGY AND SCIENCE",3.3,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Chittoor,Andhra Pradesh,http://www.kitsdivili.ac.in/,50.0,2.4,40000,17.04,614.0,l,https://youtu.be/onD-vRGOGn8?feature=shared,0.15800865800865802
+620,Godda College,2.9,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Godda,Jharkhand,https://goddacollege.org/,50.0,2.9,20000,17.03,615.0,vl,https://youtu.be/PiwIctfa48c?feature=shared,0.0
+558,A.S. College,3.2,AS,"{'ba', 'bca', 'ma', 'bcom', 'bvoc'}",Average,Good,Ambala,Haryana,https://www.asckhn.com/,50.0,2.1,49000,16.91,616.0,l,,n/a
+447,Majuli College,3.0,M,"{'ba', 'bsc'}",Bad,Good,Majuli,Assam,https://majulicollege.in/,50.0,2.0,14610,16.8,617.0,vl,,n/a
+463,C.M. College,3.0,M,"{'ba', 'bba', 'be.d', 'bca', 'bcom', 'bsc'}",Bad,Good,Begusarai,Bihar,https://www.gdcollegebegusarai.com/index.php,50.0,1.9,789,16.77,618.0,vl,,n/a
+639,Sahibganj College,2.9,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Bad,Good,Sahibganj,Jharkhand,https://www.sahibganjcollege.in/,50.0,2.0,5000,16.76,619.0,vl,https://youtu.be/dFpc_dSf534?feature=shared,0.11650793650793653
+132,INDIRA INST OF TECHNOLOGY SCI,3.0,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Markapuram,Telangana,https://www.indiraeducational.org,50.0,1.8,40000,16.74,620.0,l,https://youtu.be/HhmHCt21ykE?feature=shared,0.06166666666666667
+468,Magadh University,3.6,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Bodh Gaya,Bihar,https://www.magadhuniversity.ac.in/,48.0,2.9,82000,16.71,621.0,h,https://youtu.be/5CjDn0QpR8I?feature=shared,0.21762820512820508
+469,M. J. K. College,3.6,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Bettiah,Bihar,https://www.mjkcollege.ac.in/,48.0,2.8,1500,16.68,622.0,vl,https://youtu.be/3iexde2BALo?feature=shared,0.31
+489,Rajendra College,3.8,M,"{'ba', 'bcom', 'bsc'}",Good,Good,Saran,Bihar,https://www.rcc.ac.in/admissions,46.0,4.5,12168,16.67,623.0,vl,https://youtu.be/u5y4K0A2naY?feature=shared,0.052749999999999984
+471,Arvind Mahila College,3.4,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Patna,Bihar,https://samcpatna.ac.in/,50.0,1.0,1599,16.66,624.0,vl,https://youtu.be/X6S-O-VGnYo?feature=shared,0.009450549450549451
+701,Government Girls' College,3.2,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Agar Malwa,Madhya Pradesh,https://agarmalwa.nic.in/en/public-utility-category/colleges/,48.0,3.2,5000,16.64,625.0,vl,,n/a
+707,Government Degree College,3.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Barwani,Madhya Pradesh,https://barwani.nic.in/en/public-utility-category/colleges/,50.0,1.3,10000,16.59,626.0,vl,,n/a
+416,Rang Frah Government College,2.6,M,{'ba'},Bad,Good,Changlang,Arunachal Pradesh,https://www.rfgc.in/,50.0,1.4,2570,16.46,627.0,vl,,n/a
+725,Government Degree College,3.2,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Guna,Madhya Pradesh,https://pgcollegeguna.in/,48.0,2.3,5000,16.37,628.0,vl,,n/a
+763,Government SMS PG College,3.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Shivpuri,Madhya Pradesh,https://www.govtsmspgcollegeshivpuri.org/,48.0,2.0,7000,16.2,629.0,vl,https://youtu.be/3pplnMRJEMM?feature=shared,0.0
+738,Government Degree College,3.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Mandla,Madhya Pradesh,http://www.mphighereducation.nic.in/mandla,47.0,2.9,5000,16.17,630.0,vl,,n/a
+706,Government PG College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,Balaghat,Madhya Pradesh,https://balaghat.nic.in/en/public-utility/school-education/,46.0,3.1,5000,16.13,631.0,vl,https://youtu.be/y2C2J6-39fc?feature=shared,0.0
+798,Dadasaheb Aher College of Engineering,3.9,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,Good,Nandurbar,Maharashtra,https://www.dacoe.ac.in/academics/Courses-Offered,45.0,3.5,76536,16.11,632.0,h,,n/a
+740,Government Degree College,3.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Morena,Madhya Pradesh,https://mphighereducation.nic.in/InstitutePortal/Public/About_Institute.aspx?InstId=Mjky,47.0,2.6,10000,16.08,633.0,vl,,n/a
+507,Government Danteshwari College,3.5,AS,"{'ba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Dantewada,Chhattisgarh,https://pgcollegedantewada.in/,46.0,2.9,4580,16.07,634.0,vl,https://youtu.be/tWXmG5ZAmkk?feature=shared,0.0
+567,MVN University,2.7,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",Bad,Good,Palwal,Haryana,https://www.mvn.edu.in/,48.0,1.9,60200,16.05,635.0,m,https://youtu.be/xkjgvHNILIc?feature=shared,0.2333333333333333
+733,Government Degree College,3.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Jhabua,Madhya Pradesh,https://jhabua.nic.in/en/public-utility-category/colleges/,47.0,2.4,10000,16.02,636.0,vl,,n/a
+624,Jamtara College,2.6,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Bad,Good,Jamtara,Jharkhand,https://jamtaracollege.ac.in/,49.0,0.6,5000,15.92,637.0,vl,,n/a
+219,NARAYANA ENGINEERING COLLEGE,3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Nellore,Andhra Pradesh,https://www.necn.ac.in,45.0,3.2,40000,15.9,638.0,l,https://youtu.be/i3D_UHJumpo?feature=shared,5.551115123125783e-17
+717,Government PG College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Damoh,Madhya Pradesh,http://www.gcgpgcollegedamoh.com/,46.0,2.3,5000,15.89,639.0,vl,,n/a
+464,T. N. B. College,3.8,M,"{'ba', 'bca', 'bsc'}",Good,Good,Bhagalpur,Bihar,https://tnbcollege.org/,45.0,2.8,1063,15.86,640.0,vl,https://youtu.be/DVnXBXJ3_VM?feature=shared,0.09555555555555555
+810,"S. H. Kelkar College of Arts, Commerce and Science",4.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Sindhudurg,Maharashtra,https://shkelkarcollege.ac.in/,45.0,2.5,7000,15.85,641.0,vl,,n/a
+467,J. P. College,3.5,AS,"{'btech', 'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Chapra,Bihar,https://jpv.ac.in/,45.0,3.0,82600,15.8,642.5,h,https://www.instagram.com/jpuniversitychapra/,n/a
+466,Marwari College,3.5,AS,"{'ba', 'mcom', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Darbhanga,Bihar,https://marwaricollege.ac.in/,45.0,3.0,22050,15.8,642.5,vl,https://youtu.be/aB_HakKAfXY?feature=shared,0.11666666666666665
+703,Government PG College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Anuppur,Madhya Pradesh,https://anuppur.nic.in/en/public-utility-category/colleges/,45.0,2.8,5000,15.74,644.0,vl,,n/a
+616,Jamshedpur Co-operative College,3.9,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,VGood,East Singhbhum,Jharkhand,https://www.cooperativecollegejsr.ac.in/,45.0,2.0,500,15.66,645.0,vl,https://youtu.be/4hdCLDynJvE?feature=shared,0.033924349881796684
+716,Government PG College,3.5,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Chhindwara,Madhya Pradesh,https://pgcollegechhindwara.edu.in/,45.0,2.1,5000,15.53,646.0,vl,https://youtu.be/PLnsw4TZjeA?feature=shared,0.08039772727272726
+799,Yashwantrao Chavan Maharashtra Open University,3.9,AS,"{'ba', 'mcom', 'd.pharm', 'b.pharm', 'msc', 'm.pharm', 'ma', 'bcom', 'diploma', 'eee', 'cse', 'bsc', 'llb', 'mec', 'ece'}",Good,VGood,Nashik,Maharashtra,https://ycmou.digitaluniversity.ac/,43.0,2.5,32500,15.21,647.0,vl,https://youtu.be/ThktS0b4SQI?feature=shared,0.24545454545454545
+603,Government College Nahan,2.6,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Bad,Good,Sirmaur,Himachal Pradesh,https://gcnahan.in/,45.0,2.0,1500,15.14,648.0,vl,https://www.instagram.com/pg_clg_nahan/,n/a
+633,D.A.V. College,2.8,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Bad,Good,Palamu,Jharkhand,https://jharkhand.studyinfo.org.in/dav-institute-of-engineering-and-technology/,45.0,1.7,69240,15.13,649.0,m,https://www.instagram.com/davcollegenepal/,n/a
+566,Government College,2.5,AS,"{'ba', 'mcom', 'msc', 'mca', 'ma', 'bcom', 'bsc'}",Bad,Good,Mahendragarh,Haryana,http://gcnnl.ac.in/,45.0,1.6,5000,14.98,650.0,vl,,n/a
+16,"AKRG COLLEGE OF ENGG AND
+ TECHNOLOGY",4.1,E,"{'ece', 'eee', 'mec', 'cse'}",VGood,VGood,West Godavari,Andhra Pradesh,https://www.akrgdegree.ac.in/,40.0,3.0,74600,14.54,651.0,h,https://youtu.be/hfcT1Knzmys?feature=shared,0.3772222222222223
+760,BKSN Government Degree College,2.7,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Bad,Good,Shajapur,Madhya Pradesh,https://mphighereducation.nic.in/InstitutePortal/Default.aspx?InstId=NTY0,42.0,2.2,5000,14.34,652.0,vl,https://youtu.be/EOff1hepjRI?feature=shared,0.0
+35,"A S K COLLEGE OF TECHNOLOGY
+ MANAGEMENT",3.8,M,"{'bma', 'marketing', 'mba'}",Good,Good,Anakapalli,Andhra Pradesh,https://askctm.in/#:~:text=ASK%20College%20of%20Technology%20and%20Management%20%E2%80%93%20Anakapalle%2C%20Visakhapatnam,40.0,2.0,72000,14.12,653.0,h,https://youtu.be/6kBk2_OnwAc?feature=shared,0.16249999999999998
+169,"DR.K V SUBBA REDDY INST OF
+ PHARMACY",3.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Bad,Good,Anantapur,Andhra Pradesh,http://drkvsrip.ac.in,40.0,3.0,120000,14.1,654.0,vh,https://youtu.be/i5jvhYqU6BQ?feature=shared,0.12222222222222223
+54,"BHEEMA INST OF TECHNOLOGY AND
+ SCI",3.7,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Kurnool,Andhra Pradesh,https://www.bitsadoni.ac.in/index1.php,40.0,1.8,40000,14.02,655.0,l,https://youtu.be/D4jAPYPCFKw?feature=shared,0.016666666666666673
+712,Government PG College,3.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Burhanpur,Madhya Pradesh,https://burhanpur.nic.in/en/public-utility-category/colleges/,40.0,2.5,14000,13.95,656.5,vl,,n/a
+147,"JAGAN'S INSTITUTE OF
+ PHARMACEUTICAL SCIENCES",3.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Bad,Good,Nellore,Andhra Pradesh,jaganscollegeofpharmacy.in,40.0,2.5,35000,13.95,656.5,vl,,n/a
+749,Government Degree College,3.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Rajgarh,Madhya Pradesh,https://www.gcrajgarh.ac.in/,40.0,2.0,5000,13.8,659.0,vl,,n/a
+98,D.B.S.INST OF TECHNOLOGY,3.0,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Nellore,Andhra Pradesh,https://www.dbsinstitutions.com,40.0,2.0,40000,13.8,659.0,l,,n/a
+704,Government Degree College,3.0,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Ashoknagar,Madhya Pradesh,https://ashoknagar.nic.in/en/public-utility/government-nehru-degree-college/,40.0,2.0,4750,13.8,659.0,vl,,n/a
+210,"NALANDA INSTITUTE OF ENGG. AND
+ TECHNOLOGY",2.9,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Guntur,Andhra Pradesh,Www.Ngi.Ac.In,40.0,2.0,36500,13.76,661.0,l,https://youtu.be/lsg6dyPW8mU?feature=shared,-0.18533333333333335
+420,Government College of Lower Subansiri,2.5,M,"{'ba', 'bcom'}",Bad,Good,Lower Subansiri,Arunachal Pradesh,http://www.gcyachuli.ac.in,40.0,2.5,26000,13.75,662.0,vl,,n/a
+787,"Rajarshi Shahu Arts, Commerce and Science College",2.8,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Bad,Good,Hingoli,Maharashtra,,40.0,1.2,2350,13.48,663.0,vl,,n/a
+742,Government PG College,2.8,"AS,M","{'ba', 'mcom', 'bba', 'bca', 'msc', 'ma', 'bcom', 'bsc'}",Average,Good,Neemuch,Madhya Pradesh,,38.0,1.8,10000,13.06,664.0,vl,https://www.instagram.com/pg_college_neemuch/,n/a
+410,YELAMARTY B. PHARMACY COLLEGE,2.5,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Bad,Good,Visakhapatnam,Andhra Pradesh,https://www.yalamarty.edu.in/,35.0,2.0,35000,12.1,665.0,vl,,n/a
+423,Government College of Bomdila,2.5,M,"{'ba', 'bcom'}",Bad,Good,West Kameng,Arunachal Pradesh,https://gcbdl.edu.in/,35.0,1.5,5000,11.95,666.0,vl,https://youtu.be/NHXjLa9n6Oo?feature=shared,0.6
+617,S.S. Memorial College,2.9,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Bad,Good,Garhwa,Jharkhand,https://ssmemorialcollege.com/,34.0,1.6,1057,11.84,667.0,vl,https://youtu.be/n_f1zLvgcyU?feature=shared,0.07539682539682539
+425,Baksa College,2.6,M,"{'bba', 'bca', 'b.a', 'bcom', 'b.sc'}",Bad,Good,Baksa,Assam,http://bdcb.ac.in/,34.0,0.6,6110,11.42,668.0,vl,,n/a
+39,SVR ENGINEERING COLLEGE,3.6,E,"{'ece', 'eee', 'mec', 'cse'}",Good,Good,Nandyal,Andhra Pradesh,https://svrec.ac.in/,30.0,3.0,40000,11.34,669.0,l,https://youtu.be/dkOnnubcLxg?feature=shared,0.096875
+85,"CHIRANJIVI REDDY INST OF ENGG
+ AND TECHNOLOGY",2.7,E,"{'ece', 'eee', 'mec', 'cse'}",Bad,Good,Anantapuramu,Andhra Pradesh,https://www.critatp.in/,30.0,3.0,40000,10.98,670.0,l,,n/a
+602,Government College Sanjauli,1.6,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Bad,Bad,Shimla,Himachal Pradesh,https://www.gcsanjauli.edu.in/,30.0,1.0,33330,9.94,671.0,vl,https://youtu.be/yFjchlOR930?feature=shared,0.08807870370370371
+6,ADARSHA COLL OF PHARMACY,3.0,P,"{'m.pharm', 'b.pharm', 'd.pharm'}",Bad,Good,East Godavari,Andhra Pradesh,"https://adarsacollegeofpharmacy.com/wp/#:~:text=ADARSA%20College%20of%20Pharmacy%20is,excellent%20roads%20and%20road%20transportation.",20.0,4.0,51000,8.4,672.0,m,https://www.instagram.com/adarshgroupofinstitutions/?hl=en,n/a
+478,Jamunilal College,1.4,M,"{'ba', 'bca', 'bsc', 'bcom'}",Bad,Good,Lakhisarai,Bihar,https://lakhisarai.nic.in/public-utility/rajeshwar-lal-college-lakhisarai/,25.0,0.8,5791,8.3,673.0,vl,https://www.instagram.com/jamunilalcollegehajipur/,n/a
+636,Ranchi University,,AS,"{'ba', 'msc', 'ma', 'bcom', 'bsc'}",Good,Good,Ranchi,Jharkhand,https://ranchiuniversity.ac.in/,60.0,6.0,2275,,,vl,https://youtu.be/VEBKtaCocS8?feature=shared,0.03784011243386244
