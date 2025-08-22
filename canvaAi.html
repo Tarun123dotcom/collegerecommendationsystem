@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Recommendation System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <style>
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .slide-in {
+            animation: slideIn 0.3s ease-out;
+        }
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+        .pulse-red {
+            animation: pulseRed 1.5s infinite;
+        }
+        @keyframes pulseRed {
+            0%, 100% { background-color: rgb(239 68 68); }
+            50% { background-color: rgb(220 38 38); }
+        }
+        .listening {
+            background-color: rgb(239 68 68);
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="bg-white shadow-lg border-b border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-16">
+                    <div class="flex items-center space-x-2">
+                        <i data-lucide="graduation-cap" class="w-8 h-8 text-indigo-600"></i>
+                        <h1 class="text-xl font-bold text-gray-900">CollegeFind</h1>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <button id="homeBtn" class="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md font-medium">Home</button>
+                        <button id="queriesBtn" class="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md font-medium">Previous Queries</button>
+                        <button id="authBtn" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors">Login</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Auth Modal -->
+        <div id="authModal" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex items-center justify-center">
+            <div class="bg-white rounded-lg p-8 max-w-md w-full mx-4 fade-in">
+                <div class="flex justify-between items-center mb-6">
+                    <h2 id="authTitle" class="text-2xl font-bold text-gray-900">Login</h2>
+                    <button id="closeAuth" class="text-gray-400 hover:text-gray-600">
+                        <i data-lucide="x" class="w-6 h-6"></i>
+                    </button>
+                </div>
+                <form id="authForm">
+                    <div id="nameField" class="mb-4 hidden">
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
+                        <input type="text" id="fullName" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                        <input type="email" id="email" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" required>
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Password</label>
+                        <input type="password" id="password" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" required>
+                    </div>
+                    <button type="submit" class="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition-colors mb-4">
+                        <span id="authSubmitText">Login</span>
+                    </button>
+                    <p class="text-center text-sm text-gray-600">
+                        <span id="authSwitchText">Don't have an account?</span>
+                        <button type="button" id="authSwitch" class="text-indigo-600 hover:text-indigo-800 font-medium ml-1">Sign up</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <!-- Home Page -->
+            <div id="homePage" class="fade-in">
+                <div class="text-center mb-12">
+                    <h1 class="text-4xl font-bold text-gray-900 mb-4">Find Your Perfect College</h1>
+                    <p class="text-xl text-gray-600 max-w-2xl mx-auto">Discover the best colleges for your career with AI-powered recommendations based on placements, ratings, and reviews.</p>
+                </div>
+
+                <!-- Search Section -->
+                <div class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                    <div class="mb-6">
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Search Query</label>
+                        <div class="relative">
+                            <input type="text" id="searchQuery" placeholder="e.g., Top B.Pharmacy colleges in Telangana with good placements" 
+                                   class="w-full px-4 py-3 pr-20 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-lg">
+                            <button id="voiceBtn" class="absolute right-12 top-2.5 p-1 rounded-full hover:bg-gray-100 transition-colors" title="Voice Search">
+                                <i data-lucide="mic" class="w-5 h-5 text-gray-400"></i>
+                            </button>
+                            <i data-lucide="search" class="absolute right-4 top-3.5 w-5 h-5 text-gray-400"></i>
+                        </div>
+                    </div>
+
+                    <!-- Filters -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Course Type</label>
+                            <select id="courseFilter" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                                <option value="">All Courses</option>
+                                <option value="B.Pharmacy">B.Pharmacy</option>
+                                <option value="D.Pharmacy">D.Pharmacy</option>
+                                <option value="M.Pharmacy">M.Pharmacy</option>
+                                <option value="B.Tech">B.Tech</option>
+                                <option value="MBA">MBA</option>
+                                <option value="BBA">BBA</option>
+                                <option value="B.Sc">B.Sc</option>
+                                <option value="M.Tech">M.Tech</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Location</label>
+                            <select id="locationFilter" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                                <option value="">All Locations</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Bangalore">Bangalore</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Rating Filter</label>
+                            <select id="ratingFilter" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                                <option value="all">All Colleges</option>
+                                <option value="top10">Top 10</option>
+                                <option value="top20">Top 20</option>
+                                <option value="top50">Top 50</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button id="searchBtn" class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition-colors text-lg font-medium">
+                        <i data-lucide="search" class="w-5 h-5 inline mr-2"></i>
+                        Search Colleges
+                    </button>
+                </div>
+
+                <!-- Quick Stats -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                        <div class="text-3xl font-bold text-indigo-600 mb-2">2,500+</div>
+                        <div class="text-gray-600">Colleges Listed</div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                        <div class="text-3xl font-bold text-green-600 mb-2">95%</div>
+                        <div class="text-gray-600">Accuracy Rate</div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">50K+</div>
+                        <div class="text-gray-600">Students Helped</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Page -->
+            <div id="resultsPage" class="hidden">
+                <div class="flex justify-between items-center mb-6">
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-900">Search Results</h2>
+                        <p id="resultsCount" class="text-gray-600 mt-1"></p>
+                    </div>
+                    <button id="backToHome" class="bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors">
+                        <i data-lucide="arrow-left" class="w-4 h-4 inline mr-2"></i>
+                        Back to Search
+                    </button>
+                </div>
+
+                <!-- Loading State -->
+                <div id="loadingState" class="text-center py-12">
+                    <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto mb-4"></div>
+                    <p class="text-gray-600">Analyzing your query and finding the best colleges...</p>
+                </div>
+
+                <!-- Results Grid -->
+                <div id="resultsGrid" class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8"></div>
+
+                <!-- Pagination -->
+                <div id="pagination" class="flex justify-center items-center space-x-2"></div>
+            </div>
+
+            <!-- Previous Queries Page -->
+            <div id="queriesPage" class="hidden">
+                <div class="flex justify-between items-center mb-6">
+                    <h2 class="text-2xl font-bold text-gray-900">Previous Queries</h2>
+                    <button id="backToHomeFromQueries" class="bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors">
+                        <i data-lucide="arrow-left" class="w-4 h-4 inline mr-2"></i>
+                        Back to Search
+                    </button>
+                </div>
+
+                <div id="queriesList" class="space-y-4"></div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // App State
+        let currentUser = JSON.parse(localStorage.getItem('user')) || null;
+        let currentPage = 1;
+        let totalPages = 1;
+        let currentResults = [];
+        let isLogin = true;
+        let recognition = null;
+        let isListening = false;
+
+        // Sample data for demonstration
+        const sampleColleges = [
+            {
+                id: 1,
+                name: "Osmania University College of Pharmacy",
+                location: "Hyderabad, Telangana",
+                course: "B.Pharmacy",
+                rating: 4.5,
+                placementScore: 4.2,
+                fees: "₹2.5L",
+                established: 1947,
+                highlights: ["NAAC A+ Grade", "Top Placements", "Research Excellence"]
+            },
+            {
+                id: 2,
+                name: "Kakatiya University",
+                location: "Warangal, Telangana",
+                course: "B.Pharmacy",
+                rating: 4.3,
+                placementScore: 4.0,
+                fees: "₹2.2L",
+                established: 1976,
+                highlights: ["State University", "Good Infrastructure", "Industry Connections"]
+            },
+            {
+                id: 3,
+                name: "JNTUH College of Pharmacy",
+                location: "Hyderabad, Telangana",
+                course: "B.Pharmacy",
+                rating: 4.4,
+                placementScore: 4.1,
+                fees: "₹2.8L",
+                established: 1972,
+                highlights: ["Technical University", "Research Focus", "Modern Labs"]
+            },
+            {
+                id: 4,
+                name: "Nizam Institute of Pharmacy",
+                location: "Hyderabad, Telangana",
+                course: "B.Pharmacy",
+                rating: 4.2,
+                placementScore: 3.9,
+                fees: "₹3.0L",
+                established: 1964,
+                highlights: ["Autonomous College", "Industry Partnerships", "Quality Education"]
+            },
+            {
+                id: 5,
+                name: "Sultan-Ul-Uloom College of Pharmacy",
+                location: "Hyderabad, Telangana",
+                course: "B.Pharmacy",
+                rating: 4.1,
+                placementScore: 3.8,
+                fees: "₹2.7L",
+                established: 1956,
+                highlights: ["Private College", "Good Placements", "Modern Campus"]
+            },
+            {
+                id: 6,
+                name: "Vaagdevi College of Pharmacy",
+                location: "Warangal, Telangana",
+                course: "B.Pharmacy",
+                rating: 4.0,
+                placementScore: 3.7,
+                fees: "₹2.4L",
+                established: 1998,
+                highlights: ["Private Institution", "Industry Ready", "Skill Development"]
+            }
+        ];
+
+        const sampleQueries = [
+            {
+                id: 1,
+                query: "Top B.Pharmacy colleges in Telangana with good placements",
+                timestamp: "2024-01-15 10:30:00",
+                resultsCount: 6
+            },
+            {
+                id: 2,
+                query: "Best MBA colleges in Hyderabad",
+                timestamp: "2024-01-14 15:45:00",
+                resultsCount: 8
+            },
+            {
+                id: 3,
+                query: "B.Tech Computer Science colleges in Karnataka",
+                timestamp: "2024-01-13 09:20:00",
+                resultsCount: 12
+            }
+        ];
+
+        // Initialize app
+        document.addEventListener('DOMContentLoaded', function() {
+            lucide.createIcons();
+            updateAuthButton();
+            setupEventListeners();
+            initializeSpeechRecognition();
+        });
+
+        function setupEventListeners() {
+            // Navigation
+            document.getElementById('homeBtn').addEventListener('click', showHomePage);
+            document.getElementById('queriesBtn').addEventListener('click', showQueriesPage);
+            document.getElementById('authBtn').addEventListener('click', handleAuthButton);
+            document.getElementById('backToHome').addEventListener('click', showHomePage);
+            document.getElementById('backToHomeFromQueries').addEventListener('click', showHomePage);
+
+            // Auth modal
+            document.getElementById('closeAuth').addEventListener('click', closeAuthModal);
+            document.getElementById('authSwitch').addEventListener('click', toggleAuthMode);
+            document.getElementById('authForm').addEventListener('submit', handleAuth);
+
+            // Search
+            document.getElementById('searchBtn').addEventListener('click', handleSearch);
+            document.getElementById('searchQuery').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') handleSearch();
+            });
+            document.getElementById('voiceBtn').addEventListener('click', toggleVoiceRecognition);
+
+            // Close modal on outside click
+            document.getElementById('authModal').addEventListener('click', function(e) {
+                if (e.target === this) closeAuthModal();
+            });
+        }
+
+        function updateAuthButton() {
+            const authBtn = document.getElementById('authBtn');
+            if (currentUser) {
+                authBtn.textContent = 'Logout';
+                authBtn.className = 'bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition-colors';
+            } else {
+                authBtn.textContent = 'Login';
+                authBtn.className = 'bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors';
+            }
+        }
+
+        function handleAuthButton() {
+            if (currentUser) {
+                logout();
+            } else {
+                showAuthModal();
+            }
+        }
+
+        function showAuthModal() {
+            document.getElementById('authModal').classList.remove('hidden');
+        }
+
+        function closeAuthModal() {
+            document.getElementById('authModal').classList.add('hidden');
+        }
+
+        function toggleAuthMode() {
+            isLogin = !isLogin;
+            const title = document.getElementById('authTitle');
+            const submitText = document.getElementById('authSubmitText');
+            const switchText = document.getElementById('authSwitchText');
+            const switchBtn = document.getElementById('authSwitch');
+            const nameField = document.getElementById('nameField');
+
+            if (isLogin) {
+                title.textContent = 'Login';
+                submitText.textContent = 'Login';
+                switchText.textContent = "Don't have an account?";
+                switchBtn.textContent = 'Sign up';
+                nameField.classList.add('hidden');
+            } else {
+                title.textContent = 'Sign Up';
+                submitText.textContent = 'Sign Up';
+                switchText.textContent = 'Already have an account?';
+                switchBtn.textContent = 'Login';
+                nameField.classList.remove('hidden');
+            }
+        }
+
+        function handleAuth(e) {
+            e.preventDefault();
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const fullName = document.getElementById('fullName').value;
+
+            // Simulate authentication
+            if (isLogin) {
+                // Login logic
+                currentUser = { email, name: email.split('@')[0] };
+                localStorage.setItem('user', JSON.stringify(currentUser));
+                alert('Login successful!');
+            } else {
+                // Register logic
+                currentUser = { email, name: fullName || email.split('@')[0] };
+                localStorage.setItem('user', JSON.stringify(currentUser));
+                alert('Registration successful!');
+            }
+
+            updateAuthButton();
+            closeAuthModal();
+            document.getElementById('authForm').reset();
+        }
+
+        function logout() {
+            currentUser = null;
+            localStorage.removeItem('user');
+            updateAuthButton();
+            alert('Logged out successfully!');
+        }
+
+        function initializeSpeechRecognition() {
+            // Check if browser supports speech recognition
+            if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+                const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+                recognition = new SpeechRecognition();
+                
+                recognition.continuous = false;
+                recognition.interimResults = false;
+                recognition.lang = 'en-US';
+                
+                recognition.onstart = function() {
+                    isListening = true;
+                    updateVoiceButton();
+                };
+                
+                recognition.onresult = function(event) {
+                    const transcript = event.results[0][0].transcript;
+                    document.getElementById('searchQuery').value = transcript;
+                    
+                    // Show success feedback
+                    showVoiceSuccess(transcript);
+                };
+                
+                recognition.onerror = function(event) {
+                    console.error('Speech recognition error:', event.error);
+                    showVoiceError(event.error);
+                };
+                
+                recognition.onend = function() {
+                    isListening = false;
+                    updateVoiceButton();
+                };
+            } else {
+                // Hide voice button if not supported
+                document.getElementById('voiceBtn').style.display = 'none';
+                console.warn('Speech recognition not supported in this browser');
+            }
+        }
+
+        function toggleVoiceRecognition() {
+            if (!recognition) {
+                alert('Voice recognition is not supported in your browser. Please try Chrome, Edge, or Safari.');
+                return;
+            }
+
+            if (isListening) {
+                recognition.stop();
+            } else {
+                // Request microphone permission and start recognition
+                recognition.start();
+            }
+        }
+
+        function updateVoiceButton() {
+            const voiceBtn = document.getElementById('voiceBtn');
+            const micIcon = voiceBtn.querySelector('i');
+            
+            if (isListening) {
+                voiceBtn.classList.add('listening', 'pulse-red');
+                voiceBtn.title = 'Stop listening';
+                micIcon.setAttribute('data-lucide', 'mic-off');
+            } else {
+                voiceBtn.classList.remove('listening', 'pulse-red');
+                voiceBtn.title = 'Voice Search';
+                micIcon.setAttribute('data-lucide', 'mic');
+            }
+            
+            lucide.createIcons();
+        }
+
+        function showVoiceSuccess(transcript) {
+            // Create temporary success message
+            const searchContainer = document.getElementById('searchQuery').parentElement;
+            const successMsg = document.createElement('div');
+            successMsg.className = 'absolute top-full left-0 right-0 bg-green-100 border border-green-300 text-green-700 px-3 py-2 rounded-lg mt-1 text-sm z-10';
+            successMsg.innerHTML = `<i data-lucide="check-circle" class="w-4 h-4 inline mr-1"></i>Voice recognized: "${transcript}"`;
+            
+            searchContainer.appendChild(successMsg);
+            lucide.createIcons();
+            
+            // Remove message after 3 seconds
+            setTimeout(() => {
+                if (successMsg.parentElement) {
+                    successMsg.remove();
+                }
+            }, 3000);
+        }
+
+        function showVoiceError(error) {
+            let errorMessage = 'Voice recognition failed. Please try again.';
+            
+            switch(error) {
+                case 'no-speech':
+                    errorMessage = 'No speech detected. Please try speaking again.';
+                    break;
+                case 'audio-capture':
+                    errorMessage = 'Microphone not accessible. Please check permissions.';
+                    break;
+                case 'not-allowed':
+                    errorMessage = 'Microphone access denied. Please allow microphone access.';
+                    break;
+                case 'network':
+                    errorMessage = 'Network error. Please check your connection.';
+                    break;
+            }
+            
+            // Create temporary error message
+            const searchContainer = document.getElementById('searchQuery').parentElement;
+            const errorMsg = document.createElement('div');
+            errorMsg.className = 'absolute top-full left-0 right-0 bg-red-100 border border-red-300 text-red-700 px-3 py-2 rounded-lg mt-1 text-sm z-10';
+            errorMsg.innerHTML = `<i data-lucide="alert-circle" class="w-4 h-4 inline mr-1"></i>${errorMessage}`;
+            
+            searchContainer.appendChild(errorMsg);
+            lucide.createIcons();
+            
+            // Remove message after 4 seconds
+            setTimeout(() => {
+                if (errorMsg.parentElement) {
+                    errorMsg.remove();
+                }
+            }, 4000);
+        }
+
+        function showHomePage() {
+            document.getElementById('homePage').classList.remove('hidden');
+            document.getElementById('resultsPage').classList.add('hidden');
+            document.getElementById('queriesPage').classList.add('hidden');
+        }
+
+        function showResultsPage() {
+            document.getElementById('homePage').classList.add('hidden');
+            document.getElementById('resultsPage').classList.remove('hidden');
+            document.getElementById('queriesPage').classList.add('hidden');
+        }
+
+        function showQueriesPage() {
+            if (!currentUser) {
+                alert('Please login to view previous queries');
+                showAuthModal();
+                return;
+            }
+
+            document.getElementById('homePage').classList.add('hidden');
+            document.getElementById('resultsPage').classList.add('hidden');
+            document.getElementById('queriesPage').classList.remove('hidden');
+            loadPreviousQueries();
+        }
+
+        function handleSearch() {
+            if (!currentUser) {
+                alert('Please login to search for colleges');
+                showAuthModal();
+                return;
+            }
+
+            const query = document.getElementById('searchQuery').value.trim();
+            if (!query) {
+                alert('Please enter a search query');
+                return;
+            }
+
+            showResultsPage();
+            document.getElementById('loadingState').classList.remove('hidden');
+            document.getElementById('resultsGrid').innerHTML = '';
+            document.getElementById('pagination').innerHTML = '';
+
+            // Simulate API call delay
+            setTimeout(() => {
+                performSearch(query);
+            }, 2000);
+        }
+
+        function performSearch(query) {
+            const courseFilter = document.getElementById('courseFilter').value;
+            const locationFilter = document.getElementById('locationFilter').value;
+            const ratingFilter = document.getElementById('ratingFilter').value;
+
+            // Filter results based on query and filters
+            let results = [...sampleColleges];
+
+            if (courseFilter) {
+                results = results.filter(college => college.course === courseFilter);
+            }
+
+            if (locationFilter) {
+                results = results.filter(college => college.location.includes(locationFilter));
+            }
+
+            if (ratingFilter !== 'all') {
+                const limit = parseInt(ratingFilter.replace('top', ''));
+                results = results.slice(0, limit);
+            }
+
+            // Sort by rating
+            results.sort((a, b) => b.rating - a.rating);
+
+            currentResults = results;
+            currentPage = 1;
+            totalPages = Math.ceil(results.length / 6);
+
+            displayResults();
+            saveQuery(query, results.length);
+        }
+
+        function displayResults() {
+            document.getElementById('loadingState').classList.add('hidden');
+            
+            const startIndex = (currentPage - 1) * 6;
+            const endIndex = startIndex + 6;
+            const pageResults = currentResults.slice(startIndex, endIndex);
+
+            document.getElementById('resultsCount').textContent = 
+                `Found ${currentResults.length} colleges • Page ${currentPage} of ${totalPages}`;
+
+            const resultsGrid = document.getElementById('resultsGrid');
+            resultsGrid.innerHTML = pageResults.map(college => `
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow fade-in">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">${college.name}</h3>
+                            <p class="text-gray-600 flex items-center">
+                                <i data-lucide="map-pin" class="w-4 h-4 mr-1"></i>
+                                ${college.location}
+                            </p>
+                        </div>
+                        <div class="text-right">
+                            <div class="flex items-center mb-1">
+                                <span class="text-2xl font-bold text-indigo-600">${college.rating}</span>
+                                <div class="flex ml-2">
+                                    ${generateStars(college.rating)}
+                                </div>
+                            </div>
+                            <p class="text-sm text-gray-500">Overall Rating</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4 mb-4">
+                        <div>
+                            <p class="text-sm text-gray-500">Course</p>
+                            <p class="font-medium">${college.course}</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Placement Score</p>
+                            <p class="font-medium text-green-600">${college.placementScore}/5</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Fees</p>
+                            <p class="font-medium">${college.fees}</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Established</p>
+                            <p class="font-medium">${college.established}</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <p class="text-sm text-gray-500 mb-2">Highlights</p>
+                        <div class="flex flex-wrap gap-2">
+                            ${college.highlights.map(highlight => 
+                                `<span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full">${highlight}</span>`
+                            ).join('')}
+                        </div>
+                    </div>
+
+                    <button class="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition-colors">
+                        View Details
+                    </button>
+                </div>
+            `).join('');
+
+            // Re-initialize Lucide icons for new content
+            lucide.createIcons();
+
+            displayPagination();
+        }
+
+        function generateStars(rating) {
+            const fullStars = Math.floor(rating);
+            const hasHalfStar = rating % 1 >= 0.5;
+            let stars = '';
+
+            for (let i = 0; i < fullStars; i++) {
+                stars += '<i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>';
+            }
+
+            if (hasHalfStar) {
+                stars += '<i data-lucide="star-half" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>';
+            }
+
+            const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+            for (let i = 0; i < emptyStars; i++) {
+                stars += '<i data-lucide="star" class="w-4 h-4 text-gray-300"></i>';
+            }
+
+            return stars;
+        }
+
+        function displayPagination() {
+            const pagination = document.getElementById('pagination');
+            
+            if (totalPages <= 1) {
+                pagination.innerHTML = '';
+                return;
+            }
+
+            let paginationHTML = '';
+
+            // Previous button
+            if (currentPage > 1) {
+                paginationHTML += `
+                    <button onclick="changePage(${currentPage - 1})" 
+                            class="px-3 py-2 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
+                        <i data-lucide="chevron-left" class="w-4 h-4"></i>
+                    </button>
+                `;
+            }
+
+            // Page numbers
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === currentPage) {
+                    paginationHTML += `
+                        <button class="px-4 py-2 bg-indigo-600 text-white rounded-lg">${i}</button>
+                    `;
+                } else {
+                    paginationHTML += `
+                        <button onclick="changePage(${i})" 
+                                class="px-4 py-2 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">${i}</button>
+                    `;
+                }
+            }
+
+            // Next button
+            if (currentPage < totalPages) {
+                paginationHTML += `
+                    <button onclick="changePage(${currentPage + 1})" 
+                            class="px-3 py-2 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
+                        <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                    </button>
+                `;
+            }
+
+            pagination.innerHTML = paginationHTML;
+            lucide.createIcons();
+        }
+
+        function changePage(page) {
+            currentPage = page;
+            displayResults();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function saveQuery(query, resultsCount) {
+            // Simulate saving query to backend
+            const newQuery = {
+                id: Date.now(),
+                query: query,
+                timestamp: new Date().toLocaleString(),
+                resultsCount: resultsCount
+            };
+
+            let savedQueries = JSON.parse(localStorage.getItem('queries') || '[]');
+            savedQueries.unshift(newQuery);
+            savedQueries = savedQueries.slice(0, 10); // Keep only last 10 queries
+            localStorage.setItem('queries', JSON.stringify(savedQueries));
+        }
+
+        function loadPreviousQueries() {
+            const savedQueries = JSON.parse(localStorage.getItem('queries') || '[]');
+            const queriesList = document.getElementById('queriesList');
+
+            if (savedQueries.length === 0) {
+                queriesList.innerHTML = `
+                    <div class="text-center py-12">
+                        <i data-lucide="search" class="w-16 h-16 text-gray-300 mx-auto mb-4"></i>
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">No Previous Queries</h3>
+                        <p class="text-gray-600">Start searching for colleges to see your query history here.</p>
+                    </div>
+                `;
+                lucide.createIcons();
+                return;
+            }
+
+            queriesList.innerHTML = savedQueries.map(query => `
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                    <div class="flex justify-between items-start mb-3">
+                        <h3 class="text-lg font-medium text-gray-900 flex-1">${query.query}</h3>
+                        <span class="text-sm text-gray-500 ml-4">${query.resultsCount} results</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <p class="text-sm text-gray-600">
+                            <i data-lucide="clock" class="w-4 h-4 inline mr-1"></i>
+                            ${query.timestamp}
+                        </p>
+                        <button onclick="repeatSearch('${query.query}')" 
+                                class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors text-sm">
+                            Search Again
+                        </button>
+                    </div>
+                </div>
+            `).join('');
+
+            lucide.createIcons();
+        }
+
+        function repeatSearch(query) {
+            document.getElementById('searchQuery').value = query;
+            showHomePage();
+        }
+
+        // Make changePage function global
+        window.changePage = changePage;
+        window.repeatSearch = repeatSearch;
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96f70e1ed110f473',t:'MTc1NTI0Mzc0NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
