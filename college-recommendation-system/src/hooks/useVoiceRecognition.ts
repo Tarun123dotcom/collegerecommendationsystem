@@ -1,15 +1,77 @@
 import { useState, useEffect, useCallback } from 'react';
-import { VoiceRecognitionState } from '../types';
+
+// Define Speech Recognition interfaces
+interface SpeechRecognitionEvent extends Event {
+  results: SpeechRecognitionResultList;
+  resultIndex: number;
+  error?: string;
+}
+
+interface SpeechRecognitionResultList {
+  length: number;
+  item(index: number): SpeechRecognitionResult;
+  [index: number]: SpeechRecognitionResult;
+}
+
+interface SpeechRecognitionResult {
+  length: number;
+  item(index: number): SpeechRecognitionAlternative;
+  [index: number]: SpeechRecognitionAlternative;
+  isFinal: boolean;
+}
+
+interface SpeechRecognitionAlternative {
+  transcript: string;
+  confidence: number;
+}
+
+interface SpeechRecognitionErrorEvent extends Event {
+  error: string;
+  message: string;
+}
+
+interface SpeechRecognition extends EventTarget {
+  continuous: boolean;
+  interimResults: boolean;
+  lang: string;
+  maxAlternatives: number;
+  start(): void;
+  stop(): void;
+  abort(): void;
+  onstart: ((this: SpeechRecognition, ev: Event) => any) | null;
+  onresult: ((this: SpeechRecognition, ev: SpeechRecognitionEvent) => any) | null;
+  onerror: ((this: SpeechRecognition, ev: SpeechRecognitionErrorEvent) => any) | null;
+  onend: ((this: SpeechRecognition, ev: Event) => any) | null;
+}
+
+interface SpeechRecognitionConstructor {
+  new (): SpeechRecognition;
+}
+
+// Extend Window interface to include Speech Recognition
+declare global {
+  interface Window {
+    SpeechRecognition?: SpeechRecognitionConstructor;
+    webkitSpeechRecognition?: SpeechRecognitionConstructor;
+  }
+}
 
 interface UseVoiceRecognitionProps {
   onResult: (transcript: string) => void;
   onError?: (error: string) => void;
 }
 
+interface VoiceRecognitionState {
+  isListening: boolean;
+  isSupported: boolean;
+  error: string | null;
+}
+
 export const useVoiceRecognition = ({ onResult, onError }: UseVoiceRecognitionProps) => {
   const [state, setState] = useState<VoiceRecognitionState>({
     isListening: false,
     isSupported: false,
+    error: null
   });
 
   const [recognition, setRecognition] = useState<SpeechRecognition | null>(null);
@@ -17,52 +79,84 @@ export const useVoiceRecognition = ({ onResult, onError }: UseVoiceRecognitionPr
   useEffect(() => {
     // Check if browser supports speech recognition
     if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
-      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-      const recognitionInstance = new SpeechRecognition();
+      const SpeechRecognitionConstructor = window.SpeechRecognition || window.webkitSpeechRecognition;
       
-      recognitionInstance.continuous = false;
-      recognitionInstance.interimResults = false;
-      recognitionInstance.lang = 'en-US';
-      
-      recognitionInstance.onstart = () => {
-        setState(prev => ({ ...prev, isListening: true }));
-      };
-      
-      recognitionInstance.onresult = (event) => {
-        const transcript = event.results[0][0].transcript;
-        onResult(transcript);
-      };
-      
-      recognitionInstance.onerror = (event) => {
-        let errorMessage = 'Voice recognition failed. Please try again.';
-        
-        switch(event.error) {
-          case 'no-speech':
-            errorMessage = 'No speech detected. Please try speaking again.';
-            break;
-          case 'audio-capture':
-            errorMessage = 'Microphone not accessible. Please check permissions.';
-            break;
-          case 'not-allowed':
-            errorMessage = 'Microphone access denied. Please allow microphone access.';
-            break;
-          case 'network':
-            errorMessage = 'Network error. Please check your connection.';
-            break;
+      // Check if constructor exists before using it
+      if (SpeechRecognitionConstructor) {
+        try {
+          const recognitionInstance = new SpeechRecognitionConstructor();
+          
+          recognitionInstance.continuous = false;
+          recognitionInstance.interimResults = false;
+          recognitionInstance.lang = 'en-US';
+
+          recognitionInstance.onstart = () => {
+            setState(prev => ({ ...prev, isListening: true, error: null }));
+          };
+
+          recognitionInstance.onresult = (event: SpeechRecognitionEvent) => {
+            const transcript = event.results[0][0].transcript;
+            onResult(transcript);
+            setState(prev => ({ ...prev, isListening: false }));
+          };
+
+          recognitionInstance.onerror = (event: SpeechRecognitionErrorEvent) => {
+            let errorMessage = 'Voice recognition failed. Please try again.';
+
+            switch(event.error) {
+              case 'no-speech':
+                errorMessage = 'No speech detected. Please try again.';
+                break;
+              case 'audio-capture':
+                errorMessage = 'Audio capture failed. Please check your microphone.';
+                break;
+              case 'not-allowed':
+                errorMessage = 'Microphone access denied. Please allow microphone access.';
+                break;
+              case 'network':
+                errorMessage = 'Network error. Please check your connection.';
+                break;
+              default:
+                errorMessage = `Voice recognition error: ${event.error}`;
+            }
+
+            setState(prev => ({ 
+              ...prev, 
+              isListening: false, 
+              error: errorMessage 
+            }));
+            
+            if (onError) {
+              onError(errorMessage);
+            }
+          };
+
+          recognitionInstance.onend = () => {
+            setState(prev => ({ ...prev, isListening: false }));
+          };
+
+          setRecognition(recognitionInstance);
+          setState(prev => ({ ...prev, isSupported: true }));
+        } catch (error) {
+          setState(prev => ({ 
+            ...prev, 
+            isSupported: false, 
+            error: 'Failed to initialize speech recognition.' 
+          }));
         }
-        
-        setState(prev => ({ ...prev, error: errorMessage }));
-        onError?.(errorMessage);
-      };
-      
-      recognitionInstance.onend = () => {
-        setState(prev => ({ ...prev, isListening: false }));
-      };
-      
-      setRecognition(recognitionInstance);
-      setState(prev => ({ ...prev, isSupported: true }));
+      } else {
+        setState(prev => ({ 
+          ...prev, 
+          isSupported: false, 
+          error: 'Speech recognition constructor not available.' 
+        }));
+      }
     } else {
-      setState(prev => ({ ...prev, isSupported: false }));
+      setState(prev => ({ 
+        ...prev, 
+        isSupported: false, 
+        error: 'Speech recognition is not supported in this browser.' 
+      }));
     }
   }, [onResult, onError]);
 
@@ -71,7 +165,10 @@ export const useVoiceRecognition = ({ onResult, onError }: UseVoiceRecognitionPr
       try {
         recognition.start();
       } catch (error) {
-        setState(prev => ({ ...prev, error: 'Failed to start voice recognition' }));
+        setState(prev => ({ 
+          ...prev, 
+          error: 'Failed to start voice recognition.' 
+        }));
       }
     }
   }, [recognition, state.isSupported]);
@@ -91,7 +188,7 @@ export const useVoiceRecognition = ({ onResult, onError }: UseVoiceRecognitionPr
   }, [state.isListening, startListening, stopListening]);
 
   const clearError = useCallback(() => {
-    setState(prev => ({ ...prev, error: undefined }));
+    setState(prev => ({ ...prev, error: null }));
   }, []);
 
   return {
@@ -99,6 +196,6 @@ export const useVoiceRecognition = ({ onResult, onError }: UseVoiceRecognitionPr
     startListening,
     stopListening,
     toggleListening,
-    clearError,
+    clearError
   };
 };
