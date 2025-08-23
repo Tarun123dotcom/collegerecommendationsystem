@@ -6,10 +6,14 @@ const QueryHistory: React.FC = () => {
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
 
+
+
     useEffect(() => {
         const getQueryHistory = async () => {
             try {
-                const data = await fetchQueryHistory();
+                // Replace 'yourUserId' with the actual user ID value
+                const userId = 'yourUserId'; // You may get this from props, context, or authentication
+                const data = await fetchQueryHistory(userId);
                 setQueries(data);
             } catch (err) {
                 setError('Failed to fetch query history');
