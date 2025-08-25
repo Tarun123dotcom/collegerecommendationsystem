@@ -80,44 +80,37 @@ const QueryHistory: React.FC<QueryHistoryProps> = ({ onRepeatSearch }) => {
   }
 
   return (
-    <div className="space-y-4">
+    <div className="queries-list">
       {queries.map((query) => (
         <div
           key={query.id}
-          className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
+          className="queries-card"
         >
-          <div className="flex justify-between items-start mb-3">
-            <h3 className="text-lg font-medium text-gray-900 flex-1">
-              {query.query}
-            </h3>
-            <span className="text-sm text-gray-500 ml-4">
-              {query.resultsCount || 0} results
-            </span>
+          <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+            <h3 className="queries-card-title">{query.query}</h3>
+            <span className="queries-card-results">{query.resultsCount || 0} results</span>
           </div>
-          
-          <div className="flex justify-between items-center">
-            <p className="text-sm text-gray-600">
-              <Clock className="w-4 h-4 inline mr-1" />
+          <div className="queries-card-footer">
+            <p className="queries-card-time">
+              <Clock style={{width: '1.1rem', height: '1.1rem', marginRight: '0.3rem'}} />
               {formatTimestamp(query.timestamp)}
             </p>
-            
             <button
               onClick={() => handleRepeatSearch(query.query)}
-              className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors text-sm"
+              className="queries-search-btn"
             >
-              <Search className="w-4 h-4 inline mr-2" />
+              <Search style={{width: '1rem', height: '1rem', marginRight: '0.4rem'}} />
               Search Again
             </button>
           </div>
         </div>
       ))}
-      
-      <div className="text-center pt-4">
+      <div style={{textAlign: 'center'}}>
         <button
           onClick={loadQueryHistory}
-          className="text-indigo-600 hover:text-indigo-800 font-medium"
+          className="queries-refresh-btn"
         >
-          <RefreshCw className="w-4 h-4 inline mr-2" />
+          <RefreshCw style={{width: '1rem', height: '1rem', marginRight: '0.4rem'}} />
           Refresh History
         </button>
       </div>

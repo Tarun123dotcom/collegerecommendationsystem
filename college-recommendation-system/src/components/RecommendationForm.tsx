@@ -81,55 +81,39 @@ const RecommendationForm: React.FC<RecommendationFormProps> = ({
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
-      <div className="mb-6">
-        <label className="block text-sm font-medium text-gray-700 mb-2">
-          Search Query
-        </label>
-        <div className="relative">
-          <input
-            type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            onKeyPress={handleKeyPress}
-            placeholder="e.g., Top B.Pharmacy colleges in Telangana with good placements"
-            className="w-full px-4 py-3 pr-20 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-lg"
-          />
-          
-          {isSupported && (
-            <button
-              onClick={toggleListening}
-              className={`absolute right-12 top-2.5 p-1 rounded-full transition-colors ${
-                isListening 
-                  ? 'bg-red-500 text-white' 
-                  : 'hover:bg-gray-100 text-gray-400'
-              }`}
-              title={isListening ? 'Stop listening' : 'Voice Search'}
-            >
-              {isListening ? <MicOff size={20} /> : <Mic size={20} />}
-            </button>
-          )}
-          
-          <Search className="absolute right-4 top-3.5 w-5 h-5 text-gray-400" />
-        </div>
-        
-        {error && (
-          <div className="mt-2 p-3 bg-red-100 border border-red-300 text-red-700 rounded-lg text-sm">
-            {error}
-          </div>
+    <div className="recommendation-form">
+      <label className="search-label">Search Query</label>
+      <div className="search-input-row">
+        <input
+          type="text"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          onKeyPress={handleKeyPress}
+          placeholder="e.g., Top B.Pharmacy colleges in Telangana with good placements"
+          className="search-input"
+        />
+        {isSupported && (
+          <button
+            onClick={toggleListening}
+            className="search-voice-btn"
+            title={isListening ? 'Stop listening' : 'Voice Search'}
+            style={isListening ? { background: 'linear-gradient(90deg,#ef4444 60%,#dc2626 100%)' } : {}}
+          >
+            {isListening ? <MicOff size={20} /> : <Mic size={20} />}
+          </button>
         )}
+        <Search className="search-icon" />
       </div>
-
-      {/* Filters */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            Course Type
-          </label>
+      {error && (
+        <div className="search-error">{error}</div>
+      )}
+      <div className="search-filters-row">
+        <div className="search-filter">
+          <label className="search-filter-label">Course Type</label>
           <select
             value={filters.courseType}
             onChange={(e) => handleFilterChange('courseType', e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+            className="search-filter-select"
           >
             <option value="">All Courses</option>
             <option value="B.Pharmacy">B.Pharmacy</option>
@@ -142,15 +126,12 @@ const RecommendationForm: React.FC<RecommendationFormProps> = ({
             <option value="M.Tech">M.Tech</option>
           </select>
         </div>
-        
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            Location
-          </label>
+        <div className="search-filter">
+          <label className="search-filter-label">Location</label>
           <select
             value={filters.location}
             onChange={(e) => handleFilterChange('location', e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+            className="search-filter-select"
           >
             <option value="">All Locations</option>
             <option value="Telangana">Telangana</option>
@@ -164,15 +145,12 @@ const RecommendationForm: React.FC<RecommendationFormProps> = ({
             <option value="Hyderabad">Hyderabad</option>
           </select>
         </div>
-        
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            Rating Filter
-          </label>
+        <div className="search-filter">
+          <label className="search-filter-label">Rating Filter</label>
           <select
             value={filters.ratingFilter}
             onChange={(e) => handleFilterChange('ratingFilter', e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+            className="search-filter-select"
           >
             <option value="all">All Colleges</option>
             <option value="top10">Top 10</option>
@@ -181,10 +159,9 @@ const RecommendationForm: React.FC<RecommendationFormProps> = ({
           </select>
         </div>
       </div>
-
       <button
         onClick={handleSearch}
-        className="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition-colors text-lg font-medium"
+        className="search-btn"
       >
         <Search className="w-5 h-5 inline mr-2" />
         Search Colleges

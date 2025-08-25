@@ -10,14 +10,10 @@ interface HomeProps {
 
 const Home: React.FC<HomeProps> = ({ onSearchResults, onLoadingChange }) => {
   return (
-    <div className="fade-in">
-      <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Find Your Perfect College
-        </h1>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Discover the best colleges for your career with AI-powered recommendations based on placements, ratings, and reviews.
-        </p>
+    <div className="fade-in home-page">
+      <div className="home-header">
+        <h1 className="home-title">Find Your Perfect College</h1>
+        <p className="home-desc">Discover the best colleges for your career with AI-powered recommendations based on placements, ratings, and reviews.</p>
       </div>
 
       {/* Search Section */}
@@ -27,22 +23,18 @@ const Home: React.FC<HomeProps> = ({ onSearchResults, onLoadingChange }) => {
       />
 
       {/* Quick Stats */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-        <div className="bg-white rounded-lg shadow-md p-6 text-center">
-          <div className="text-3xl font-bold text-indigo-600 mb-2">2,500+</div>
-          <div className="text-gray-600">Colleges Listed</div>
+      <div className="stats-row">
+        <div className="stats-card">
+          <div className="stats-value stats-blue">2,500+</div>
+          <div className="stats-label">Colleges Listed</div>
         </div>
-        <div className="bg-white rounded-lg shadow-md p-6 text-center">
-          <div className="text-3xl font-bold text-green-600 mb-2">95%</div>
-          <div className="text-gray-600">Accuracy Rate</div>
+        <div className="stats-card">
+          <div className="stats-value stats-green">95%</div>
+          <div className="stats-label">Accuracy Rate</div>
         </div>
-        <div className="bg-white rounded-lg shadow-md p-6 text-center">
-          <div className="text-3xl font-bold text-purple-600 mb-2">50K+</div>
-          <div className="text-gray-600">Students Helped</div>
-        </div>
-        <div className="bg-white rounded-lg shadow-md p-6 text-center">
-          <div className="text-3xl font-bold text-orange-600 mb-2">24/7</div>
-          <div className="text-gray-600">AI Support</div>
+        <div className="stats-card">
+          <div className="stats-value stats-purple">50K+</div>
+          <div className="stats-label">Students Helped</div>
         </div>
       </div>
 

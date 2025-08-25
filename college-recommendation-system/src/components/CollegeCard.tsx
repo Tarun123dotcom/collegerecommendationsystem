@@ -47,101 +47,82 @@ const CollegeCard: React.FC<CollegeCardProps> = ({ college, onViewDetails }) => 
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-      <div className="flex justify-between items-start mb-4">
-        <div className="flex-1">
-          <h3 className="text-xl font-bold text-gray-900 mb-2">
-            {college.inst_name}
-          </h3>
-          <p className="text-gray-600 flex items-center">
-            <MapPin className="w-4 h-4 mr-1" />
+    <div className="college-card">
+      <div style={{display:'flex', justifyContent:'space-between', alignItems:'flex-start', marginBottom:'1.2rem'}}>
+        <div style={{flex:1}}>
+          <h3 className="college-card-title">{college.inst_name}</h3>
+          <p className="college-card-location">
+            <MapPin style={{width:'1.1rem', height:'1.1rem', marginRight:'0.3rem'}} />
             {college.District}, {college.State}
           </p>
         </div>
-        <div className="text-right">
-          <div className="flex items-center mb-1">
-            <span className="text-2xl font-bold text-indigo-600">
-              {college.Rating}
-            </span>
-            <div className="flex ml-2">
-              {generateStars(college.Rating)}
-            </div>
+        <div style={{textAlign:'right'}}>
+          <div className="college-card-rating-row">
+            <span className="college-card-rating">{college.Rating}</span>
+            <div className="college-card-stars">{generateStars(college.Rating)}</div>
           </div>
-          <p className="text-sm text-gray-500">Overall Rating</p>
+          <p className="college-card-label">Overall Rating</p>
         </div>
       </div>
-
-      <div className="grid grid-cols-2 gap-4 mb-4">
+      <div className="college-card-info-row">
         <div>
-          <p className="text-sm text-gray-500">Course</p>
-          <p className="font-medium">{college.Course}</p>
+          <p className="college-card-info-label">Course</p>
+          <p className="college-card-info-value">{college.Course}</p>
         </div>
         <div>
-          <p className="text-sm text-gray-500">Placement Rate</p>
-          <p className="font-medium text-green-600">
-            {formatPlacement(college['Placement %'])}
-          </p>
+          <p className="college-card-info-label">Placement Rate</p>
+          <p className="college-card-info-value green">{formatPlacement(college['Placement %'])}</p>
         </div>
         <div>
-          <p className="text-sm text-gray-500">ALP Score</p>
-          <p className="font-medium text-blue-600">
-            {formatALP(college.ALP)}
-          </p>
+          <p className="college-card-info-label">ALP Score</p>
+          <p className="college-card-info-value blue">{formatALP(college.ALP)}</p>
         </div>
         <div>
-          <p className="text-sm text-gray-500">Category</p>
-          <p className="font-medium">{college.Category}</p>
+          <p className="college-card-info-label">Category</p>
+          <p className="college-card-info-value">{college.Category}</p>
         </div>
       </div>
-
-      <div className="grid grid-cols-2 gap-4 mb-4">
+      <div className="college-card-info-row">
         <div>
-          <p className="text-sm text-gray-500">Infrastructure</p>
-          <p className="font-medium text-purple-600">
-            {formatInfraFaculty(college.Infra)}
-          </p>
+          <p className="college-card-info-label">Infrastructure</p>
+          <p className="college-card-info-value purple">{formatInfraFaculty(college.Infra)}</p>
         </div>
         <div>
-          <p className="text-sm text-gray-500">Faculty Quality</p>
-          <p className="font-medium text-purple-600">
-            {formatInfraFaculty(college.Faculty)}
-          </p>
+          <p className="college-card-info-label">Faculty Quality</p>
+          <p className="college-card-info-value purple">{formatInfraFaculty(college.Faculty)}</p>
         </div>
       </div>
-
       {college.Fees && (
-        <div className="mb-4">
-          <p className="text-sm text-gray-500">Fees</p>
-          <p className="font-medium">{college.Fees}</p>
+        <div style={{marginBottom:'1rem'}}>
+          <p className="college-card-info-label">Fees</p>
+          <p className="college-card-info-value">{college.Fees}</p>
         </div>
       )}
-
-      <div className="flex flex-wrap gap-2 mb-4">
+      <div className="college-card-links-row">
         {college.Links && (
           <a
             href={college.Links}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full hover:bg-blue-200 transition-colors"
+            className="college-card-link"
           >
-            <ExternalLink className="w-3 h-3 mr-1" />
+            <ExternalLink style={{width:'1rem', height:'1rem', marginRight:'0.3rem'}} />
             Visit College
           </a>
         )}
         {college.Comments && (
           <a
             href={`/comments/${college['S.No']}`}
-            className="inline-flex items-center bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full hover:bg-indigo-200 transition-colors"
+            className="college-card-link"
           >
-            <Users className="w-3 h-3 mr-1" />
+            <Users style={{width:'1rem', height:'1rem', marginRight:'0.3rem'}} />
             View Comments
           </a>
         )}
       </div>
-
       <button
         onClick={() => onViewDetails?.(college)}
-        className="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition-colors"
+        className="college-card-details-btn"
       >
         View Details
       </button>

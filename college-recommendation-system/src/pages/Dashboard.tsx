@@ -114,43 +114,40 @@ const Dashboard: React.FC<DashboardProps> = ({ colleges, searchQuery, onBackToSe
   return (
     <div className="fade-in">
       {/* Header */}
-      <div className="flex justify-between items-center mb-6">
+      <div className="results-header-row">
         <div>
-          <h2 className="text-2xl font-bold text-gray-900">Search Results</h2>
-          <p className="text-gray-600 mt-1">
+          <h2 className="results-title">Search Results</h2>
+          <p className="results-info">
             Found {colleges.length} colleges • Page {currentPage} of {totalPages}
           </p>
-          <p className="text-sm text-gray-500 mt-1">Query: "{searchQuery}"</p>
+          <p className="results-query">Query: "{searchQuery}"</p>
         </div>
-        
-        <div className="flex space-x-3">
+        <div className="results-actions-row">
           <button
             onClick={() => setShowFilters(!showFilters)}
-            className="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors flex items-center"
+            className="results-filters-btn"
           >
-            <Filter className="w-4 h-4 mr-2" />
+            <Filter style={{width: '1.1rem', height: '1.1rem', marginRight: '0.5rem'}} />
             Filters
           </button>
-          
-          <div className="relative">
+          <div style={{position: 'relative'}}>
             <select
               value={sortBy}
               onChange={(e) => handleSort(e.target.value)}
-              className="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors appearance-none pr-8"
+              className="results-sort-select"
             >
               <option value="default">Sort by</option>
               <option value="rating">Rating</option>
               <option value="placements">Placements</option>
               <option value="alp">ALP Score</option>
             </select>
-            <SortAsc className="absolute right-2 top-2.5 w-4 h-4 text-gray-500 pointer-events-none" />
+            <SortAsc style={{position: 'absolute', right: '0.7rem', top: '50%', transform: 'translateY(-50%)', width: '1.1rem', height: '1.1rem', color: '#64748b', pointerEvents: 'none'}} />
           </div>
-          
           <button
             onClick={onBackToSearch}
-            className="bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors flex items-center"
+            className="results-back-btn"
           >
-            <ArrowLeft className="w-4 h-4 mr-2" />
+            <ArrowLeft style={{width: '1.1rem', height: '1.1rem', marginRight: '0.5rem'}} />
             Back to Search
           </button>
         </div>
@@ -158,15 +155,15 @@ const Dashboard: React.FC<DashboardProps> = ({ colleges, searchQuery, onBackToSe
 
       {/* Filters Panel */}
       {showFilters && (
-        <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-          <h3 className="text-lg font-semibold text-gray-900 mb-4">Advanced Filters</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="college-card" style={{marginBottom: '2rem'}}>
+          <h3 className="college-card-title" style={{marginBottom: '1.2rem'}}>Advanced Filters</h3>
+          <div className="college-card-info-row">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Course Type</label>
+              <label className="college-card-info-label">Course Type</label>
               <select
                 value={filters.courseType || ''}
                 onChange={(e) => setFilters(prev => ({ ...prev, courseType: e.target.value }))}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                className="search-filter-select"
               >
                 <option value="">All Courses</option>
                 <option value="B.Pharmacy">B.Pharmacy</option>
@@ -177,13 +174,12 @@ const Dashboard: React.FC<DashboardProps> = ({ colleges, searchQuery, onBackToSe
                 <option value="BBA">BBA</option>
               </select>
             </div>
-            
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">State</label>
+              <label className="college-card-info-label">State</label>
               <select
                 value={filters.state || ''}
                 onChange={(e) => setFilters(prev => ({ ...prev, state: e.target.value }))}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                className="search-filter-select"
               >
                 <option value="">All States</option>
                 <option value="Telangana">Telangana</option>
@@ -193,13 +189,12 @@ const Dashboard: React.FC<DashboardProps> = ({ colleges, searchQuery, onBackToSe
                 <option value="Maharashtra">Maharashtra</option>
               </select>
             </div>
-            
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Min Rating</label>
+              <label className="college-card-info-label">Min Rating</label>
               <select
                 value={filters.rating || ''}
                 onChange={(e) => setFilters(prev => ({ ...prev, rating: parseFloat(e.target.value) || undefined }))}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                className="search-filter-select"
               >
                 <option value="">Any Rating</option>
                 <option value="3.0">3.0+</option>
@@ -214,7 +209,7 @@ const Dashboard: React.FC<DashboardProps> = ({ colleges, searchQuery, onBackToSe
 
       {/* Error Message */}
       {error && (
-        <div className="mb-6 p-4 bg-red-100 border border-red-300 text-red-700 rounded-lg">
+        <div className="college-card" style={{background:'#fee2e2', color:'#b91c1c', border:'1.5px solid #fca5a5', marginBottom:'2rem'}}>
           {error}
         </div>
       )}
@@ -230,7 +225,7 @@ const Dashboard: React.FC<DashboardProps> = ({ colleges, searchQuery, onBackToSe
       {/* Results Grid */}
       {!loading && (
         <>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+          <div className="results-grid">
             {currentColleges.map((college) => (
               <CollegeCard
                 key={college['S.No']}
@@ -242,7 +237,7 @@ const Dashboard: React.FC<DashboardProps> = ({ colleges, searchQuery, onBackToSe
 
           {/* Pagination */}
           {totalPages > 1 && (
-            <div className="flex justify-center items-center space-x-2">
+            <div className="results-pagination-row">
               {generatePagination()}
             </div>
           )}
@@ -251,15 +246,15 @@ const Dashboard: React.FC<DashboardProps> = ({ colleges, searchQuery, onBackToSe
 
       {/* No Results */}
       {!loading && colleges.length === 0 && (
-        <div className="text-center py-12">
-          <div className="w-16 h-16 text-gray-300 mx-auto mb-4">🔍</div>
-          <h3 className="text-lg font-medium text-gray-900 mb-2">No Colleges Found</h3>
-          <p className="text-gray-600 mb-4">
+        <div className="college-card" style={{textAlign:'center', padding:'2.5rem 1.5rem', marginTop:'2rem'}}>
+          <div style={{fontSize:'2.5rem', color:'#64748b', marginBottom:'1rem'}}>🔍</div>
+          <h3 style={{fontSize:'1.2rem', fontWeight:'700', color:'#1e293b', marginBottom:'0.7rem'}}>No Colleges Found</h3>
+          <p style={{color:'#64748b', marginBottom:'1.2rem'}}>
             Try adjusting your search criteria or filters to find more results.
           </p>
           <button
             onClick={onBackToSearch}
-            className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors"
+            className="results-filters-btn"
           >
             Modify Search
           </button>
