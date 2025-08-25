@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template
 from flask import Flask, session, redirect, url_for
 import pymysql
+from config import get_mysql_config
 import logging
 import pandas as pd
 import spacy
@@ -22,11 +23,12 @@ engine = pyttsx3.init()
 
 # Helper for PyMySQL connection
 def get_db_connection():
+    cfg = get_mysql_config()
     return pymysql.connect(
-        host=app.config.get('MYSQL_HOST', 'localhost'),
-        user=app.config.get('MYSQL_USER', 'root'),
-        password=app.config.get('MYSQL_PASSWORD', ''),
-        db=app.config.get('MYSQL_DB', 'crs'),
+        host=cfg['host'],
+        user=cfg['user'],
+        password=cfg['password'],
+        db=cfg['database'],
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
     )
