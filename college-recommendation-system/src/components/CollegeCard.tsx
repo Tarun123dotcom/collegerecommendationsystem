@@ -1,6 +1,8 @@
 import React from 'react';
-import { MapPin, Star, StarHalf, Building, Users, Calendar, ExternalLink } from 'lucide-react';
+import { MapPin,  Building, Users, Calendar, ExternalLink } from 'lucide-react';
 import { College } from '../types';
+import { StarIcon as StarSolid } from "@heroicons/react/24/solid";
+import { StarIcon as StarOutline } from "@heroicons/react/24/outline";
 
 interface CollegeCardProps {
   college: College;
@@ -9,25 +11,26 @@ interface CollegeCardProps {
 
 const CollegeCard: React.FC<CollegeCardProps> = ({ college, onViewDetails }) => {
   const generateStars = (rating: number) => {
-    const fullStars = Math.floor(rating);
-    const hasHalfStar = rating % 1 >= 0.5;
-    let stars = [];
+  const fullStars = Math.floor(rating);
+  const hasHalfStar = rating % 1 >= 0.5;
+  let stars = [];
 
-    for (let i = 0; i < fullStars; i++) {
-      stars.push(<Star key={`full-${i}`} className="w-4 h-4 fill-yellow-400 text-yellow-400" />);
-    }
+  for (let i = 0; i < fullStars; i++) {
+    stars.push(<StarSolid key={`full-${i}`} className="w-5 h-5 text-yellow-400" />);
+  }
 
-    if (hasHalfStar) {
-      stars.push(<StarHalf key="half" className="w-4 h-4 fill-yellow-400 text-yellow-400" />);
-    }
+  if (hasHalfStar) {
+    stars.push(<StarSolid key="half" className="w-5 h-5 text-yellow-400 opacity-50" />);
+  }
 
-    const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
-    for (let i = 0; i < emptyStars; i++) {
-      stars.push(<Star key={`empty-${i}`} className="w-4 h-4 text-gray-300" />);
-    }
+  const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+  for (let i = 0; i < emptyStars; i++) {
+    stars.push(<StarOutline key={`empty-${i}`} className="w-5 h-5 text-gray-300" />);
+  }
 
-    return stars;
-  };
+  return stars;
+};
+
 
   const formatInfraFaculty = (value: number | string) => {
     if (typeof value === 'number') {
