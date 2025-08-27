@@ -87,7 +87,7 @@ const QueryHistory: React.FC<QueryHistoryProps> = ({ onRepeatSearch }) => {
           className="queries-card"
         >
           <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
-            <h3 className="queries-card-title">{query.query}</h3>
+            <h3 className="queries-card-title">{query.query_text}</h3>
             <span className="queries-card-results">{query.resultsCount || 0} results</span>
           </div>
           <div className="queries-card-footer">
@@ -96,7 +96,7 @@ const QueryHistory: React.FC<QueryHistoryProps> = ({ onRepeatSearch }) => {
               {formatTimestamp(query.timestamp)}
             </p>
             <button
-              onClick={() => handleRepeatSearch(query.query)}
+              onClick={() => handleRepeatSearch(query.query_text)}
               className="queries-search-btn"
             >
               <Search style={{width: '1rem', height: '1rem', marginRight: '0.4rem'}} />

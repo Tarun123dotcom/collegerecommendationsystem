@@ -26,10 +26,10 @@ export interface College {
 
 export interface SearchQuery {
   id: number;
-  query: string;
+  query_text: string;
   timestamp: string;
   resultsCount: number;
-  response?: string;
+  result_colleges: string;
   created_at?: string;
 }
 

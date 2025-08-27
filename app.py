@@ -141,7 +141,7 @@ def api_recommend():
     try:
         conn = get_db_connection()
         with conn.cursor() as cursor:
-            cursor.execute('INSERT INTO previous_queries (query, response, user_id) VALUES (%s, %s, %s)', (query_text, html_response, user_id))
+            cursor.execute('INSERT INTO previous_queries (query_text, result_colleges, user_id) VALUES (%s, %s, %s)', (query_text, html_response, user_id))
             conn.commit()
         conn.close()
     except Exception as e:
@@ -160,7 +160,7 @@ def api_previous():
     try:
         conn = get_db_connection()
         with conn.cursor() as cursor:
-            cursor.execute('SELECT id, query, response, created_at FROM previous_queries WHERE user_id = %s ORDER BY id DESC LIMIT 10', (user_id,))
+            cursor.execute('SELECT user_id, query_text, result_colleges, query_time FROM previous_queries WHERE user_id = %s ORDER BY id DESC LIMIT 10', (user_id,))
             rows = cursor.fetchall()
         conn.close()
         return jsonify(previous=rows)
@@ -293,21 +293,22 @@ def search():
         logging.warning('Passwords do not match for user %s.', email)
         return render_template('index.html', error="Incorrect email/password")
 
-def extract_entities(query):
+# ... (all other imports and existing code) ...
 
+def extract_entities(query):
     import pandas as pd
     import logging
-    from fuzzywuzzy import process
-    # Use cached config lists and spaCy model
+    from thefuzz import process
+    
     entitiesFound = {
         'infra': [],
         'faculty': [],
         'course': [],
         'stream': [],
         'rating': None,
-        'rating_comparison': 'eq',  # Default comparison type
+        'rating_comparison': 'eq',
         'state': [],
-        'andhra': None,
+        'andhra': None, # This can be removed or ignored in the next steps
         'district': [],
         'fee': None,
         'confidence': {}
@@ -315,39 +316,46 @@ def extract_entities(query):
 
     query_lower = query.lower()
     doc = nlp(query)
+    
+    # --- Fuzzy and Phrase Matching ---
+    
+    # Check for Andhra Pradesh and normalize it to the state list
+    andhra_keywords = config_lists.get('andhra_keywords', ['ap', 'andhra', 'andra', 'andra pradesh', 'andhra pradesh'])
+    andhra_match = process.extractOne(query_lower, andhra_keywords, score_cutoff=70)
+    if andhra_match:
+        # Instead of setting a separate 'andhra' key, append to 'state'
+        entitiesFound['state'].append('Andhra Pradesh')
+        entitiesFound['confidence']['state'] = andhra_match[1]
 
-    # --- Synonym mapping and fuzzy matching for all entities ---
-    for entity in ['infra', 'faculty', 'course', 'stream', 'state']:
-        keywords = config_lists.get(entity + 's', [])
-        match = process.extractOne(query_lower, keywords)
-        if match and match[1] > 80:
-            entitiesFound[entity].append(get_synonym(entity, match[0]))
-            entitiesFound['confidence'][entity] = match[1]
-
-    # Andhra fuzzy match
-    andhra_keywords = config_lists.get('andhra_keywords', ['ap','andhra','andra','andra pradesh','andhra pradesh'])
-    andhra_match = process.extractOne(query_lower, andhra_keywords)
-    if andhra_match and andhra_match[1] > 80:
-        entitiesFound['andhra'] = 'Andhra Pradesh'
-        entitiesFound['confidence']['andhra'] = andhra_match[1]
-
-    # District fuzzy and phrase match
-    for district in config_lists.get('districts', []):
-        match = process.extractOne(query_lower, [district])
-        if match and match[1] > 80:
-            entitiesFound['district'].append(district.title())
-            entitiesFound['confidence'][district] = match[1]
-
-    # PhraseMatcher for multi-word entities
+    # Use PhraseMatcher for other pre-defined multi-word entities
     matches = phrase_matcher(doc)
     for match_id, start, end in matches:
         label = nlp.vocab.strings[match_id]
         value = doc[start:end].text
         if label in entitiesFound:
-            entitiesFound[label].append(value)
+            normalized_value = get_synonym(label, value)
+            entitiesFound[label].append(normalized_value)
             entitiesFound['confidence'][label] = 100
 
-    # Fee category detection (phrase match, fuzzy)
+    # Use fuzzy matching as a fallback for all other entities
+    for entity in ['course', 'stream', 'state', 'district', 'infra', 'faculty']:
+        keywords = config_lists.get(entity + 's', [])
+        match = process.extractOne(query_lower, keywords, score_cutoff=85)
+        
+        # Check if the entity is already found before adding a fuzzy match
+        if match and match[0] not in entitiesFound[entity]:
+            normalized_value = get_synonym(entity, match[0])
+            entitiesFound[entity].append(normalized_value)
+            entitiesFound['confidence'][entity] = match[1]
+
+    # --- Andhra fuzzy normalization (already good) ---
+    andhra_keywords = config_lists.get('andhra_keywords', ['ap', 'andhra', 'andra', 'andra pradesh', 'andhra pradesh'])
+    andhra_match = process.extractOne(query_lower, andhra_keywords, score_cutoff=70)   # more tolerant threshold
+    if andhra_match:
+        entitiesFound['andhra'] = 'Andhra Pradesh'
+        entitiesFound['confidence']['andhra'] = andhra_match[1]
+
+    # --- Fee keywords ---
     fee_keywords = config_lists.get('fee_keywords', {
         'vl': ['very low fee', 'vl fee'],
         'l': ['low fee', 'l fee'],
@@ -356,32 +364,13 @@ def extract_entities(query):
         'vh': ['very high fee', 'vh fee']
     })
     for category, keywords in fee_keywords.items():
-        for keyword in keywords:
-            if re.search(rf'\b{re.escape(keyword)}\b', query_lower):
-                entitiesFound['fee'] = category
-                entitiesFound['confidence']['fee'] = 100
-                break
-        if entitiesFound['fee']:
-            break
-    if not entitiesFound['fee']:
-        # Fuzzy fallback
-        for category, keywords in fee_keywords.items():
-            match = process.extractOne(query_lower, keywords)
-            if match and match[1] > 80:
-                entitiesFound['fee'] = category
-                entitiesFound['confidence']['fee'] = match[1]
-                break
+        match = process.extractOne(query_lower, keywords, score_cutoff=80)
+        if match:
+            entitiesFound['fee'] = category
+            entitiesFound['confidence']['fee'] = match[1]
+            break # Exit loop once a match is found
 
-    # Extract all entities of each type from spaCy NER
-    for ent in doc.ents:
-        label = ent.label_.lower()
-        value = ent.text.strip().lower()
-        if label in entitiesFound:
-            entitiesFound[label].append(value)
-            entitiesFound['confidence'][label] = 100
-        logging.info(f"Entity found: {ent.text} ({ent.label_})")
-
-    # Rating extraction: float, int, and context phrases
+    # --- Rating extraction ---
     rating_match = re.findall(r'(\d+\.\d+|\d+)', query)
     if rating_match:
         try:
@@ -389,7 +378,6 @@ def extract_entities(query):
         except Exception:
             entitiesFound['rating'] = int(rating_match[0])
         entitiesFound['confidence']['rating'] = 100
-        # NLP phrase matching for comparison
         comp_phrases = config_lists.get('comp_phrases', {
             'gte': ['or above', 'at least', 'greater than', 'more than', 'minimum'],
             'lte': ['or below', 'at most', 'less than', 'maximum'],
@@ -401,20 +389,17 @@ def extract_entities(query):
                     entitiesFound['rating_comparison'] = comp
                     break
 
-    # Star rating context (e.g., "4 star college")
     star_match = re.search(r'(\d+)\s*star', query_lower)
     if star_match:
         entitiesFound['rating'] = float(star_match.group(1))
         entitiesFound['confidence']['rating'] = 100
-
-    # --- Enhancement: Log unmatched queries for admin review ---
-    if not any([entitiesFound[k] for k in ['infra','faculty','course','stream','state','district']]) and not entitiesFound['andhra']:
-        with open('unmatched_queries.log', 'a', encoding='utf-8') as f:
-            f.write(query + '\n')
+        
+    # Remove duplicates from the lists
+    for key in ['course', 'stream', 'state', 'district', 'infra', 'faculty']:
+        entitiesFound[key] = list(set(entitiesFound[key]))
 
     logging.info(f"Extracted entities: {entitiesFound}")
     return entitiesFound
-
 
 def filter_data(data, entities):
     if not entities:
@@ -429,6 +414,7 @@ def filter_data(data, entities):
     fee_criteria = entities['fee']
     district_criteria = entities.get('district')
 
+    # --- Stream mapping ---
     stream_criteria = 'E'
     if entities['stream'] in ['btech', 'mtech', 'integrated mtech']:
         stream_criteria = 'E'
@@ -439,6 +425,7 @@ def filter_data(data, entities):
     elif entities['stream'] in ['arts', 'culture', 'arts and culture']:
         stream_criteria = 'AS'
 
+    # --- Rating filter ---
     if entities['rating_comparison'] == 'gte':
         rating_filter = data['Rating'] >= rating_criteria
     elif entities['rating_comparison'] == 'lte':
@@ -446,45 +433,59 @@ def filter_data(data, entities):
     else:
         rating_filter = data['Rating'] == rating_criteria
 
+    # --- Course filter ---
     course_filter = True
     if stream_criteria == 'P':
-        course_filter = data['Course'].str.lower().str.contains('b.pharm')
-    elif course_criteria is not None:
-        course_filter = data['Course'].str.lower().str.contains(course_criteria.lower())
+        course_filter = data['Course'].str.lower().str.contains('b.pharm', na=False)
+    elif course_criteria:
+        course_filter = data['Course'].str.lower().apply(
+            lambda x: any(c.lower() in x for c in course_criteria)
+        )
 
+    # --- State filter (fix for list issue) ---
     state_filter = True
-    if state_criteria is not None:
-        state_filter = data['State'].str.contains(state_criteria)
+    if state_criteria:
+        pattern = '|'.join(map(re.escape, state_criteria)) if isinstance(state_criteria, list) else re.escape(str(state_criteria))
+        state_filter = data['State'].str.contains(pattern, case=False, na=False)
+
+    # --- Andhra filter ---
     andhra_filter = True
-    if andhra_criteria is not None:
-        andhra_filter = data['State'].str.contains(andhra_criteria)
+    if andhra_criteria:
+        andhra_filter = data['State'].str.contains(andhra_criteria, case=False, na=False)
+
+    # --- District filter (fix for list issue) ---
     district_filter = True
     if district_criteria:
-        data = data[data['District'].str.contains(district_criteria, na=False)]
+        pattern = '|'.join(map(re.escape, district_criteria)) if isinstance(district_criteria, list) else re.escape(str(district_criteria))
+        district_filter = data['District'].str.contains(pattern, case=False, na=False)
 
+    # --- Fee filter ---
     fee_filter = True
-    if fee_criteria is not None:
+    if fee_criteria:
         fee_filter = data['FeeCategory'].str.lower() == fee_criteria.lower()
 
+    # --- Apply all filters ---
     filtered_data = data[
         ((data['Infra'] >= infra_criteria) | (entities['infra'] is None)) &
         ((data['Faculty'] >= faculty_criteria) | (entities['faculty'] is None)) &
-        (state_filter | (entities['state'] is None)) &
-        (andhra_filter | (entities['andhra'] is None)) &
-        (district_filter | (entities['district'] is None)) &    
+        (state_filter | (not state_criteria)) &
+        (andhra_filter | (not andhra_criteria)) &
+        (district_filter | (not district_criteria)) &
         (rating_filter | (entities['rating'] is None)) &
-        (data['Category'].str.contains(stream_criteria, case=False) | (entities['stream'] is None)) &
-        (course_filter | (entities['course'] is None)) &
+        (data['Category'].str.contains(stream_criteria, case=False, na=False) | (entities['stream'] is None)) &
+        (course_filter | (not course_criteria)) &
         (fee_filter | (fee_criteria is None))
     ]
 
     print("Stream Criteria:", stream_criteria)
     print("Filtered Data after stream filter:\n", filtered_data[['Category', 'Course']])
 
+    # --- Convert numeric fields ---
     filtered_data['Rating'] = pd.to_numeric(filtered_data['Rating'], errors='coerce')
     filtered_data['Infra'] = pd.to_numeric(filtered_data['Infra'], errors='coerce')
     filtered_data['Faculty'] = pd.to_numeric(filtered_data['Faculty'], errors='coerce')
 
+    # --- Ranking calculation ---
     rating_weight = 0.4
     placements_weight = 0.3
     alp_weight = 0.3
@@ -497,17 +498,19 @@ def filter_data(data, entities):
 
     filtered_data['Rank'] = filtered_data['Combined Score'].rank(ascending=False)
 
+    # --- Final cleanup ---
     filtered_data = filtered_data.sort_values(by='Rank').reset_index(drop=True)
-    filtered_data = filtered_data.drop(columns=['Combined Score'])
-    filtered_data = filtered_data.drop(columns=['FeeCategory', 'S links', 'Classified Rating'])
+    filtered_data = filtered_data.drop(columns=['Combined Score'], errors='ignore')
+    filtered_data = filtered_data.drop(columns=['FeeCategory', 'S links', 'Classified Rating'], errors='ignore')
     filtered_data['Comments'] = filtered_data['S.No'].apply(
-    lambda x: f"<a href='/comments/{x}'> Comments </a>"
+        lambda x: f"<a href='/comments/{x}'> Comments </a>"
     )
 
     print("Infra Criteria:", infra_criteria)
     print("Final Filtered Data:\n", filtered_data)
 
     return filtered_data
+
 
 
 def generate_response(filtered_data):
@@ -570,7 +573,11 @@ def recommend_colleges():
         # Insert query and response into the database with user_id
         conn = get_db_connection()
         with conn.cursor() as cursor:
-            cursor.execute('INSERT INTO previous_queries (query, response, user_id) VALUES (%s, %s, %s)', (query, response, user_id))
+            cursor.execute(
+                'INSERT INTO previous_queries (query_text, result_colleges, user_id) VALUES (%s, %s, %s)',
+                (query, response, user_id)
+            )
+
             conn.commit()
         conn.close()
     except Exception as e:
@@ -582,7 +589,7 @@ def recommend_colleges():
     try:
         conn = get_db_connection()
         with conn.cursor() as cursor:
-            cursor.execute('SELECT id FROM previous_queries WHERE query = %s', (query,))
+            cursor.execute('SELECT id FROM previous_queries WHERE query_text = %s', (query,))
             result = cursor.fetchone()
         conn.close()
         
@@ -659,11 +666,11 @@ def add_filters():
     try:
         conn = get_db_connection()
         with conn.cursor() as cursor:
-            cursor.execute('SELECT query FROM previous_queries WHERE id = %s', (q_id,))
+            cursor.execute('SELECT query_text FROM previous_queries WHERE id = %s', (q_id,))
             result = cursor.fetchone()
         conn.close()
         if result:
-            text = result['query']
+            text = result['query_text']
             print('query printed')
         else:
             text = "error printing query"
@@ -727,11 +734,11 @@ def sort():
     try:
         conn = get_db_connection()
         with conn.cursor() as cursor:
-            cursor.execute('SELECT query FROM previous_queries WHERE id = %s', (q_id,))
+            cursor.execute('SELECT query_text FROM previous_queries WHERE id = %s', (q_id,))
             result = cursor.fetchone()
         conn.close()
         if result:
-            text = result['query']
+            text = result['query_text']
             print('query printed')
         else:
             text = "error printing query"
