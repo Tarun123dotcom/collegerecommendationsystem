@@ -23,7 +23,7 @@ const SignupForm: React.FC = () => {
     };
 
     return (
-        <div className="signup-form">
+    <div className="signup-form" style={{ width: '600px', minHeight: '400px', margin: '40px auto', padding: '32px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', overflowY: 'auto', maxHeight: '90vh' }}>
             <h2>Sign Up</h2>
             <form onSubmit={handleSubmit}>
                 <div>

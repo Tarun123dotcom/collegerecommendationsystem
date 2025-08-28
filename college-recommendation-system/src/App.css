@@ -1,3 +1,12 @@
+/* Signup Form Custom Styles */
+.signup-form {
+  width: 600px !important;
+  margin: 40px auto !important;
+  padding: 32px !important;
+  display: block !important;
+  overflow-y: auto !important;
+  max-height: 90vh !important;
+}
 /* Auth Flip Card Modal Styles */
 .auth-flip-card-container {
   perspective: 1600px;
@@ -44,6 +53,8 @@
   z-index: 1;
 }
 .auth-flip-card-content {
+  max-height: 420px;
+  overflow-y: auto;
   width: 90%;
   padding: 2.2rem 1.2rem 1.2rem 1.2rem;
   display: flex;
