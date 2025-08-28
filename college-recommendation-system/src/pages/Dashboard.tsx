@@ -212,6 +212,21 @@ const Dashboard: React.FC<DashboardProps> = ({ colleges, searchQuery, onBackToSe
         </div>
       )}
 
+      {/* Sorting Dropdown */}
+      <div style={{marginBottom:'1.5rem', display:'flex', alignItems:'center', gap:'1rem'}}>
+        <label htmlFor="sort-select" style={{fontWeight:'bold'}}>Sort by:</label>
+        <select
+          id="sort-select"
+          value={sortBy}
+          onChange={e => handleSort(e.target.value)}
+          style={{padding:'0.5rem', borderRadius:'0.5rem', border:'1px solid #ddd'}}
+        >
+          <option value="default">Default</option>
+          <option value="placements">Placements</option>
+          <option value="alp">Average LPA</option>
+        </select>
+      </div>
+
       {/* Results Grid */}
       {!loading && (
         <>
