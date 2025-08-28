@@ -11,25 +11,26 @@ interface CollegeCardProps {
 
 const CollegeCard: React.FC<CollegeCardProps> = ({ college, onViewDetails }) => {
   const generateStars = (rating: number) => {
-  const fullStars = Math.floor(rating);
-  const hasHalfStar = rating % 1 >= 0.5;
-  let stars = [];
-
-  for (let i = 0; i < fullStars; i++) {
-    stars.push(<StarSolid key={`full-${i}`} className="w-5 h-5 text-yellow-400" />);
-  }
-
-  if (hasHalfStar) {
-    stars.push(<StarSolid key="half" className="w-5 h-5 text-yellow-400 opacity-50" />);
-  }
-
-  const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
-  for (let i = 0; i < emptyStars; i++) {
-    stars.push(<StarOutline key={`empty-${i}`} className="w-5 h-5 text-gray-300" />);
-  }
-
-  return stars;
-};
+    // Always show 5 stars, with support for half stars
+    const stars = [];
+    const rounded = Math.round(rating * 2) / 2; // round to nearest 0.5
+    for (let i = 1; i <= 5; i++) {
+      if (rounded >= i) {
+        stars.push(<StarSolid key={`full-${i}`} className="w-5 h-5 text-yellow-400" />);
+      } else if (rounded >= i - 0.5) {
+        // visually represent half star by overlaying solid and outline
+        stars.push(
+          <span key={`half-${i}`} style={{position:'relative', display:'inline-block', width:'1.25rem', height:'1.25rem'}}>
+            <StarOutline className="w-5 h-5 text-yellow-400" style={{position:'absolute', left:0, top:0}} />
+            <StarSolid className="w-5 h-5 text-yellow-400" style={{position:'absolute', left:0, top:0, width:'50%', overflow:'hidden', clipPath:'inset(0 50% 0 0)'}} />
+          </span>
+        );
+      } else {
+        stars.push(<StarOutline key={`empty-${i}`} className="w-5 h-5 text-gray-300" />);
+      }
+    }
+    return stars;
+  };
 
 
   const formatInfraFaculty = (value: number | string) => {

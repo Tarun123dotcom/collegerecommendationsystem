@@ -18,43 +18,33 @@ const Dashboard: React.FC<DashboardProps> = ({ colleges, searchQuery, onBackToSe
   const [showFilters, setShowFilters] = useState(false);
   const [filters, setFilters] = useState<SearchFilters>({});
   const [sortBy, setSortBy] = useState<string>('default');
+  const [sortedColleges, setSortedColleges] = useState<College[]>([...colleges]);
 
-  const totalPages = Math.ceil(colleges.length / collegesPerPage);
+  useEffect(() => {
+    let sorted = [...colleges];
+    if (sortBy === 'placements') {
+      sorted.sort((a, b) => (b['Placement %'] || 0) - (a['Placement %'] || 0));
+    } else if (sortBy === 'alp') {
+      sorted.sort((a, b) => (b.ALP || 0) - (a.ALP || 0));
+    } else if (sortBy === 'rating') {
+      sorted.sort((a, b) => b.Rating - a.Rating);
+    }
+    setSortedColleges(sorted);
+    setCurrentPage(1); // Reset to first page on sort
+  }, [colleges, sortBy]);
+
+  const totalPages = Math.ceil(sortedColleges.length / collegesPerPage);
   const startIndex = (currentPage - 1) * collegesPerPage;
   const endIndex = startIndex + collegesPerPage;
-  const currentColleges = colleges.slice(startIndex, endIndex);
+  const currentColleges = sortedColleges.slice(startIndex, endIndex);
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const handleSort = async (sortType: string) => {
+  const handleSort = (sortType: string) => {
     setSortBy(sortType);
-    setLoading(true);
-    setError('');
-
-    try {
-      // This would need to be implemented based on your backend
-      // For now, we'll just sort the existing data
-      let sortedColleges = [...colleges];
-      
-      if (sortType === 'placements') {
-        sortedColleges.sort((a, b) => (b['Placement %'] || 0) - (a['Placement %'] || 0));
-      } else if (sortType === 'alp') {
-        sortedColleges.sort((a, b) => (b.ALP || 0) - (a.ALP || 0));
-      } else if (sortType === 'rating') {
-        sortedColleges.sort((a, b) => b.Rating - a.Rating);
-      }
-      
-      // Update the colleges array (this would need to be handled by parent component)
-      // For now, we'll just show a message
-      setError('Sorting functionality will be implemented with backend integration');
-    } catch (err: any) {
-      setError(err.message || 'Failed to sort results');
-    } finally {
-      setLoading(false);
-    }
   };
 
   const handleViewDetails = (college: College) => {
@@ -118,7 +108,7 @@ const Dashboard: React.FC<DashboardProps> = ({ colleges, searchQuery, onBackToSe
         <div>
           <h2 className="results-title">Search Results</h2>
           <p className="results-info">
-            Found {colleges.length} colleges • Page {currentPage} of {totalPages}
+            Found {sortedColleges.length} colleges • Page {currentPage} of {totalPages}
           </p>
           <p className="results-query">Query: "{searchQuery}"</p>
         </div>
@@ -245,7 +235,7 @@ const Dashboard: React.FC<DashboardProps> = ({ colleges, searchQuery, onBackToSe
       )}
 
       {/* No Results */}
-      {!loading && colleges.length === 0 && (
+  {!loading && sortedColleges.length === 0 && (
         <div className="college-card" style={{textAlign:'center', padding:'2.5rem 1.5rem', marginTop:'2rem'}}>
           <div style={{fontSize:'2.5rem', color:'#64748b', marginBottom:'1rem'}}>🔍</div>
           <h3 style={{fontSize:'1.2rem', fontWeight:'700', color:'#1e293b', marginBottom:'0.7rem'}}>No Colleges Found</h3>
