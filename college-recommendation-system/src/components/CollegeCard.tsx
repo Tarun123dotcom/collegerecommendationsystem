@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { MapPin,  Building, Users, Calendar, ExternalLink } from 'lucide-react';
 import { College } from '../types';
 import { StarIcon as StarSolid } from "@heroicons/react/24/solid";
@@ -10,24 +10,36 @@ interface CollegeCardProps {
 }
 
 const CollegeCard: React.FC<CollegeCardProps> = ({ college, onViewDetails }) => {
+  const [showCommentBox, setShowCommentBox] = useState(false);
+  const [newComment, setNewComment] = useState('');
+
   const generateStars = (rating: number) => {
-    // Always show 5 stars, with support for half stars
+    // Always show 5 stars, fill each according to rating
     const stars = [];
-    const rounded = Math.round(rating * 2) / 2; // round to nearest 0.5
     for (let i = 1; i <= 5; i++) {
-      if (rounded >= i) {
-        stars.push(<StarSolid key={`full-${i}`} className="w-5 h-5 text-yellow-400" />);
-      } else if (rounded >= i - 0.5) {
-        // visually represent half star by overlaying solid and outline
-        stars.push(
-          <span key={`half-${i}`} style={{position:'relative', display:'inline-block', width:'1.25rem', height:'1.25rem'}}>
-            <StarOutline className="w-5 h-5 text-yellow-400" style={{position:'absolute', left:0, top:0}} />
-            <StarSolid className="w-5 h-5 text-yellow-400" style={{position:'absolute', left:0, top:0, width:'50%', overflow:'hidden', clipPath:'inset(0 50% 0 0)'}} />
-          </span>
-        );
-      } else {
-        stars.push(<StarOutline key={`empty-${i}`} className="w-5 h-5 text-gray-300" />);
+      let fillPercent = 0;
+      if (rating >= i) {
+        fillPercent = 100;
+      } else if (rating > i - 1) {
+        fillPercent = Math.round((rating - (i - 1)) * 100);
       }
+      stars.push(
+        <span key={i} style={{position: 'relative', display: 'inline-block', width: '0.8rem', height: '0.8rem'}}>
+          <StarOutline className="w-4 h-4 text-gray-300" />
+          <StarSolid
+            className="w-4 h-4 text-yellow-400"
+            style={{
+              position: 'absolute',
+              left: 0,
+              top: 0,
+              width: '100%',
+              height: '100%',
+              overflow: 'hidden',
+              clipPath: `inset(0 ${100 - fillPercent}% 0 0)`
+            }}
+          />
+        </span>
+      );
     }
     return stars;
   };
@@ -48,6 +60,21 @@ const CollegeCard: React.FC<CollegeCardProps> = ({ college, onViewDetails }) => 
   const formatALP = (alp: number) => {
     if (isNaN(alp) || alp === 0) return 'N/A';
     return alp.toFixed(1);
+  };
+
+  const handleAddCommentsClick = () => {
+    setShowCommentBox(true);
+  };
+
+  const handleSubmitComment = async (e: React.FormEvent) => {
+    e.preventDefault();
+    await fetch(`/api/comments/${college['S.No']}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ comment: newComment }),
+    });
+    setNewComment('');
+    setShowCommentBox(false); // Hide box after submit
   };
 
   return (
@@ -114,15 +141,31 @@ const CollegeCard: React.FC<CollegeCardProps> = ({ college, onViewDetails }) => 
             Visit College
           </a>
         )}
-        {college.Comments && (
-          <a
-            href={`/comments/${college['S.No']}`}
-            className="college-card-link"
-          >
-            <Users style={{width:'1rem', height:'1rem', marginRight:'0.3rem'}} />
-            View Comments
-          </a>
+        <button
+          className="college-card-link"
+          style={{marginLeft: '1rem'}}
+          onClick={() => setShowCommentBox(!showCommentBox)}
+        >
+          <Users style={{ width: '1rem', height: '1rem', marginRight: '0.3rem' }} />
+          Add Comments
+          </button>
+
+{showCommentBox && (
+  <form onSubmit={handleSubmitComment} className="comment-form">
+    <textarea
+      value={newComment}
+      onChange={(e) => setNewComment(e.target.value)}
+      required
+      placeholder="Write your comment..."
+      className="comment-textarea"
+    />
+    <button type="submit" className="comment-submit-btn">
+      Submit
+    </button>
+  </form>
+
         )}
+
       </div>
       <button
         onClick={() => onViewDetails?.(college)}
