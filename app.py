@@ -29,6 +29,7 @@ def get_db_connection():
         user=cfg['user'],
         password=cfg['password'],
         db=cfg['database'],
+        port=cfg['port'],
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
     )
@@ -219,26 +220,16 @@ def submitFeedback():
             return render_template('myaccount.html', error=e)
     conn.close()
 
-@app.route('/comments/<int:s_no>')
-def comments(s_no):
-    # Save the S.No into the session
-    session['s_no'] = s_no
-    # Redirect to a page where you display comments or handle the comments functionality
-    return redirect(url_for('display_comments'))
-@app.route('/display_comments')
-def display_comments():
-    s_no = session.get('s_no', None)
-    if s_no is not None:
-        conn = get_db_connection()
-        with conn.cursor() as cursor:
-            cursor.execute('SELECT * FROM databasecdata WHERE `COL 1` = %s LIMIT 0, 25', (s_no,))
-            college = cursor.fetchone()
-        conn.close()
-        # Fetch and display comments for the college with the saved S.No
-        # Replace this with your actual logic to display comments
-        return render_template('comments.html', text=s_no, college=college)
-    else:
-        return "No S.No found in session"
+@app.route('/api/comments/<int:s_no>', methods=['POST'])
+def api_add_comment(s_no):
+    comment_text = request.json.get('comment')
+    conn = get_db_connection()
+    with conn.cursor() as cursor:
+        cursor.execute('INSERT INTO college_comments (`COL 1`, comment) VALUES (%s, %s)', (s_no, comment_text))
+        conn.commit()
+    conn.close()
+    return '', 204  # No content needed
+
 @app.route('/logindone', methods=['POST'])
 def logindone():
     email = request.form['email']
@@ -505,7 +496,6 @@ def filter_data(data, entities):
     filtered_data['Comments'] = filtered_data['S.No'].apply(
         lambda x: f"<a href='/comments/{x}'> Comments </a>"
     )
-
     print("Infra Criteria:", infra_criteria)
     print("Final Filtered Data:\n", filtered_data)
 
@@ -520,11 +510,12 @@ def generate_response(filtered_data):
     response = "Here are some colleges matching your criteria: <br>"
   
     def format_link(x):
-        if not str(x).startswith('<a href'):
-            return f'<a href="{x}" target="_blank">Visit College</a>'
-        return x
+        # Return only the raw URL, not an HTML anchor
+        if str(x).startswith('http'):
+            return x
+        return ''
 
-    filtered_data['Links'] = filtered_data['Links'].apply(format_link) 
+    filtered_data['Links'] = filtered_data['Links'].apply(format_link)
     is_filtered_col = session.get('isFiltered_col', False)
     if is_filtered_col:
         infra_map = {1: 'Good', 2: 'Very Good'}
@@ -742,7 +733,7 @@ def sort():
             print('query printed')
         else:
             text = "error printing query"
-    except Exception as e:
+    except Exception as e: 
         logging.error('Error getting q_id: %s', str(e))
         print("Error getting q_id")
     global filtered_colleges
@@ -794,6 +785,6 @@ def changePassword():
     return render_template('myaccount.html', text=text)
 
 
+
 if __name__ == '__main__':
     app.run(debug=True)
-
